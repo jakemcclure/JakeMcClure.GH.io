@@ -1,25 +1,15 @@
-mixin nav-content()
-  ul
-    li: a(href="#storytelling") Thoughts
-    //li: a(href="#notes") Notes
-    //li: a(href="#podcast") Podcast
-    li: a(href="#portfolio") Portfolio
-    li: a(href="#about") About
-    //li: a(href="#youtube") YouTube
-    li: a(href="#contact") Contact
-    //li: a(href="#articles") Thoughts
-    //li: a(href="#vine") Vine
+header 
+	.logo Jake McClure
+	h1.text Jake McClure
 
-.mobile-nav
-  +nav-content()
-
-header
-  .header-position
-    h1.logo Jake McClure  .net
-    
-    nav.site-nav
-      +nav-content()
-    
-    a(href="http://twitter.com/jake_mcclure").email-link +connect on twitter
-    
-    .mobile-nav-toggle: span
+nav
+	.menu
+		Ul
+			Li: a(href="#about") about
+			Li: a(href="#about") thoughts
+			Li: a(href="#about") works
+	.connect
+		.box.f
+		.box.i
+		.box.t
+	.search
