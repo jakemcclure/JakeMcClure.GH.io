@@ -1,0 +1,47 @@
+/* ----- TYPOGRAPHY -----
+//[type="artboard"] - To target ALL artboards
+//[type="text"] - To target ALL text
+//[name="LAYER"] - To target all layers named LAYER
+//.className - To target all layers named .className
+ */
+
+/* ----- VARIABLES ----- */
+$cocoa: rgba(19, 16, 13, 1)
+$gray-cocoa: rgba(19, 16, 13, 0.9)
+$mocha: rgba(56, 47, 35, 0.95)
+$expresso: rgba(115, 90, 50,0.95)
+$solid-white: rgba(255,255,255,1.0)
+
+\:root
+	font-size: 18px
+
+html
+	background-color: $cocoa
+
+body
+	margin: 0 auto
+	line-height: 1.6
+	font-family: 'Roboto', 'Avenir Next', Helvetica, sans-serif
+	font-weight: 300
+	color: $gray-cocoa
+    background: $solid-white
+
+	a
+		text-decoration: none
+		border-bottom: dashed $expresso 0.1rem
+
+.topnav
+	width: 100%
+	height: 4em
+	background: $solid-white
+	border-bottom: solid rgba(115, 90, 50, 0.6) 0.1rem
+
+a
+	font-family: 'Roboto', 'Avenir Next', Helvetica, sans-serif
+	font-weight: 100
+	font-size: 1rem
+	line-height: 1.2
+	letter-spacing: 0.2rem
+	text-transform: uppercase
+	color: $expresso
+	text-decoration: none

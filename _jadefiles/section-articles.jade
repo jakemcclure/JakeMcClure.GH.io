@@ -1,0 +1,20 @@
+section.articles#articles
+  .flex.flex--center
+
+    .col-50
+      .article-wrap
+        {% for post in site.posts limit: 12 %}
+        a(href="{{post.url}}" style="background-image: url({{post.cover}})").article-thumb
+          .article-meta
+            .name {{post.title}}
+            .date {{post.date | date: "%Y  |  %b %d"}}
+            a.reference(href="https://www.instapaper.com/read/713456629") How Obamacare Is Fueling America's Opioid Epidemic
+        {% endfor %}
+        
+
+
+    .col-50.flex.flex--center <!--.order-first-->
+      .col-1
+        .desc-wrap
+          p.home-lead.outdented ...Currently keeping track of...
+          a(href="/articles").home-cta See All Articles
