@@ -1,0 +1,165 @@
+.site-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  Width: 100%;
+  background: lime;
+}
+.site-wrapper header {
+  Width: 100%;
+  padding: 0;
+  background: red;
+  color: black;
+}
+.site-wrapper header .JM-text {
+  Font-family: "Roboto", sans-serif;
+  Font-weight: 400;
+  font-size: 8vw;
+  letter-spacing: 0.6vw;
+}
+.site-wrapper header .logo {
+  Display: none;
+  width: 8vw;
+  Height: 8vw;
+  Background: white;
+  Border: 0.5vw solid black;
+  Margin-bottom: 3vh;
+}
+.site-wrapper .menu {
+  Display: flex;
+  Order: 2;
+  Font-size: 0.5rem;
+  Background: purple;
+}
+.site-wrapper .menu .sidebar {
+  Background: #999;
+  Border: 0.5vw solid black;
+  List-style: none;
+}
+.site-wrapper .menu .sidebar li {
+  Color: #222;
+}
+.site-wrapper .section.header {
+  Color: black;
+  font-size: 0.5rem;
+  Text-transform: uppercase;
+  Letter-spacing: 0.25rem;
+  Font-weight: 200;
+}
+.site-wrapper .section.header P {
+  Font-size: 0.75rem;
+  Text-transform: none;
+  Letter-spacing: 0.05rem;
+  Font-weight: 300;
+}
+.site-wrapper .site-section-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  Flex-direction: column;
+}
+.site-wrapper .site-section-wrapper .about {
+  Width: 100%;
+  height: auto;
+  background: orange;
+  Border: 1px solid red;
+}
+.site-wrapper .site-section-wrapper .blog {
+  background: yellow;
+  Border: 1px solid black;
+}
+.site-wrapper .site-section-wrapper .blog article {
+  background: white;
+  Color: yellow;
+}
+.site-wrapper .site-section-wrapper .blog article .date {
+  Font-size: 0.6rem;
+  color: #999;
+}
+.site-wrapper .site-section-wrapper .blog article .title {
+  Font-size: 1.2rem;
+  color: #444;
+  Text-transform: uppercase;
+}
+.site-wrapper .site-section-wrapper .blog article .category {
+  Font-size: 0.7rem;
+  color: #444;
+  text-style: italic;
+}
+.site-wrapper .site-section-wrapper .blog article .content p {
+  Font-family: "Roboto", sans-serif;
+  font-size: 0.9rem;
+  Font-weight: 300;
+  Color: #333;
+}
+.site-wrapper .site-section-wrapper .infographics {
+  background: green;
+  Color: white;
+}
+.site-wrapper .site-section-wrapper .infographics .infog {
+  Width: 100%;
+  Height: auto;
+}
+.site-wrapper .site-section-wrapper footer {
+  Font-size: 0.75rem;
+  Font-weight: 300;
+  Text-transform: none;
+  Background: lightblue;
+}
+.site-wrapper .site-section-wrapper footer .connect .box {
+  Width: 4vw;
+  Height: 4vw;
+}
+.site-wrapper .site-section-wrapper footer .connect .f {
+  border: 1px dashed blue;
+}
+.site-wrapper .site-section-wrapper footer .connect .t {
+  border: 1px dashed deepskyblue;
+}
+.site-wrapper .site-section-wrapper footer .connect .i {
+  border: 1px dashed red;
+}
+.site-wrapper .site-section-wrapper footer .connect .search-group input {
+  padding: 10px;
+}
+.site-wrapper .hide {
+  Display: none;
+}
+@media (min-width: 415px) {
+  .site-wrapper header {
+    Flex-direction: column;
+    Width: 20vw;
+    Height: 100%;
+  }
+  .site-wrapper header .logo {
+    Display: block;
+  }
+  .site-wrapper header .JM-text {
+    font-size: 2.5vw;
+    letter-spacing: 0.05vw;
+    font-weight: 100;
+  }
+  .site-wrapper .site-section-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+@media (max-width: 376px) {
+  .site-wrapper .body {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
