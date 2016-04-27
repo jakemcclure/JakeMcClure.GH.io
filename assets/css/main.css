@@ -2145,3 +2145,33 @@ body {
     width: 4vw;
     height: 4vw;
     border: 0.5vw solid black; }
+
+.site-wrapper .content-wrapper {
+  background: peachpuff;
+  Color: rgba(115, 90, 50, 0.95);
+  font-family: serif; }
+  .site-wrapper .content-wrapper .nav-menu {
+    background: Lightgray;
+    Color: yellow; }
+  .site-wrapper .content-wrapper .blog {
+    Border: 1px solid red; }
+  .site-wrapper .content-wrapper .infographics {
+    border: 1px solid blue; }
+
+.site-wrapper .connect {
+  Border: 1px dashed black; }
+
+.site-wrapper footer {
+  width: 100%;
+  background: lightgray;
+  padding: 1vw 1vw;
+  Height: 15vw;
+  color: #2E2D33; }
+  .site-wrapper footer .nav-menu {
+    width: 15vw;
+    height: 15vw;
+    border: 1px dashed red; }
+  .site-wrapper footer .search {
+    width: 10vw;
+    height: 10vw;
+    border: 1px dashed blue; }

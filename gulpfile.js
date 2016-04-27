@@ -56,7 +56,7 @@ gulp.task('sass', function () {
 /**
  * Jake gulp task
  */
-gulp.task('jade', function() {
+gulp.task('jade', function(){
     return gulp.src('_jadefiles/*.jade')
     .pipe(jade())
     .pipe(gulp.dest('_includes'));
