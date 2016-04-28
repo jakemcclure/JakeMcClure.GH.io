@@ -1,13 +1,14 @@
 @import "0-tools/bourbon/bourbon";
 @import "0-tools/normalize";
-@import "0-tools/w3resp";
+//@import "0-tools/w3resp";
 @import "1-base/vars";
 @import "1-base/fonts";
 @import "1-base/base";
 //@import "1-base/typography";
 //@import "1-base/temp";
-@import "2-modules/header";
 @import "2-modules/content";
 @import "2-modules/connect";
-@import "2-modules/footer";
+@import "3-sections/header";
+//@import "2-modules/footer";
 //@import "2-modules/nav";
+@import "3-sections/home";
