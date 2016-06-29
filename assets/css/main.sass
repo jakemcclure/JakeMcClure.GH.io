@@ -1,23 +1,26 @@
 // This is the single file output by sass. It is intended to ONLY @import other files.
 
-
 // 1 - TOOLS
-@import '1-tools/bourbon/bourbon'
-@import '1-tools/fonts'
 @import '1-tools/normalize'
-@import '1-tools/vars'
-
+@import '1-tools/bourbon/bourbon'
+//@import '1-tools/vars'
+@import '1-tools/fonts'
+@import '1-tools/base/base'
+@import '1-tools/neat/grid-settings'
+@import '1-tools/neat/neat'
+//@import '1-tools/webfonts'
 
 // 2 - BASICS
 @import '2-basics/body-element'
-//color for background when things like text are selected by reader
+@import '2-basics/icons'
 @import '2-basics/selection-colors'
-//link styles/decorations
 @import '2-basics/links'
-//font sizing (if looking for font families look in 0-tools/fonts)
 @import '2-basics/typography'
-@import '2-basics/buttons'
-@import '2-basics/forms'
+@import '2-basics/typography/typography-medium'
+@import '2-basics/typography-modular'
+
+//@import '2-basics/buttons'
+//@import '2-basics/forms'
 
 
 // 3 - Modules
@@ -25,24 +28,32 @@
 @import '3-modules/header'
 @import '3-modules/footer'
 @import '3-modules/sections'
+
 //@import '3-modules/connect'
-@import '3-modules/media-object'
+
+//@import '3-modules/media-object'
 //@import '3-modules/link-list'
 //@import '3-modules/video-cascade'
 //@import '3-modules/patreon-section'
 @import '3-modules/menu'
-@import '3-modules/popular-blogs'
-@import '3-modules/content-well'
-@import '3-modules/carousel'
+//@import '3-modules/popular-blogs'
+//@import '3-modules/content-well'
 
+//@import '3-modules/carousel'
 
 // 4 - pages
-@import '4-pages/page-home'
-@import '4-pages/page-blog'
-@import '4-pages/page-posts'
-@import '4-pages/page-infographics'
-@import '4-pages/page-innovation'
-@import '4-pages/page-quote'
+@import '4-pages/page-index'
+//@import '4-pages/page-home'
+//@import '4-pages/page-posts'
+//@import '4-pages/page-blog'
+//@import '4-pages/page-infographics'
+//@import '4-pages/page-quote'
 //@import '4-pages/page-family'
+//@import '4-pages/page-innovation'
+
 //@import '4-pages/page-jquerycourse'
 //@import '4-pages/page-gifs'
+
+// 5 - sections
+//@import '5-sections/section-hero'
+//@import '5-sections/section-posts'
