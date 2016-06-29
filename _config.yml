@@ -1,7 +1,6 @@
-markdown:  redcarpet
+markdown:  kramdown
   #redcarpet:
     #extensions:  ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
-# markdown:  kramdown
 url:  http://www.jakemcclure.net
 baseurl:  ""
 # exclude:  ['README.md']
