@@ -1,0 +1,11 @@
+---
+Layout:  page
+Title:  works
+Permalink:  /works/
+---
+{% for infographic in site.infographics %}
+<div class="infographics-wrapper">
+  <span class="post-date"></span>
+  <a class="post" href="{{ infographic.url }}">{{ infographic.title }}</a>
+</div>
+{% endfor %}
