@@ -1,0 +1,169 @@
+.page-wrapper .page-content
+  position: relative
+  margin: 0 auto
+  width: 100%
+
+  .hero-container
+    //display: flex
+    //flex-direction: column
+    width: 100%
+    text-align: center
+    margin: 0 auto
+    padding: 0.6em 0 1em
+    color: white
+    background: $hero-bg
+
+    .flex-container
+      margin: 0 auto
+      Padding: 0
+      display: flex
+      flex-direction: column
+
+      .section-title-rule
+        display: none
+
+      .hero
+        //width: 40vw
+        order: -2
+        width: 60%
+        max-width: 20em
+        height: auto
+        margin: 0 auto
+        border-radius: 2%
+
+      .about-container
+        //width: 90%
+        display: flex
+        flex-wrap: wrap
+        //align-content: flex-start
+        color: white
+        //text-align: right
+
+        .about
+          //order: -2
+          text-align: center
+          width: 100%
+          line-height: 1.3
+          font:
+            size: 95%
+            weight: 400
+            family: "avenir next","helvetica neue","open sans", "questrial",sans-serif
+          letter-spacing: 0.08em
+          color: white
+          text-transform: uppercase
+          margin: 1em auto 0.5em
+          padding: 0.2em 0
+
+          p
+            text-transform: none
+            margin: 0.8em 0em 0.8em 0.6em
+            padding: 0.2em 1.5em
+            text-align: left
+
+        .location
+          margin: 0
+          padding: 0
+          Width: 40%
+          //margin: 0.8em auto 0.2em
+          color: white
+          line-height: 1.2
+          //text-align: left
+
+          p
+            display: flex
+            flex-direction: column
+            align-items: baseline
+            text-align: right
+            font:
+              family: "avenir next", "open sans", sans-serif
+              weight: 400
+              size: 85%
+            margin: 0
+            padding: 0.1em 0 0 0.2em
+            color: white
+
+          span
+            margin: 0
+            padding: 0.2em 0 0.3em 0.3em
+            color: $fivethirtyeight-orange
+            font-size: 100%
+            letter-spacing: 0.1em
+            text-transform: uppercase
+
+        .connect
+          Order: -1
+          flex-grow: 1
+          display: flex
+          justify-content: space-around
+          //flex-direction: row-reverse
+          //flex-wrap: wrap
+          margin: 0
+          padding: 0
+          color: rgba(255,255,255,0)
+          //border: 1px solid white
+          text-align: right
+
+          .social-container
+            line-height: 1
+            width: 1.2em
+            margin: auto
+            padding: 1.2em
+            background: rgba(255,255,255,0)
+            border: 1px solid rgba(255,255,255,0)
+            border-radius: 50%
+            text-align: center
+            font:
+              family: "helvetica neue", sans-serif
+              size: 75%
+              color: rgba(255,255,255,0)
+
+  @media (min-width: 38em)
+    .hero-container
+      .flex-container
+        width: 96%
+        flex-direction: row
+        align-items: center
+        //justify-content: space-around
+        margin: 0 auto
+        max-width: 42em
+
+        .hero
+          //max-width: 20em
+          max-height: 15em
+          width: auto
+          height: 25vw
+          margin: 0 auto
+          Padding: 0 1em 0 0
+
+        .about-container
+          //Width: 50%
+          //align-items: flex-start
+
+          .about
+            margin: 1.5em 0 0.2em
+            //max-width: 22em
+            font-size: 100%
+            line-height: 1.4
+
+          .location
+            font-size: 100%
+            //float: right
+
+          .connect
+            margin: 0 auto
+
+    input[type="text"],
+    input[type="email"]
+      background-color: hsla(0,0%,100%,0.15)
+      border-color: white
+      color: white
+      text-transform: uppercase
+
+      &::placeholder
+        color: hsla(0,0%,100%,0.5)
+
+    input[type="submit"],
+    button
+      background: white
+      color: #0067AF
+      border-color: white

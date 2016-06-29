@@ -1,0 +1,146 @@
+// Breakpoints
+$medium-screen: 667px;
+$large-screen: 1024px;
+
+// Typography
+$base-font-family: $font-stack-system;
+$heading-font-family: $font-stack-lucida-grande;
+
+// Font Sizes
+$base-font-size: 0.75em;
+
+// Line height
+$base-line-height: 1;
+$heading-line-height: 1.15;
+
+// Other Sizes
+$base-border-radius: .25em;
+$base-spacing: $base-line-height * 1em;
+$small-spacing: $base-spacing / 2;
+$base-z-index: 0;
+
+// Colors
+$blue: #1565c0;
+$dark-gray: #333;
+$medium-gray: #999;
+$light-gray: #ddd;
+$medium: #02b875;
+$medium-text: rgba(0, 171, 107,1);
+$slack: #3aaf85;
+$snapchat: #FFFC00;
+$youtube: #cd201f;
+$facebook: #3b5999;
+$twitter: #55acee;
+$linkedin: #0077B5;
+$instagram: #3f729b;
+
+$white:  #fff;
+$almost-white1: #f8f8f8;
+$mark-color: #FEFECC;
+$light-grey: #c1c1c1;
+$silver: #ddd;
+$site-light-gray: rgba(255, 255, 250, 1);
+$gray: #aaa;
+$site-dark-gray: #A69F7D;
+$md-dark: rgba(0, 0, 0, 0.54);
+$md-dark-inactive: rgba(0, 0, 0, 0.26);
+$black:  #111;
+$flat-black: #1C2021;
+
+$NEJM-red: #EC0000;
+$red: #FF4136;
+$flat-red: #E3000E;
+$pomegranate: #f22613;
+$thunderbird: #d91e18;
+$red-monza: #cf000f;
+$flat-orange: #F04903;
+$flat-orange-1: #F7784A;
+$flat-orange-2: #FF7C52;
+$flat-orange-3: #FF8849;
+$flat-orange-4: #E75926;
+$fivethirtyeight-orange: hsla(18, 83%, 58%, 1);
+$fivethirtyeight-orange-desat: #F2984E;
+$carrot-dark: #E8663E;
+$carrot-light: #F87E51;
+$orange:  #FF851B;
+$flat-brown: #3B3837;
+$fivethirtyeight-graybrown-desat: hsla(33, 10%, 35%, 1);
+$fivethirtyeight-graybrown-exdesat: hsla(33, 10%, 54%, 1);
+$flat-yellow: #000;
+
+$site-manilla: hsla(59, 96%, 91%, 1);
+$yellow:  #FFDC00;
+$site-green: #5D8861;
+$site-green-light: #BAFFC2;
+$teal:  #39CCCC;
+$green: #2ECC40;
+$olive: #3D9970;
+$lime:  #01FF70;
+$aqua:  #7FDBFF;
+$madison: hsla(210, 29%, 24%, 1);
+$ebony-clay: hsla(209, 30%, 19%, 1);
+$pickled-bluewood: hsla(210, 29%, 29%, 1);
+$blue:  #0074D9;
+$navy:  #001F3F;
+$flat-navy: #344146;
+$cool-blue: #268bd2;
+
+$NEJM-dark: #131B17;
+$NEJM-header-bg: #FFFDD0;
+$NEJM-table-bg: #FFFEF8;
+$NEJM-table-header-bg: #F2EFC6;
+$highlight-yellow: $site-manilla;
+$primary-blue: hsla(240, 3%, 23%, 1);
+$site-blue: hsla(201, 13%, 35%, 1);
+$site-blue-light: #9AB8C8;
+$cararra: #F2F1EF;
+$porcelain: #ecf0f1;
+$pumice: #d2d7d3;
+
+$primary-color: $primary-blue;
+$primary-color-dark-20: darken($primary-color, 10%);
+$primary-color-light-40: lighten($primary-color, 40%);
+$primary-color-light-30: lighten($primary-color, 30%);
+$secondary-color: rgba(237, 0, 1, 1);
+$secondary-color-bright: #FF0002;
+
+$hero-bg: $primary-color;
+$infog-bg: hsla(43, 21%, 6%, 0.8);
+$posts-bg: hsla(43, 21%, 6%, 0.6);
+$infographics-bg: hsla(40, 5%, 20%, 0.1);
+$quote-container-bg: #464646;
+
+$link-color: hsla(18, 83%, 57%,1);
+$link-hover: $link-color;
+$link-underline: hsla(0,0%,0%,0.4);
+$link-underline-light: hsla(0,0%,100%,0.3);
+
+$text-selection: hsla(119, 94%, 79%, 0.8);
+
+$post-date: hsla(38, 12%, 25%, 0.2);
+$post-title: hsla(38, 12%, 25%, 0.9);
+
+$icon-inactive: rgba(0,0,0,.26);
+$icon-active: rgba(0,0,0,.54);
+
+
+// Font Colors
+$base-font-color: $dark-gray;
+$action-color: $slack;
+
+// Border
+$base-border-color: transparentize(#ddd, 0.8);
+$base-border: 0.1em solid $base-border-color;
+
+// Background Colors
+$base-background-color: #fff;
+//$secondary-background-color: tint($base-border-color, 75%);
+$secondary-background-color: transparentize(#eee, 0.9);
+
+// Forms
+$form-box-shadow: inset 0 1px 3px rgba(#000, 0.06);
+$form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);
+
+// Animations
+$base-duration: 150ms;
+$base-timing: ease;

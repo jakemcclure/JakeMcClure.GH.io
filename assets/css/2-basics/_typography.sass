@@ -1,0 +1,139 @@
+// TYPOGRAPHY
+//// serif
+$lucida-serif: $font-stack-lucida-bright
+$garamond: $font-stack-garamond
+$hoefler: $font-stack-hoefler-text
+
+//// sans
+$lucida-sans: $font-stack-lucida-grande
+$franklin: $font-stack-franklin-gothic
+$system-sans: $font-stack-system
+
+//	Headings
+
+.gigantic, .huge, .large, .bigger, .big,
+h1, h2, h3, h4, h5, h6
+  color: #222
+  font-weight: bold
+  margin: 0
+  margin-bottom: 1.25em
+  line-height: 1.1
+
+.gigantic
+  font-size: 6.75em
+  line-height: 1.09
+  letter-spacing: -0.1em
+
+.huge, h1
+  font-size: 4.25em
+  line-height: 1.05
+  letter-spacing: -0.05em
+
+.large, h2
+  font-size: 2.6em
+  line-height: 1.14
+
+.bigger, h3
+  font-size: 1.6em
+  line-height: 1.38
+
+.big, h4
+  font-size: 1.4em
+  line-height: 1.38
+
+.small, small
+  font-size: 0.6em
+  line-height: 1.2
+
+
+// Basic Text Style
+
+p
+  margin: 0 0 0.75em 0
+  margin: 0 0 0.625em
+
+em
+  font-style: italic
+
+strong
+  font-weight: bold
+  color: hsla(0,0%,0%,0.9)
+
+hr
+  border: solid #ddd
+  border-width: 0.1em 0 0
+  clear: both
+  margin: 0.6em 0 2em
+  height: 0
+
+  &.section-title-rule
+    border-top: 0.1em solid rgba(60, 53, 33, 0.7)
+    width: 18vw
+    margin: 1.4em auto 2em
+    padding: 1em 0
+
+    &.bottom
+      display: block
+      margin: 4em auto 0em
+      padding: 0
+
+    .tint-reversed &
+      border-top-color: hsla(0,0%,100%,0.2)
+
+// Project Type Styles
+
+.section-head
+  font:
+    size: 1.125
+    //(18/16)
+    //weight: 300
+  color: hsla(0,0%,0%,0.8)
+  text-align: center
+
+.lead
+  font:
+    size: 1.125em
+    weight: 400
+  color: hsla(0,0%,0%,0.8)
+
+.bold
+  font:
+    weight: 600
+
+.regular
+  font:
+    size: 0.875em
+    weight: 400
+  color: hsla(0,0%,0%,0.8)
+
+.muted
+  font:
+    size: 0.8125em
+    style: italic
+
+.muted-extra
+  font:
+    size: 12px
+    weight: 400
+  color: hsla(0,0%,0%,0.5)
+
+.blue
+  color: #0067AF
+
+.black
+  color: hsla(0,0%,0%,1)
+
+.white
+  color: hsla(0,0%,100%,0.8)
+
+.white-hard
+  color: hsla(0,0%,100%,1)
+
+.text-center
+  text-align: center
+
+.text-right
+  text-align: right
+
+.text-left
+  text-align: left
