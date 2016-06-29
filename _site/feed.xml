@@ -3,68 +3,19 @@
   <channel>
     <title>Jake McClure .net</title>
     <description>A millennial physician&#39;s commentary on the intersection of healthcare&#39;s potential for innovation and the systematic friction blocking its path.</description>
-    <link>http://jakemcclure.net/</link>
-    <atom:link href="http://jakemcclure.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 28 Jun 2016 02:32:33 -0400</pubDate>
-    <lastBuildDate>Tue, 28 Jun 2016 02:32:33 -0400</lastBuildDate>
+    <link>http://www.jakemcclure.net/</link>
+    <atom:link href="http://www.jakemcclure.net/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 29 Jun 2016 16:39:05 -0400</pubDate>
+    <lastBuildDate>Wed, 29 Jun 2016 16:39:05 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
-    
-      <item>
-        <title>Quotes</title>
-        <description>&lt;h2&gt;STEVE JOBS&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;We don&amp;#39;t really talk a lot about design around here. We actually just talk about how things work.&lt;/p&gt;
-
-&lt;p&gt;Design is not what it &lt;em&gt;looks&lt;/em&gt; like or &lt;em&gt;feels&lt;/em&gt; like. Design is &lt;strong&gt;how it works&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Apple&amp;#39;s core value is that we believe that people with passion can change the world for the better. And that those people who are crazy enough to think that they can change the world are the ones that actually do.&lt;/p&gt;
-
-&lt;p&gt;Let&amp;#39;s go invent tomorrow instead of worrying about what happened yesterday.&lt;/p&gt;
-
-&lt;p&gt;Details matter; it&amp;#39;s worth waiting to get it right.&lt;/p&gt;
-
-&lt;p&gt;??? Interesting one --
-Why join the navy if you can be a pirate?&lt;/p&gt;
-
-&lt;p&gt;You have to be burning with an idea, or a problem, or a wrong that you want to right. If you&amp;#39;re not passionate enough from the start, you&amp;#39;ll never stick it out.&lt;/p&gt;
-
-&lt;p&gt;Creativity is just connecting things.&lt;/p&gt;
-
-&lt;p&gt;Innovation is the only way to win.&lt;/p&gt;
-
-&lt;p&gt;Innovation is not about saying yes to everything. It&amp;#39;s about saying no to all but the most crucial features.&lt;/p&gt;
-
-&lt;p&gt;Deciding what not to do is as important as deciding what to do.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Tue, 28 Jun 2016 02:32:33 -0400</pubDate>
-        <link>http://jakemcclure.net/2016/06/28/quotes/</link>
-        <guid isPermaLink="true">http://jakemcclure.net/2016/06/28/quotes/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>my workflows</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://workflow.is/workflows/36e1e38cec51428a84997e88aba55e08&quot;&gt;DL Youtube&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 18 Jun 2016 00:00:00 -0400</pubDate>
-        <link>http://jakemcclure.net/workflow/2016/06/18/workflows/</link>
-        <guid isPermaLink="true">http://jakemcclure.net/workflow/2016/06/18/workflows/</guid>
-        
-        
-        <category>workflow</category>
-        
-      </item>
     
       <item>
         <title>Fentanyl: Godzilla of Opioids</title>
         <description>&lt;p&gt;&lt;Img src=&quot;assets/MDinfog/heroin/prince-fentanyl@2x.png&quot; class=&quot;img-infog&quot;/&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 16 Jun 2016 00:00:00 -0400</pubDate>
-        <link>http://jakemcclure.net/infographics/2016/06/16/fentanyl-godzilla/</link>
-        <guid isPermaLink="true">http://jakemcclure.net/infographics/2016/06/16/fentanyl-godzilla/</guid>
+        <link>http://www.jakemcclure.net/infographics/2016/06/16/fentanyl-godzilla/</link>
+        <guid isPermaLink="true">http://www.jakemcclure.net/infographics/2016/06/16/fentanyl-godzilla/</guid>
         
         
         <category>infographics</category>
@@ -79,8 +30,8 @@ Why join the navy if you can be a pirate?&lt;/p&gt;
 &lt;Img src=&quot;/assets/MDinfog/heroin/heroin-proj-980x980.png&quot; class=&quot;img-infog&quot;/&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 08 Jun 2016 00:00:00 -0400</pubDate>
-        <link>http://jakemcclure.net/infographics/2016/06/08/Heroin-2009/</link>
-        <guid isPermaLink="true">http://jakemcclure.net/infographics/2016/06/08/Heroin-2009/</guid>
+        <link>http://www.jakemcclure.net/infographics/2016/06/08/Heroin-2009/</link>
+        <guid isPermaLink="true">http://www.jakemcclure.net/infographics/2016/06/08/Heroin-2009/</guid>
         
         
         <category>infographics</category>
@@ -94,23 +45,8 @@ Why join the navy if you can be a pirate?&lt;/p&gt;
 &lt;p&gt;Now, if you look closely at the statistics and the opiate market, both prescription and illicit, over the past 2 decades, you can see how the game has changed with respect to the 1.0 playbook.&lt;/p&gt;
 </description>
         <pubDate>Mon, 06 Jun 2016 00:00:00 -0400</pubDate>
-        <link>http://jakemcclure.net/blog/2016/06/06/Prince-and-Fentanyl/</link>
-        <guid isPermaLink="true">http://jakemcclure.net/blog/2016/06/06/Prince-and-Fentanyl/</guid>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Think Differently: Why the Solution to the Opiate/Heroin Epidemic is in the Air, Not the Street</title>
-        <description>&lt;p&gt;In the South we have a saying, &amp;quot;If it ain&amp;#39;t broke, don&amp;#39;t fix it.&amp;quot; When it comes to our opiate epidemic 2.0 where statistics continue to trend in the wrong direction, the problem is still rampant, taking a toll on families across the country, and the proposed solutions I keep hearing from DC are a rehashed epidemic 1.0 playbook.&lt;/p&gt;
-
-&lt;p&gt;Now, if you look closely at the statistics and the opiate market, both prescription and illicit, over the past 2 decades, you can see how the game has changed with respect to the 1.0 playbook.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 06 Jun 2016 00:00:00 -0400</pubDate>
-        <link>http://jakemcclure.net/blog/2016/06/06/Think-Differently/</link>
-        <guid isPermaLink="true">http://jakemcclure.net/blog/2016/06/06/Think-Differently/</guid>
+        <link>http://www.jakemcclure.net/blog/2016/06/06/Prince-and-Fentanyl/</link>
+        <guid isPermaLink="true">http://www.jakemcclure.net/blog/2016/06/06/Prince-and-Fentanyl/</guid>
         
         
         <category>blog</category>
@@ -124,8 +60,8 @@ Why join the navy if you can be a pirate?&lt;/p&gt;
 &lt;p&gt;A decade ago, the concept of &amp;quot;translational research&amp;quot; provided a new framework for how we think, study and develop solutions to tackle today&amp;#39;s present-day medical issues. The phrase &amp;quot;Bench to Bedside&amp;quot; was a well-fitting use of alliteration to convey the essence of this new way to think about modern medical research.&lt;/p&gt;
 </description>
         <pubDate>Tue, 10 May 2016 19:44:01 -0400</pubDate>
-        <link>http://jakemcclure.net/blog/2016/05/10/Think-Differently/</link>
-        <guid isPermaLink="true">http://jakemcclure.net/blog/2016/05/10/Think-Differently/</guid>
+        <link>http://www.jakemcclure.net/blog/2016/05/10/Think-Differently/</link>
+        <guid isPermaLink="true">http://www.jakemcclure.net/blog/2016/05/10/Think-Differently/</guid>
         
         
         <category>blog</category>
