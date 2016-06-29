@@ -1,0 +1,37 @@
+#markdown:  redcarpet
+markdown:  redcarpet
+ redcarpet:
+  extensions:  ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
+# markdown:  kramdown
+url:  http://jakemcclure.net
+baseurl:  ""
+# exclude:  ['README.md']
+exclude:  ["node_modules", "gulpfile.js", "package.json", "preview.jpg", "README.md"]
+Collections:
+  infographics:
+    Output:  true
+  reviews:
+    Output:  true
+  videos:
+    Output:  true
+  tutorials:
+    Output:  true
+
+# Site settings
+title:  Jake McClure .net
+description:  A millennial physician's commentary on the intersection of healthcare's potential for innovation and the systematic friction blocking its path.
+
+permalink:  pretty
+show_drafts:  false
+
+email:  DJakeMcClureMD@gmail.com
+twitter_username:  Jake_McClure
+github_username:  JakeMcClure
+
+# destination:  _deploy
+
+host:  localhost
+port:  8080
+incremental:  false
+# Build settings
+# ?need custom md processor (https://jekyllrb.com/docs/configuration/#custom-markdown-processors)
