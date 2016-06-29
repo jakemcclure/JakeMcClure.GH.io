@@ -1,9 +1,8 @@
-#markdown:  redcarpet
 markdown:  redcarpet
- redcarpet:
-  extensions:  ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
+  #redcarpet:
+    #extensions:  ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
 # markdown:  kramdown
-url:  http://jakemcclure.net
+url:  http://www.jakemcclure.net
 baseurl:  ""
 # exclude:  ['README.md']
 exclude:  ["node_modules", "gulpfile.js", "package.json", "preview.jpg", "README.md"]
