@@ -1,9 +1,6 @@
 markdown:  kramdown
-  #redcarpet:
-    #extensions:  ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
 url:  http://www.jakemcclure.net
 baseurl:  ""
-# exclude:  ['README.md']
 exclude:  ["node_modules", "gulpfile.js", "package.json", "preview.jpg", "README.md"]
 Collections:
   infographics:
@@ -14,8 +11,6 @@ Collections:
     Output:  true
   tutorials:
     Output:  true
-
-# Site settings
 title:  Jake McClure .net
 description:  A millennial physician's commentary on the intersection of healthcare's potential for innovation and the systematic friction blocking its path.
 
@@ -33,3 +28,6 @@ port:  8080
 incremental:  false
 # Build settings
 # ?need custom md processor (https://jekyllrb.com/docs/configuration/#custom-markdown-processors)
+
+  #redcarpet:
+    #extensions:  ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]

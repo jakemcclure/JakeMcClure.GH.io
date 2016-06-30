@@ -194,6 +194,33 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_includes\/post-nav-bar.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/post-nav-bar.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_includes\/section-notes.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/section-notes.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_includes\/section-youtube.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/section-youtube.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_layouts\/default.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -330,15 +357,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/assets\/css\/css\/typography-modular.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/assets\/css\/css\/typography-modular.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/assets\/css\/main.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -363,6 +381,15 @@
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": false
+		},
+	"\/_site\/assets\/css\/typography-modular.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/assets\/css\/typography-modular.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/assets\/IMG\/blue-green lines.png": {
 		"fileType": 32768,
@@ -947,6 +974,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/assets\/IMG\/youtube-thumbnails\/youtube bennett's first word 16 06 25.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.79428e+06,
+		"inputAbbreviatedPath": "\/_site\/assets\/IMG\/youtube-thumbnails\/youtube bennett's first word 16 06 25.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/IMG\/youtube-thumbnails\/youtube bennett's first word 16 06 25.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/assets\/js\/functions--old.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -1017,7 +1055,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 7.74108e+06,
+		"initialSize": 0,
 		"inputAbbreviatedPath": "\/_site\/assets\/MDinfog\/data storage\/Data storage thru the years 2.JPG",
 		"outputAbbreviatedPath": "\/_site\/assets\/MDinfog\/data storage\/Data storage thru the years 2.JPG",
 		"outputPathIsOutsideProject": 0,
@@ -1594,15 +1632,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/blog\/2016\/06\/06\/Think-Differently\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/blog\/2016\/06\/06\/Think-Differently\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/googlea82cb60c9de5e7d2.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1639,11 +1668,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/workflow\/2016\/06\/18\/workflows\/index.html": {
+	"\/_site\/leverage\/2016\/06\/02\/Think-Differently-Opiate-Epidemic\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/workflow\/2016\/06\/18\/workflows\/index.html",
+		"inputAbbreviatedPath": "\/_site\/leverage\/2016\/06\/02\/Think-Differently-Opiate-Epidemic\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1653,6 +1682,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/works\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/about\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/about\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -3055,7 +3093,7 @@
 		"decimalPrecision": 10,
 		"fileType": 2,
 		"ignore": 1,
-		"ignoreWasSetByUser": 1,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/css\/2-basics\/_typography-modular.sass",
 		"outputAbbreviatedPath": "\/assets\/css\/2-basics\/_typography-modular.css",
 		"outputPathIsOutsideProject": 0,
@@ -3083,7 +3121,7 @@
 		},
 	"\/assets\/css\/2-basics\/rwt.css": {
 		"fileType": 16,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/css\/2-basics\/rwt.css",
 		"outputAbbreviatedPath": "No Output Path",
@@ -3105,7 +3143,7 @@
 		"decimalPrecision": 10,
 		"fileType": 2,
 		"ignore": 1,
-		"ignoreWasSetByUser": 1,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/css\/2-basics\/typography\/_typography-Medium.sass",
 		"outputAbbreviatedPath": "\/assets\/css\/2-basics\/typography\/_typography-Medium.css",
 		"outputPathIsOutsideProject": 0,
@@ -3130,7 +3168,7 @@
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
-		"ignoreWasSetByUser": 1,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/css\/2-basics\/typography\/_typography-pamental.scss",
 		"outputAbbreviatedPath": "\/assets\/css\/2-basics\/typography\/_typography-pamental.css",
 		"outputPathIsOutsideProject": 0,
@@ -3154,8 +3192,8 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/css\/2-basics\/typography\/typography-JM.sass",
 		"outputAbbreviatedPath": "\/assets\/css\/2-basics\/typography\/typography-JM.css",
 		"outputPathIsOutsideProject": 0,
@@ -3526,15 +3564,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
-	"\/assets\/css\/css\/typography-modular.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/css\/css\/typography-modular.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/assets\/css\/main.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -3559,6 +3588,15 @@
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": false
+		},
+	"\/assets\/css\/typography-modular.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/typography-modular.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/assets\/IMG\/blue-green lines.png": {
 		"fileType": 32768,
@@ -3586,7 +3624,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 797604,
+		"initialSize": 579711,
 		"inputAbbreviatedPath": "\/assets\/IMG\/desert-journey--desat.jpg",
 		"outputAbbreviatedPath": "\/assets\/IMG\/desert-journey--desat.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -4092,7 +4130,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 458575,
+		"initialSize": 435662,
 		"inputAbbreviatedPath": "\/assets\/IMG\/seuss-icon.png",
 		"outputAbbreviatedPath": "\/assets\/IMG\/seuss-icon.png",
 		"outputPathIsOutsideProject": 0,
@@ -4139,6 +4177,17 @@
 		"initialSize": 1.94865e+06,
 		"inputAbbreviatedPath": "\/assets\/IMG\/youtube-thumbnails\/papa66th.png",
 		"outputAbbreviatedPath": "\/assets\/IMG\/youtube-thumbnails\/papa66th.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/IMG\/youtube-thumbnails\/youtube bennett's first word 16 06 25.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.79428e+06,
+		"inputAbbreviatedPath": "\/assets\/IMG\/youtube-thumbnails\/youtube bennett's first word 16 06 25.png",
+		"outputAbbreviatedPath": "\/assets\/IMG\/youtube-thumbnails\/youtube bennett's first word 16 06 25.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4257,7 +4306,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
+		"initialSize": 7.75374e+06,
 		"inputAbbreviatedPath": "\/assets\/MDinfog\/data storage\/Data storage thru the years 6.JPG",
 		"outputAbbreviatedPath": "\/assets\/MDinfog\/data storage\/Data storage thru the years 6.JPG",
 		"outputPathIsOutsideProject": 0,
@@ -4786,6 +4835,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/leverage\/2016\/06\/02\/Think-Differently-Opiate-Epidemic\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/leverage\/2016\/06\/02\/Think-Differently-Opiate-Epidemic\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -5377,7 +5435,7 @@
 	"lessStrictImports": 0,
 	"lessStrictMath": 0,
 	"lessStrictUnits": 0,
-	"markdownAutoOutputPathEnabled": 1,
+	"markdownAutoOutputPathEnabled": 0,
 	"markdownAutoOutputPathFilenamePattern": "*.html",
 	"markdownAutoOutputPathRelativePath": "",
 	"markdownAutoOutputPathReplace1": "",
