@@ -1,10 +1,10 @@
 .outer-container
   @include outer-container(100%)
-  color: $NEJM-dark
+  color: $site-dark-blue
   padding: 0
 
 #posts, #infographics
-  background: white
+  background: #eee
   //border: 1px dotted blue
   //text-align: center
   //margin: 0 auto
@@ -16,7 +16,7 @@
   // gradient color 1, gradient color 2, gradient angle, texture-number, 0=inverted or 1=normal
   //@include texture(180deg, $texture-top-background, $texture-bottom-background, 30, 1)
   background: rgba(235, 235, 235, 0.4)
-  background: $flat-midnight-blue
+  background: $flat-navy
   padding: 1em 0
   //border: 1px dotted black
   //height: auto
@@ -26,11 +26,13 @@
     //border: 1px dotted blue
     text-align: center
     margin: 0 auto
+    padding: 4em 0 2em
     @media (min-width: 30em)
       max-width: 42em
+      padding: initial
 
     .hero-svg
-      @include span-columns(1 of 4)
+      @include span-columns(2 of 4)
       //@include omega()
       //border: 1px solid pink
       margin: auto
@@ -46,9 +48,9 @@
         padding: 1em 0em 0.6em 0.2em
 
     .about-container
-      @include span-columns(3 of 4)
-      @include omega()
-      //Border: 1px solid purple
+      @include span-columns(4)
+      //@include omega()
+      Border: 1px solid purple
       color: $NEJM-dark
       text-align: center
       margin: 0 auto
@@ -61,6 +63,7 @@
       font:
         family: 'lato', sans-serif
         weight: 400
+        size: 140%
       //@media (min-width: 30em)
         //max-width: 85%
         //flex-grow: 2
@@ -81,7 +84,8 @@
         //@include fill-parent
         //@include span-columns(3 of 3)
         //@include omega()
-        border-bottom: 0.05em solid transparentize(#222, 0.6)
+        //border-bottom: 0.05em solid transparentize(#222, 0.6)
+        border-bottom: 0.05em solid transparentize(#f0f0f0, 0.4)
         //Border: 1px dashed blue
         //color: $NEJM-dark
         Color: white
@@ -89,15 +93,15 @@
         padding: 0 0.3em 0.1em
         //display: block
         //order: 1
-        width: 90%
         text-align: center
         font-size: 130%
-        font-family: 'Playfair Display',Georgia,Cambria,serif
+        font-family: 'Open Sans','Playfair Display',Georgia,Cambria,serif
+        font-weight: 200
         max-width: 50em
         text-decoration: None
 
         .mcc
-          color: $secondary-color
+          color: $site-red
           font:
             size: 145%
             weight: 400
@@ -114,6 +118,7 @@
           letter-spacing: -0.02em
 
         @media (min-width: 60em)
+          width: 90%
           font-size: 130%
 
       .about
@@ -154,40 +159,40 @@
             margin: 0 auto 0 0
             padding: 0 0 0 0.2em
 
-      .location
-        //Border: 1px dashed yellow
-        display: flex
-        margin: 0.1em auto 0.3em
-        padding: 0.4em 0.2em 0.2em 0.1em
-        text-align: left
-        @media (min-width: 36em)
-          max-width: 18em
-        //order: 3
-        //Width: 40%
+    .location
+      //Border: 1px dashed yellow
+      display: flex
+      margin: 0.1em auto 0.3em
+      padding: 0.4em 0.2em 0.2em 0.1em
+      text-align: left
+      @media (min-width: 36em)
+        max-width: 18em
+      //order: 3
+      //Width: 40%
 
-        p
-          //flex-direction: column
-          //display: inline-block
-          justify-content: space-around
-          text-align: left
-          line-height: 1.1
-          font:
-            family: 'open sans','lato','roboto',sans-serif
-            weight: 300
-            size: 55%
-          margin: 0 auto
-          padding: 0 0.4em
-          //color: $primary-blue
-          Color: white
-          letter-spacing: 0.06em
-          text-transform: uppercase
-          img
-            width: 1.3em
-            height: auto
-            margin-right: 0.5em
-            padding: 0.1em 0
-            //fill: $fivethirtyeight-graybrown-desat
-            Fill: $fivethirtyeight-orange-desat
+      p
+        //flex-direction: column
+        //display: inline-block
+        justify-content: space-around
+        text-align: left
+        line-height: 1.1
+        font:
+          family: 'open sans','lato','roboto',sans-serif
+          weight: 300
+          size: 55%
+        margin: 0 auto
+        padding: 0 0.4em
+        //color: $primary-blue
+        Color: white
+        letter-spacing: 0.06em
+        text-transform: uppercase
+        img
+          width: 1.3em
+          height: auto
+          margin-right: 0.5em
+          padding: 0.1em 0
+          //fill: $fivethirtyeight-graybrown-desat
+          Fill: $fivethirtyeight-orange-desat
 
     .connect
       @include span-columns(3)

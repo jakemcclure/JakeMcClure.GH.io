@@ -323,6 +323,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/assets\/css\/2-basics\/typography\/MediumJM.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/assets\/css\/2-basics\/typography\/MediumJM.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/assets\/css\/2-basics\/typography\/typography-JM.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -1718,21 +1727,21 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/assets\/css\/1-tools\/_vars.sass": {
+	"\/assets\/css\/1-tools\/_vars.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
-		"fileType": 2,
+		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/css\/1-tools\/_vars.sass",
+		"inputAbbreviatedPath": "\/assets\/css\/1-tools\/_vars.scss",
 		"outputAbbreviatedPath": "\/assets\/css\/1-tools\/_vars.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": false
+		"useLibsass": 0
 		},
 	"\/assets\/css\/1-tools\/_webfonts.sass": {
 		"createSourceMap": 0,
@@ -2335,6 +2344,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/css\/1-tools\/bourbon\/bourbon\/library\/_tint.scss",
 		"outputAbbreviatedPath": "\/assets\/css\/1-tools\/bourbon\/bourbon\/library\/_tint.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/css\/1-tools\/bourbon\/bourbon\/library\/_tooltip.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/1-tools\/bourbon\/bourbon\/library\/_tooltip.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/1-tools\/bourbon\/bourbon\/library\/_tooltip.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3168,6 +3193,15 @@
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/assets\/css\/2-basics\/typography\/MediumJM.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/2-basics\/typography\/MediumJM.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/assets\/css\/2-basics\/typography\/typography-JM.css": {
 		"fileType": 16,

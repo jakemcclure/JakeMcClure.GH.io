@@ -392,6 +392,106 @@ textarea {
   }
 }
 */
+.tooltip-item {
+  background: transparent;
+  border-radius: 3px;
+  border: none;
+  display: inline-block;
+  padding: 0.2em 0.1em;
+  position: relative;
+  text-align: center; }
+  .tooltip-item:focus, .tooltip-item:hover .tooltip {
+    opacity: 1;
+    visibility: visible; }
+  .tooltip-item .tooltip {
+    position: absolute;
+    right: 0;
+    bottom: 1.5em;
+    left: 0;
+    background-color: transparent;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px silver;
+    color: #333;
+    font-size: 0.9em;
+    line-height: 1.5em;
+    margin: 0 auto;
+    max-width: 16em;
+    opacity: 0;
+    padding: 1em;
+    text-align: center;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    visibility: hidden;
+    z-index: 10; }
+    .tooltip-item .tooltip p {
+      color: #333;
+      line-height: 1.5em;
+      margin: 0; }
+    .tooltip-item .tooltip::after {
+      position: absolute;
+      right: 0;
+      left: 0;
+      border: 8px solid transparent;
+      bottom: -1.3em;
+      color: transparent;
+      content: "▼";
+      font-size: 1.4em;
+      margin-left: -8px;
+      text-align: center;
+      text-shadow: 0 1px 1px silver; }
+
+/* PALETTES
+  http://flatcolors.net/palette/581-flat-ui-design
+  http://flatcolors.net/palette/566-flat-havana-nights
+  http://flatcolors.net/palette/539-flat-green
+  http://flatcolors.net/palette/966-flat-ui-design
+  http://flatcolors.net/palette/855-flat-green-blue-gray
+  http://flatcolors.net/palette/560-snowball-flat-colors
+*/
+/*
+$rgba-primary-0: rgba( 19, 21, 27,1)
+$rgba-primary-1: rgba( 49, 52, 60,1)
+$rgba-primary-2: rgba( 25, 26, 30,1)
+$rgba-primary-3: rgba( 14, 17, 24,1)
+$rgba-primary-4: rgba( 11, 14, 22,1)
+
+$rgba-primary-0: rgba( 22, 25, 31,1)
+$rgba-primary-1: rgba( 59, 63, 73,1)
+$rgba-primary-2: rgba( 34, 36, 42,1)
+$rgba-primary-3: rgba( 17, 20, 28,1)
+$rgba-primary-4: rgba( 12, 16, 25,1)
+
+$rgba-primary-0: rgba( 32, 47, 62,1)
+$rgba-primary-1: rgba(161,172,183,1)
+$rgba-primary-2: rgba( 72, 89,106,1)
+$rgba-primary-3: rgba( 11, 25, 39,1)
+$rgba-primary-4: rgba(  0,  3,  6,1)
+
+$rgba-secondary-1-0: rgba( 47, 38, 32,1)
+$rgba-secondary-1-1: rgba(108, 96, 85,1)
+$rgba-secondary-1-2: rgba( 62, 55, 50,1)
+$rgba-secondary-1-3: rgba( 42, 32, 23,1)
+$rgba-secondary-1-4: rgba( 38, 26, 16,1)
+
+$rgba-secondary-2-0: rgba( 19, 28, 28,1)
+$rgba-secondary-2-1: rgba( 51, 65, 65,1)
+$rgba-secondary-2-2: rgba( 30, 37, 37,1)
+$rgba-secondary-2-3: rgba( 14, 25, 25,1)
+$rgba-secondary-2-4: rgba( 10, 23, 23,1)
+
+$rgba-secondary-1-0: rgba( 95, 51, 45,1)
+$rgba-secondary-1-1: rgba(255,227,223,1)
+$rgba-secondary-1-2: rgba(163,113,106,1)
+$rgba-secondary-1-3: rgba( 60, 18, 13,1)
+$rgba-secondary-1-4: rgba( 10,  1,  0,1)
+
+$rgba-complement-0: rgba( 47, 42, 32,1)
+$rgba-complement-1: rgba(108,101, 85,1)
+$rgba-complement-2: rgba( 62, 58, 50,1)
+$rgba-complement-3: rgba( 42, 36, 23,1)
+$rgba-complement-4: rgba( 38, 31, 16,1)
+*/
 button, [type='button'], [type='reset'], [type='submit'] {
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -1248,7 +1348,7 @@ html.menu-open .menu-plate {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  color: #131B17;
+  color: #141B1C;
   padding: 0; }
   .outer-container::after {
     clear: both;
@@ -1256,24 +1356,26 @@ html.menu-open .menu-plate {
     display: block; }
 
 #posts, #infographics {
-  background: white; }
+  background: #eee; }
 
 #hero {
   background: rgba(235, 235, 235, 0.4);
-  background: #122131;
+  background: #2b363b;
   padding: 1em 0; }
   #hero .content-wrapper {
     width: 100%;
     text-align: center;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding: 4em 0 2em; }
     @media (min-width: 30em) {
       #hero .content-wrapper {
-        max-width: 42em; } }
+        max-width: 42em;
+        padding: initial; } }
     #hero .content-wrapper .hero-svg {
       float: left;
       display: block;
       margin-right: 1.3333333333%;
-      width: 24%;
+      width: 49.3333333333%;
       margin: auto;
       padding: 0 0.4em 0.2em;
       text-align: right; }
@@ -1290,14 +1392,15 @@ html.menu-open .menu-plate {
       float: left;
       display: block;
       margin-right: 1.3333333333%;
-      width: 74.6666666667%;
-      margin-right: 0;
+      width: 100%;
+      Border: 1px solid purple;
       color: #131B17;
       text-align: center;
       margin: 0 auto;
       padding: 0em 0 0.2em 0.8em;
       font-family: "lato", sans-serif;
-      font-weight: 400; }
+      font-weight: 400;
+      font-size: 140%; }
       #hero .content-wrapper .about-container:last-child {
         margin-right: 0; }
       #hero .content-wrapper .about-container .about, #hero .content-wrapper .about-container .location {
@@ -1309,18 +1412,18 @@ html.menu-open .menu-plate {
         font-weight: 300;
         font-size: 115%; }
       #hero .content-wrapper .about-container .JM-name {
-        border-bottom: 0.05em solid rgba(34, 34, 34, 0.4);
+        border-bottom: 0.05em solid rgba(240, 240, 240, 0.6);
         Color: white;
         margin: 0 auto;
         padding: 0 0.3em 0.1em;
-        width: 90%;
         text-align: center;
         font-size: 130%;
-        font-family: "Playfair Display", Georgia, Cambria, serif;
+        font-family: "Open Sans", "Playfair Display", Georgia, Cambria, serif;
+        font-weight: 200;
         max-width: 50em;
         text-decoration: None; }
         #hero .content-wrapper .about-container .JM-name .mcc {
-          color: #ed0001;
+          color: #FF2119;
           font-size: 145%;
           font-weight: 400;
           font-variant: small-caps;
@@ -1332,6 +1435,7 @@ html.menu-open .menu-plate {
           letter-spacing: -0.02em; }
         @media (min-width: 60em) {
           #hero .content-wrapper .about-container .JM-name {
+            width: 90%;
             font-size: 130%; } }
       #hero .content-wrapper .about-container .about {
         Color: white;
@@ -1344,37 +1448,37 @@ html.menu-open .menu-plate {
         padding: 0.7em 0 0.4em; }
         #hero .content-wrapper .about-container .about span {
           color: rgba(255, 255, 255, 0.1); }
-      #hero .content-wrapper .about-container .location {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        margin: 0.1em auto 0.3em;
-        padding: 0.4em 0.2em 0.2em 0.1em;
-        text-align: left; }
-        @media (min-width: 36em) {
-          #hero .content-wrapper .about-container .location {
-            max-width: 18em; } }
-        #hero .content-wrapper .about-container .location p {
-          -webkit-justify-content: space-around;
-              -ms-flex-pack: distribute;
-                  justify-content: space-around;
-          text-align: left;
-          line-height: 1.1;
-          font-family: "open sans", "lato", "roboto", sans-serif;
-          font-weight: 300;
-          font-size: 55%;
-          margin: 0 auto;
-          padding: 0 0.4em;
-          Color: white;
-          letter-spacing: 0.06em;
-          text-transform: uppercase; }
-          #hero .content-wrapper .about-container .location p img {
-            width: 1.3em;
-            height: auto;
-            margin-right: 0.5em;
-            padding: 0.1em 0;
-            Fill: #F2984E; }
+    #hero .content-wrapper .location {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      margin: 0.1em auto 0.3em;
+      padding: 0.4em 0.2em 0.2em 0.1em;
+      text-align: left; }
+      @media (min-width: 36em) {
+        #hero .content-wrapper .location {
+          max-width: 18em; } }
+      #hero .content-wrapper .location p {
+        -webkit-justify-content: space-around;
+            -ms-flex-pack: distribute;
+                justify-content: space-around;
+        text-align: left;
+        line-height: 1.1;
+        font-family: "open sans", "lato", "roboto", sans-serif;
+        font-weight: 300;
+        font-size: 55%;
+        margin: 0 auto;
+        padding: 0 0.4em;
+        Color: white;
+        letter-spacing: 0.06em;
+        text-transform: uppercase; }
+        #hero .content-wrapper .location p img {
+          width: 1.3em;
+          height: auto;
+          margin-right: 0.5em;
+          padding: 0.1em 0;
+          Fill: #F2984E; }
     #hero .content-wrapper .connect {
       float: left;
       display: block;
