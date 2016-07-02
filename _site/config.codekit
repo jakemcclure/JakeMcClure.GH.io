@@ -149,6 +149,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_includes\/accordiontabs.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/accordiontabs.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_includes\/footer.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -985,6 +994,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/assets\/js\/accordiontabs.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/assets\/js\/accordiontabs.js",
+		"outputAbbreviatedPath": "\/_site\/assets\/js\/accordiontabs-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/_site\/assets\/js\/functions--old.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -1322,6 +1342,17 @@
 		"initialSize": 112577,
 		"inputAbbreviatedPath": "\/_site\/assets\/MDinfog\/zika-spread.png",
 		"outputAbbreviatedPath": "\/_site\/assets\/MDinfog\/zika-spread.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/nuzzel.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8813,
+		"inputAbbreviatedPath": "\/_site\/assets\/nuzzel.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/nuzzel.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1960,6 +1991,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/css\/1-tools\/bourbon\/bourbon\/helpers\/_text-inputs-list.scss",
 		"outputAbbreviatedPath": "\/assets\/css\/1-tools\/bourbon\/bourbon\/helpers\/_text-inputs-list.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/css\/1-tools\/bourbon\/bourbon\/library\/_accordiontabs.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/1-tools\/bourbon\/bourbon\/library\/_accordiontabs.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/1-tools\/bourbon\/bourbon\/library\/_accordiontabs.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -4217,6 +4264,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/js\/accordiontabs.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/accordiontabs.js",
+		"outputAbbreviatedPath": "\/assets\/js\/accordiontabs-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/assets\/js\/functions--old.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -4554,6 +4612,17 @@
 		"initialSize": 112577,
 		"inputAbbreviatedPath": "\/assets\/MDinfog\/zika-spread.png",
 		"outputAbbreviatedPath": "\/assets\/MDinfog\/zika-spread.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/nuzzel.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8813,
+		"inputAbbreviatedPath": "\/assets\/nuzzel.png",
+		"outputAbbreviatedPath": "\/assets\/nuzzel.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
