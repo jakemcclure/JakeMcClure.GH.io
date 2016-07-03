@@ -375,6 +375,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/assets\/css\/main.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/assets\/css\/main.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/assets\/css\/main.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -616,6 +625,39 @@
 		"initialSize": 5.63977e+06,
 		"inputAbbreviatedPath": "\/_site\/assets\/IMG\/hero-header\/riverfront-header@0.5x.png",
 		"outputAbbreviatedPath": "\/_site\/assets\/IMG\/hero-header\/riverfront-header@0.5x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/IMG\/logos\/bits2bedside-icon-square.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28854,
+		"inputAbbreviatedPath": "\/_site\/assets\/IMG\/logos\/bits2bedside-icon-square.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/IMG\/logos\/bits2bedside-icon-square.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/IMG\/logos\/bits2bedside-icon-square@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 66531,
+		"inputAbbreviatedPath": "\/_site\/assets\/IMG\/logos\/bits2bedside-icon-square@2x.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/IMG\/logos\/bits2bedside-icon-square@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/IMG\/logos\/bits2bedside-icon-square@3x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 113761,
+		"inputAbbreviatedPath": "\/_site\/assets\/IMG\/logos\/bits2bedside-icon-square@3x.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/IMG\/logos\/bits2bedside-icon-square@3x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -924,6 +966,72 @@
 		"initialSize": 88397,
 		"inputAbbreviatedPath": "\/_site\/assets\/IMG\/logos\/JMbox-brown\/JMbox@2x.png",
 		"outputAbbreviatedPath": "\/_site\/assets\/IMG\/logos\/JMbox-brown\/JMbox@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/IMG\/logos\/medium-header@1x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14776,
+		"inputAbbreviatedPath": "\/_site\/assets\/IMG\/logos\/medium-header@1x.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/IMG\/logos\/medium-header@1x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/IMG\/logos\/medium-header@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35356,
+		"inputAbbreviatedPath": "\/_site\/assets\/IMG\/logos\/medium-header@2x.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/IMG\/logos\/medium-header@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/IMG\/logos\/medium-header@3x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63725,
+		"inputAbbreviatedPath": "\/_site\/assets\/IMG\/logos\/medium-header@3x.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/IMG\/logos\/medium-header@3x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/IMG\/medium-header@1x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11574,
+		"inputAbbreviatedPath": "\/_site\/assets\/IMG\/medium-header@1x.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/IMG\/medium-header@1x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/IMG\/medium-header@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26460,
+		"inputAbbreviatedPath": "\/_site\/assets\/IMG\/medium-header@2x.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/IMG\/medium-header@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/IMG\/medium-header@3x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44127,
+		"inputAbbreviatedPath": "\/_site\/assets\/IMG\/medium-header@3x.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/IMG\/medium-header@3x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3890,6 +3998,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/IMG\/logos\/bits2bedside-icon-square.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28854,
+		"inputAbbreviatedPath": "\/assets\/IMG\/logos\/bits2bedside-icon-square.png",
+		"outputAbbreviatedPath": "\/assets\/IMG\/logos\/bits2bedside-icon-square.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/IMG\/logos\/bits2bedside-icon-square@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 66531,
+		"inputAbbreviatedPath": "\/assets\/IMG\/logos\/bits2bedside-icon-square@2x.png",
+		"outputAbbreviatedPath": "\/assets\/IMG\/logos\/bits2bedside-icon-square@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/IMG\/logos\/bits2bedside-icon-square@3x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 113761,
+		"inputAbbreviatedPath": "\/assets\/IMG\/logos\/bits2bedside-icon-square@3x.png",
+		"outputAbbreviatedPath": "\/assets\/IMG\/logos\/bits2bedside-icon-square@3x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/IMG\/logos\/connect\/anchor.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4194,6 +4335,72 @@
 		"initialSize": 88397,
 		"inputAbbreviatedPath": "\/assets\/IMG\/logos\/JMbox-brown\/JMbox@2x.png",
 		"outputAbbreviatedPath": "\/assets\/IMG\/logos\/JMbox-brown\/JMbox@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/IMG\/logos\/medium-header@1x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14776,
+		"inputAbbreviatedPath": "\/assets\/IMG\/logos\/medium-header@1x.png",
+		"outputAbbreviatedPath": "\/assets\/IMG\/logos\/medium-header@1x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/IMG\/logos\/medium-header@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35356,
+		"inputAbbreviatedPath": "\/assets\/IMG\/logos\/medium-header@2x.png",
+		"outputAbbreviatedPath": "\/assets\/IMG\/logos\/medium-header@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/IMG\/logos\/medium-header@3x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63725,
+		"inputAbbreviatedPath": "\/assets\/IMG\/logos\/medium-header@3x.png",
+		"outputAbbreviatedPath": "\/assets\/IMG\/logos\/medium-header@3x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/IMG\/medium-header@1x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11574,
+		"inputAbbreviatedPath": "\/assets\/IMG\/medium-header@1x.png",
+		"outputAbbreviatedPath": "\/assets\/IMG\/medium-header@1x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/IMG\/medium-header@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26460,
+		"inputAbbreviatedPath": "\/assets\/IMG\/medium-header@2x.png",
+		"outputAbbreviatedPath": "\/assets\/IMG\/medium-header@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/IMG\/medium-header@3x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44127,
+		"inputAbbreviatedPath": "\/assets\/IMG\/medium-header@3x.png",
+		"outputAbbreviatedPath": "\/assets\/IMG\/medium-header@3x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
