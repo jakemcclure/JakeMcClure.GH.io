@@ -1003,6 +1003,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/assets\/IMG\/medium-header-light@1x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12423,
+		"inputAbbreviatedPath": "\/_site\/assets\/IMG\/medium-header-light@1x.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/IMG\/medium-header-light@1x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/IMG\/medium-header-light@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28253,
+		"inputAbbreviatedPath": "\/_site\/assets\/IMG\/medium-header-light@2x.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/IMG\/medium-header-light@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/IMG\/medium-header-light@3x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46241,
+		"inputAbbreviatedPath": "\/_site\/assets\/IMG\/medium-header-light@3x.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/IMG\/medium-header-light@3x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/assets\/IMG\/medium-header@1x.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4368,6 +4401,39 @@
 		"initialSize": 63725,
 		"inputAbbreviatedPath": "\/assets\/IMG\/logos\/medium-header@3x.png",
 		"outputAbbreviatedPath": "\/assets\/IMG\/logos\/medium-header@3x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/IMG\/medium-header-light@1x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12423,
+		"inputAbbreviatedPath": "\/assets\/IMG\/medium-header-light@1x.png",
+		"outputAbbreviatedPath": "\/assets\/IMG\/medium-header-light@1x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/IMG\/medium-header-light@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28253,
+		"inputAbbreviatedPath": "\/assets\/IMG\/medium-header-light@2x.png",
+		"outputAbbreviatedPath": "\/assets\/IMG\/medium-header-light@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/IMG\/medium-header-light@3x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46241,
+		"inputAbbreviatedPath": "\/assets\/IMG\/medium-header-light@3x.png",
+		"outputAbbreviatedPath": "\/assets\/IMG\/medium-header-light@3x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
