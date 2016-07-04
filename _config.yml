@@ -1,5 +1,5 @@
 markdown:  kramdown
-url:  http://www.jakemcclure.net
+url:  "http://www.jakemcclure.net"
 baseurl:  ""
 exclude:  ["node_modules", "gulpfile.js", "package.json", "preview.jpg", "README.md"]
 Collections:

@@ -120,6 +120,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_includes\/_manifesto.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/_manifesto.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_includes\/_nav.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -145,6 +154,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_includes\/_posts.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_includes\/_switch.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/_switch.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -809,7 +827,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 6788,
+		"initialSize": 0,
 		"inputAbbreviatedPath": "\/_site\/assets\/IMG\/logos\/IFTTT-Rx@2x.png",
 		"outputAbbreviatedPath": "\/_site\/assets\/IMG\/logos\/IFTTT-Rx@2x.png",
 		"outputPathIsOutsideProject": 0,
@@ -1003,6 +1021,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/assets\/IMG\/logos\/nuzzel.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8813,
+		"inputAbbreviatedPath": "\/_site\/assets\/IMG\/logos\/nuzzel.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/IMG\/logos\/nuzzel.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/assets\/IMG\/medium-header-light@1x.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1146,6 +1175,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/_site\/assets\/js\/expandable-section.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/assets\/js\/expandable-section.js",
+		"outputAbbreviatedPath": "\/_site\/assets\/js\/expandable-section-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/_site\/assets\/js\/functions--old.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -1201,6 +1241,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/_site\/assets\/js\/main.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/assets\/js\/main.js",
+		"outputAbbreviatedPath": "\/_site\/assets\/js\/main-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/_site\/assets\/MDinfog\/data storage\/Data storage thru the years 1.JPG": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1216,7 +1267,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
+		"initialSize": 7.74108e+06,
 		"inputAbbreviatedPath": "\/_site\/assets\/MDinfog\/data storage\/Data storage thru the years 2.JPG",
 		"outputAbbreviatedPath": "\/_site\/assets\/MDinfog\/data storage\/Data storage thru the years 2.JPG",
 		"outputPathIsOutsideProject": 0,
@@ -1483,17 +1534,6 @@
 		"initialSize": 112577,
 		"inputAbbreviatedPath": "\/_site\/assets\/MDinfog\/zika-spread.png",
 		"outputAbbreviatedPath": "\/_site\/assets\/MDinfog\/zika-spread.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/nuzzel.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 8813,
-		"inputAbbreviatedPath": "\/_site\/assets\/nuzzel.png",
-		"outputAbbreviatedPath": "\/_site\/assets\/nuzzel.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3425,6 +3465,22 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/assets\/css\/3-modules\/_accordion-tabs.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/3-modules\/_accordion-tabs.sass",
+		"outputAbbreviatedPath": "\/assets\/css\/3-modules\/_accordion-tabs.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/assets\/css\/3-modules\/_carousel.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -3450,6 +3506,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/css\/3-modules\/_content-well.sass",
 		"outputAbbreviatedPath": "\/assets\/css\/3-modules\/_content-well.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/assets\/css\/3-modules\/_expandable-section.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/3-modules\/_expandable-section.sass",
+		"outputAbbreviatedPath": "\/assets\/css\/3-modules\/_expandable-section.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3601,6 +3673,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/assets\/css\/3-modules\/_search.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/3-modules\/_search.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/3-modules\/_search.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/assets\/css\/3-modules\/_sections.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -3616,6 +3704,22 @@
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": false
+		},
+	"\/assets\/css\/3-modules\/_switch.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/3-modules\/_switch.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/3-modules\/_switch.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
 	"\/assets\/css\/3-modules\/_video-cascade.sass": {
 		"createSourceMap": 0,
@@ -4405,6 +4509,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/IMG\/logos\/nuzzel.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8813,
+		"inputAbbreviatedPath": "\/assets\/IMG\/logos\/nuzzel.png",
+		"outputAbbreviatedPath": "\/assets\/IMG\/logos\/nuzzel.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/IMG\/medium-header-light@1x.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4539,10 +4654,21 @@
 		},
 	"\/assets\/js\/accordiontabs.js": {
 		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
+		"ignore": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/assets\/js\/accordiontabs.js",
 		"outputAbbreviatedPath": "\/assets\/js\/accordiontabs-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/expandable-section.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/expandable-section.js",
+		"outputAbbreviatedPath": "\/assets\/js\/expandable-section-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -4598,6 +4724,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/jquery-2.2.2.min.js",
 		"outputAbbreviatedPath": "\/assets\/js\/jquery-2.2.2.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/main.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/main.js",
+		"outputAbbreviatedPath": "\/assets\/js\/main-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -4885,17 +5022,6 @@
 		"initialSize": 112577,
 		"inputAbbreviatedPath": "\/assets\/MDinfog\/zika-spread.png",
 		"outputAbbreviatedPath": "\/assets\/MDinfog\/zika-spread.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/nuzzel.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 8813,
-		"inputAbbreviatedPath": "\/assets\/nuzzel.png",
-		"outputAbbreviatedPath": "\/assets\/nuzzel.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

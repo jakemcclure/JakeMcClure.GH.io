@@ -25,7 +25,7 @@ $dark-gray: #333;
 $medium-gray: #999;
 $light-gray: #ddd;
 $medium: #02b875;
-$medium-text: rgba(0, 171, 107,1);
+$medium-text: #00ab6b;
 $slack: #3aaf85;
 $snapchat: #FFFC00;
 $youtube: #cd201f;
@@ -110,7 +110,7 @@ $primary-color-light-30: lighten($primary-color, 30%);
 $secondary-color: rgba(237, 0, 1, 1);
 $secondary-color-bright: #FF0002;
 
-$hero-bg: $primary-color;
+$hero-bg: $flat-navy;
 $infog-bg: hsla(43, 21%, 6%, 0.8);
 $posts-bg: hsla(43, 21%, 6%, 0.6);
 $infographics-bg: hsla(40, 5%, 20%, 0.1);

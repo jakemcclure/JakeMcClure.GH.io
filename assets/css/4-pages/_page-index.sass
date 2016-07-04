@@ -1,100 +1,83 @@
 .outer-container
   @include outer-container(100%)
   color: $nuzzel-bg
+  margin: 0 auto
   padding: 0
 
-#posts, #infographics
-  background: #eee
-  //border: 1px dotted blue
-  //text-align: center
-  //margin: 0 auto
-  //padding: 0
-
 #hero
-  //$texture-top-background: rgba(255,255,255,0.4)
-  //$texture-bottom-background: rgba(255,255,255,0.1)
-  // gradient color 1, gradient color 2, gradient angle, texture-number, 0=inverted or 1=normal
-  //@include texture(180deg, $texture-top-background, $texture-bottom-background, 30, 1)
   background: rgba(235, 235, 235, 0.4)
   background: $flat-navy
-  padding: 1em 0
-  //border: 1px dotted black
-  //height: auto
+  padding: 0
+  height: 100vh
 
   .content-wrapper
     @include fill-parent
-    //border: 1px dotted blue
     text-align: center
     margin: 0 auto
-    padding: 4em 0 2em
+    padding: 2em 0 1em
     @media (min-width: 30em)
       max-width: 42em
-      padding: initial
+      padding: 1em 0
 
     .hero-svg
       @include span-columns(4 of 4)
-      //border: 1px solid pink
       margin: 0 auto
       text-align: center
-      padding: 0 0 0.6em 0
-      //text-align: right
+      padding: 0 0 1.5em 0
       .svg
         display: block
         width: 100%
         max-width: 12em
         margin: 0 auto
-        //height: auto
-        max-height: 8em
+        max-height: 6em
         //padding: 1em 0em 0.6em 0.2em
+
+      &:hover
+        .social-svg
+          fill: rgba(255,255,255,0.2)
 
     .about-container
       @include span-columns(4)
-      //@include omega()
-      color: $NEJM-dark
+      color: white
       text-align: center
       margin: 0 auto
       padding: 0em 0 0.2em 0em
+      font:
+        weight: 200
+        size: 115%
       //display: flex
       //flex-direction: column
       //height: auto
       //margin: 0 auto 0 0
       //padding-left: 0.6em
-      font:
-        family: 'lato', sans-serif
-        weight: 400
-        size: 115%
+
       //@media (min-width: 30em)
         //max-width: 85%
         //flex-grow: 2
 
       .JM-name
         @include fill-parent
-        width: 88%
-        //border-bottom: 0.05em solid transparentize(#222, 0.6)
+        width: 85%
         border-bottom: 0.05em solid transparentize(#f0f0f0, 0.4)
-        //Border: 1px dashed blue
-        //color: $NEJM-dark
         Color: white
         margin: 0 auto
         padding: 0 1em 0.1em
-        //display: block
-        //order: 1
         text-align: center
         font-size: 130%
-        font-family: 'Playfair Display',Georgia,Cambria,serif
-        font-weight: 200
+        font-family: initial
+        font-weight: 300
         max-width: 50em
         text-decoration: None
 
         .mcc
-          color: $site-red
+          color: $medium
           font:
-            size: 145%
+            size: 135%
             weight: 400
             variant: small-caps
             family: 'playfair display','playfair display sc','Roboto', sans-serif
           letter-spacing: 0.02em
-          padding-left: 0.05em
+          padding-left: 0.03em
         .md
           //font-family: "playfair display",'Roboto', sans-serif
           //font-weight: 400
@@ -105,7 +88,7 @@
 
         @media (min-width: 60em)
           width: 90%
-          font-size: 130%
+          font-size: 160%
 
       .connect
         @include span-columns(4)
@@ -116,8 +99,8 @@
         //display: flex
         //flex-wrap: wrap
         //justify-content: space-around
-        padding: 0
-        margin: 0.2em auto 0.2em
+        padding: 1em 0 0.4em
+        margin: 0 auto
         text-align: center
         color: #f0f0f0
 
@@ -143,7 +126,7 @@
             padding: 0 0.6em
 
           img
-            width: 1.3em
+            width: 1.5em
             height: auto
             //margin: 0 1.5em
             margin: auto
@@ -155,20 +138,10 @@
               width: 2.2em
 
       .about, .location
-        //@include span-columns(3 of 3)
         @include fill-parent
-        //@include omega()
-        color: $NEJM-dark
         text-align: center
         margin: 0 auto
-        font:
-          family: 'libre franklin','fira sans','roboto','questrial','open sans', sans-serif
-          weight: 300
-          size: 115%
       .about
-        //Border: 1px dashed orange
-        //display: block
-        //color: $NEJM-dark
         Color: #eee
         text-align: center
         line-height: 1.1
@@ -177,10 +150,12 @@
         letter-spacing: 0.04em
         text-transform: lowercase
         margin: 0 auto
-        padding: 1.5em 0 0.4em
+        padding: 0.5em 0 0.4em
         //padding: 0.8em 0 0.5em
         span
-          color: #777
+          color: $slack
+          padding: 0 0.2em
+
 
         @media (min-width: 30em)
           //text-align: center
@@ -188,12 +163,13 @@
       .location
         //Border: 1px dashed yellow
         display: flex
-        Color: #ccc
-        margin: 0.1em auto 0.3em
-        padding: 1em 0.2em 0.2em 0.1em
+        width: 75%
+        Color: $light-gray
+        margin: 0 auto 0.3em
+        padding: 0.3em 0.2em 0.2em 0.1em
         text-align: left
         @media (min-width: 36em)
-          max-width: 18em
+          max-width: 16em
 
         p
           //flex-direction: column
@@ -202,7 +178,7 @@
           text-align: left
           line-height: 1.1
           font:
-            family: 'open sans','lato','roboto',sans-serif
+            //family: 'open sans','lato','roboto',sans-serif
             weight: 300
             size: 55%
           margin: 0 auto
@@ -213,7 +189,7 @@
             width: 1.3em
             height: auto
             margin-right: 0.5em
-            padding: 0.1em 0
+            padding: 0
             //fill: $fivethirtyeight-graybrown-desat
             Fill: $fivethirtyeight-orange-desat
 
@@ -226,20 +202,20 @@
   $large-screen: 42em
   $base-font-color: $slack
 
-  width: 50%
-  @@include span-columns(4)
-  //background: $flat-navy
-  //background: rgba(235, 235, 235, 0.4)
-  //border: 1px dashed $medium
-  max-width: 16em
-  display: flex
+  @include span-columns(4)
+  background: $flat-navy
   margin: 0em auto 1.5em
   text-align: center
-  justify-content: space-around
-  //border-bottom: 0.1em solid transparentize($action-color, 0.8)
+  Padding: 0 0 0.6em
 
-  @media (min-width: 30em)
-    max-width: 50%
+  nav
+    width: 70%
+    margin: 0 auto
+    padding: 0
+    text-align: center
+    border-top: 0.1em solid $gray
+    @media (min-width: 30em)
+      max-width: 50%
 
   .index-sections-nav-link
     font:
@@ -247,19 +223,24 @@
       //weight: 700
       weight: 700
       size: 0.5em
+    margin: 0 0.1em
     letter-spacing: 0.1em
     text-transform: uppercase
     color: $action-color
-    background: rgba(235, 235, 235, 0.4)
-    border-bottom: none
-    border-bottom: 0.1em solid transparentize(#444, 0.8)
-    //border: 0.1em solid transparentize($action-color, 0.8)
+    background: transparentize($flat-navy,0.6)
+    border-bottom: 0.1em dashed $light-gray
+    border-left: 0.1em dashed $light-gray
+    border-right: 0.1em dashed $light-gray
+    border-color: $gray
 
     display: inline-block
     outline: none
     padding: ($base-spacing / 4)
     padding: 2em 1em 1em
     text-decoration: none
+
+    &:hover
+      background: transparentize($white,0.8)
 
 h3.section-header, .section-footer, .post-date, .post-category, .post-duration
   margin: 0 auto
@@ -319,13 +300,6 @@ h3.section-header
   @include media($large-screen)
     @include span-columns(8)
 
-#posts, #infographics
-  width: 100%
-  max-width: 48em
-  margin: 0 auto
-  padding: 0
-  background: white
-
 #hero, #posts, #quotes, #infographics
   li
     margin: 0 auto
@@ -337,11 +311,7 @@ h3.section-header
       color: none
 
 #posts, #infographics
-  .posts-container
-    margin: 0 auto
-    //border-left: 0.1em solid #f0f0f0
-    //border-right: 0.1em solid #f0f0f0
-    max-width: 52em
+  max-width: 52em
   .posts-wrapper, .post
     margin: 0 auto
     text-align: center
@@ -386,23 +356,23 @@ h3.section-header
     color: #333
     font:
       size: 0.9em
-      //family: $font-stack-lucida-bright
+      //family: $font-stack-lucida-grande
       weight: 300
       //style: italic
     margin: 0 auto
     padding: 0.2em 0.4em 0.2em
-    border-top: 0.1em solid transparentize(#ddd, 0.8)
-    border-bottom: 0.1em solid transparentize(#ddd, 0.8)
+    border-top: 0.1em solid transparentize(#ddd, 0.6)
+    border-bottom: 0.1em solid transparentize(#ddd, 0.6)
     //letter-spacing: 0.01em
   .post-meta
     margin: 0
-    border-top: 0.1em solid transparentize(#ddd, 0.8)
+    //border-top: 0.1em solid transparentize(#ddd, 0.6)
     //border-bottom: 0.1em solid transparentize(#ddd, 0.8)
     padding: 0.3em
     padding: 0
     font:
       size: 0.7em
-    color: #999
+    color: $gray
     text-transform: uppercase
     text-align: left
     span
@@ -411,31 +381,30 @@ h3.section-header
       letter-spacing: 0.02em
       color: rgba(0,0,0,0.2)
 
-#posts
-  article
-    text-align: left
-    margin: 0 auto
-    padding: 1.5em 0.2em 2em
-    max-width: 40rem
-    .post-header
-      border-bottom: 0.1em solid transparentize(#ddd, 0.9)
-    .blog-content
-      margin: 1.2em auto
-      p
-        text-align: left
-        margin: 0 auto
-        padding: 0 0.2em
-        font-size: 100%
-        line-height: 1.3
-    .post-meta
-      display: flex
-      justify-content: space-between
-      a
-        text-decoration: none
-        border-bottom: none
-      .post-date
-        text-align: left
-        flex-grow: 3
+#posts article
+  text-align: left
+  margin: 0 auto
+  padding: 1.5em 0.2em 2em
+  max-width: 40rem
+  .post-header
+    border-bottom: 0.1em solid transparentize(#ddd, 0.9)
+  .blog-content
+    margin: 1.2em auto
+    p
+      text-align: left
+      margin: 0 auto
+      padding: 0 0.2em
+      font-size: 100%
+      line-height: 1.3
+  .post-meta
+    display: flex
+    justify-content: space-between
+    a
+      text-decoration: none
+      border-bottom: none
+    .post-date
+      text-align: left
+      flex-grow: 3
 
 #posts
   @media (min-width: 30em)
@@ -548,65 +517,65 @@ h3.section-header
         text-transform: uppercase
         letter-spacing: 0.06em
 //
-.posts-container
-  .post-header
-    display: inline-block
-    //border: none
-    text-align: left
-    color: $primary-color-dark-20
-    font:
-      //family: "Libre Baskerville","Roboto Slab", "Roboto Condensed",sans-serif
-      family: "Adamina", "Roboto Slab","Roboto Condensed",sans-serif
-      weight: 400
-    margin: 0.8em auto 0
-    margin: 0.4em auto 0.2em
-    border-bottom: 0.1em solid #eee
-    text-decoration: none
-    .post-title
-      //display: inline-block
-      //width: 100%
+  .posts-container
+    .post-header
+      display: inline-block
+      //border: none
       text-align: left
+      color: $primary-color-dark-20
       font:
-        size: 115%
-      letter-spacing: -0.04em
-      line-height: 1.25
-      margin: 0 auto 0.1em
-      @media (min-width: 26em)
-        font-size: 130%
-    .post-desc
-      text-align: left
-      font:
-        Size: 95%
-        family: 'lato', 'roboto', sans-serif
-        weight: 300
-        Style: italic
-      line-height: 1.2
-      margin: 0.1em auto 0.2em
-      letter-spacing: -0.01em
-      @media (min-width: 26em)
-        font-size: 115%
-    .post-meta
-      margin: 0 auto
-      padding: 0em 0.1em
-      line-height: 1
-      text-align: left
-      font:
-        //size: 80%
-        size: 0.7rem
-        weight: 700
-        family: 'open sans', 'lato','Montserrat', sans-serif
-      text-transform: uppercase
-      color: $primary-color-light-40
-      //border-bottom: 0.1em solid #eee
-      .post-date, .post-category
-        //display: block
-        //text-transform: uppercase
-        letter-spacing: 0.04em
-        padding: 0 0.2em 0em
-        text-align: right
-        > img
-          width: 1.5em
-          height: 1.5em
+        //family: "Libre Baskerville","Roboto Slab", "Roboto Condensed",sans-serif
+        family: "Adamina", "Roboto Slab","Roboto Condensed",sans-serif
+        weight: 400
+      margin: 0.8em auto 0
+      margin: 0.4em auto 0.2em
+      border-bottom: 0.1em solid #eee
+      text-decoration: none
+      .post-title
+        //display: inline-block
+        //width: 100%
+        text-align: left
+        font:
+          size: 115%
+        letter-spacing: -0.04em
+        line-height: 1.25
+        margin: 0 auto 0.1em
+        @media (min-width: 26em)
+          font-size: 130%
+      .post-desc
+        text-align: left
+        font:
+          Size: 95%
+          family: 'lato', 'roboto', sans-serif
+          weight: 300
+          Style: italic
+        line-height: 1.2
+        margin: 0.1em auto 0.2em
+        letter-spacing: -0.01em
+        @media (min-width: 26em)
+          font-size: 115%
+      .post-meta
+        margin: 0 auto
+        padding: 0em 0.1em
+        line-height: 1
+        text-align: left
+        font:
+          //size: 80%
+          size: 0.7rem
+          weight: 700
+          family: 'open sans', 'lato','Montserrat', sans-serif
+        text-transform: uppercase
+        color: $primary-color-light-40
+        //border-bottom: 0.1em solid #eee
+        .post-date, .post-category
+          //display: block
+          //text-transform: uppercase
+          letter-spacing: 0.04em
+          padding: 0 0.2em 0em
+          text-align: right
+          > img
+            width: 1.5em
+            height: 1.5em
 
     //.posts-wrapper
       //text-align: left
