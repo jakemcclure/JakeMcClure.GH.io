@@ -8,7 +8,7 @@
   background: rgba(235, 235, 235, 0.4)
   background: $flat-navy
   padding: 0
-  height: 100vh
+  //height: 100vh
 
   .content-wrapper
     @include fill-parent
@@ -99,7 +99,7 @@
         //display: flex
         //flex-wrap: wrap
         //justify-content: space-around
-        padding: 1em 0 0.4em
+        padding: 1em 0 1.4em
         margin: 0 auto
         text-align: center
         color: #f0f0f0
@@ -192,7 +192,6 @@
             padding: 0
             //fill: $fivethirtyeight-graybrown-desat
             Fill: $fivethirtyeight-orange-desat
-
 
 #index-sections-nav
   $base-line-height: 1.7em
@@ -310,7 +309,7 @@ h3.section-header
       padding: 0
       color: none
 
-#posts, #infographics
+#posts, #infographics, #manifesto
   max-width: 52em
   .posts-wrapper, .post
     margin: 0 auto
@@ -473,6 +472,24 @@ h3.section-header
       flex-wrap: wrap
       .post
         width: 50%
+
+#manifesto
+  max-width: 42em
+  h3
+    margin: Initial
+    padding: 0 0 0.6em
+    font:
+      family: $font-stack-lucida-grande
+      size: 130%
+  p
+    font:
+      family: $font-stack-lucida-bright
+    color: $NEJM-dark
+  &, a, li, ul
+    border-color: initial
+    border-style: initial
+  @import './3-modules/accordion-tabs'
+
 
 #quotes
   background: $quote-container-bg

@@ -1617,37 +1617,42 @@ section {
 
 .accordion-tabs-minimal {
   line-height: 1.5;
-  padding: 0; }
+  padding: 1em 0 2em; }
   .accordion-tabs-minimal::after {
     clear: both;
     content: "";
     display: block; }
   .accordion-tabs-minimal .tab-header-and-content {
-    list-style: none; }
+    list-style: none;
+    padding: 0 0.6em; }
     @media screen and (min-width: 667px) {
       .accordion-tabs-minimal .tab-header-and-content {
         display: inline; } }
   .accordion-tabs-minimal .tab-link {
-    background-color: #fff;
-    border-top: 0.1em solid rgba(221, 221, 221, 0.2);
-    color: #333;
+    background-color: #f0f0f0;
+    border-top: 0.1em solid rgba(43, 54, 59, 0.4);
+    color: #2b363b;
     display: block;
     padding: 0.5em 5px;
-    text-decoration: none; }
+    text-decoration: none;
+    font-size: 150%;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Geneva", "Verdana", sans-serif; }
     @media screen and (min-width: 667px) {
       .accordion-tabs-minimal .tab-link {
         border-top: 0;
         display: inline-block; } }
     .accordion-tabs-minimal .tab-link:hover {
-      color: #3aaf85; }
+      color: white;
+      background: #c1c1c1; }
     .accordion-tabs-minimal .tab-link:focus {
       outline: none; }
     .accordion-tabs-minimal .tab-link.is-active {
-      border-bottom: 0; }
+      border-bottom: 0;
+      color: #02b875; }
       @media screen and (min-width: 667px) {
         .accordion-tabs-minimal .tab-link.is-active {
-          border: 0.1em solid rgba(221, 221, 221, 0.2);
-          border-bottom-color: #fff;
+          border: 0.1em solid rgba(43, 54, 59, 0.4);
+          border-bottom-color: #f0f0f0;
           margin-bottom: -1px; } }
   .accordion-tabs-minimal .tab-content {
     display: none;
@@ -1655,7 +1660,7 @@ section {
     width: 100%; }
     @media screen and (min-width: 667px) {
       .accordion-tabs-minimal .tab-content {
-        border-top: 0.1em solid rgba(221, 221, 221, 0.2);
+        border-top: 0.1em solid rgba(43, 54, 59, 0.4);
         float: left; } }
 
 form.search-bar {
@@ -1864,8 +1869,7 @@ html.menu-open .menu-plate {
 #hero {
   background: rgba(235, 235, 235, 0.4);
   background: #2b363b;
-  padding: 0;
-  height: 100vh; }
+  padding: 0; }
   #hero .content-wrapper {
     width: 100%;
     text-align: center;
@@ -1940,7 +1944,7 @@ html.menu-open .menu-plate {
         margin-right: 1.3333333333%;
         width: 100%;
         max-width: 30em;
-        padding: 1em 0 0.4em;
+        padding: 1em 0 1.4em;
         margin: 0 auto;
         text-align: center;
         color: #f0f0f0; }
@@ -2115,45 +2119,45 @@ h3.section-header {
     padding: 0;
     color: none; }
 
-#posts, #infographics {
+#posts, #infographics, #manifesto {
   max-width: 52em; }
-  #posts .posts-wrapper, #posts .post, #infographics .posts-wrapper, #infographics .post {
+  #posts .posts-wrapper, #posts .post, #infographics .posts-wrapper, #infographics .post, #manifesto .posts-wrapper, #manifesto .post {
     margin: 0 auto;
     text-align: center;
     list-style-type: none; }
-  #posts li, #infographics li {
+  #posts li, #infographics li, #manifesto li {
     background: #fcfcfc; }
-    #posts li:before, #infographics li:before {
+    #posts li:before, #infographics li:before, #manifesto li:before {
       content: ""; }
-  #posts .post-thumbnail, #infographics .post-thumbnail {
+  #posts .post-thumbnail, #infographics .post-thumbnail, #manifesto .post-thumbnail {
     padding: 0.1em 0.2em;
     margin: 0 auto;
     border-bottom: none; }
-  #posts .post-header, #infographics .post-header {
+  #posts .post-header, #infographics .post-header, #manifesto .post-header {
     margin: 0 auto;
     padding: 0.1em 0;
     text-align: left; }
-    #posts .post-header a, #infographics .post-header a {
+    #posts .post-header a, #infographics .post-header a, #manifesto .post-header a {
       display: inline-block;
       padding: 0 0.2em;
       margin: 0 auto;
       text-decoration: none;
       border-bottom: none; }
-    #posts .post-header .post-title, #posts .post-header .post-subtitle, #infographics .post-header .post-title, #infographics .post-header .post-subtitle {
+    #posts .post-header .post-title, #posts .post-header .post-subtitle, #infographics .post-header .post-title, #infographics .post-header .post-subtitle, #manifesto .post-header .post-title, #manifesto .post-header .post-subtitle {
       margin: 0 auto;
       text-align: left;
       padding: 0 0 0.1em;
       line-height: 1.2;
       border-bottom: none; }
-    #posts .post-header .post-title, #infographics .post-header .post-title {
+    #posts .post-header .post-title, #infographics .post-header .post-title, #manifesto .post-header .post-title {
       font-size: 1.6em;
       padding-top: 0.2em; }
-    #posts .post-header .post-subtitle, #infographics .post-header .post-subtitle {
+    #posts .post-header .post-subtitle, #infographics .post-header .post-subtitle, #manifesto .post-header .post-subtitle {
       font-size: 1.2em;
       margin-left: 0.4em;
       padding-bottom: 0.3em;
       font-weight: 400; }
-  #posts .post-excerpt, #infographics .post-excerpt {
+  #posts .post-excerpt, #infographics .post-excerpt, #manifesto .post-excerpt {
     line-height: 1.2;
     text-align: left;
     color: #333;
@@ -2163,7 +2167,7 @@ h3.section-header {
     padding: 0.2em 0.4em 0.2em;
     border-top: 0.1em solid rgba(221, 221, 221, 0.4);
     border-bottom: 0.1em solid rgba(221, 221, 221, 0.4); }
-  #posts .post-meta, #infographics .post-meta {
+  #posts .post-meta, #infographics .post-meta, #manifesto .post-meta {
     margin: 0;
     padding: 0.3em;
     padding: 0;
@@ -2171,7 +2175,7 @@ h3.section-header {
     color: #aaa;
     text-transform: uppercase;
     text-align: left; }
-    #posts .post-meta span, #infographics .post-meta span {
+    #posts .post-meta span, #infographics .post-meta span, #manifesto .post-meta span {
       padding: 0 3.5em 0 1em;
       font-weight: 700;
       letter-spacing: 0.02em;
@@ -2308,6 +2312,67 @@ h3.section-header {
             flex-wrap: wrap; }
     #infographics .posts-wrapper .post {
       width: 50%; } }
+
+#manifesto {
+  max-width: 42em; }
+  #manifesto h3 {
+    margin: Initial;
+    padding: 0 0 0.6em;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Geneva", "Verdana", sans-serif;
+    font-size: 130%; }
+  #manifesto p {
+    font-family: "Lucida Bright", "Garamond", "Hoefler Text", "Baskerville", "Georgia", "Times New Roman", serif;
+    color: #131B17; }
+  #manifesto, #manifesto a, #manifesto li, #manifesto ul {
+    border-color: initial;
+    border-style: initial; }
+  #manifesto .accordion-tabs-minimal {
+    line-height: 1.5;
+    padding: 1em 0 2em; }
+    #manifesto .accordion-tabs-minimal::after {
+      clear: both;
+      content: "";
+      display: block; }
+    #manifesto .accordion-tabs-minimal .tab-header-and-content {
+      list-style: none;
+      padding: 0 0.6em; }
+      @media screen and (min-width: 667px) {
+        #manifesto .accordion-tabs-minimal .tab-header-and-content {
+          display: inline; } }
+    #manifesto .accordion-tabs-minimal .tab-link {
+      background-color: #f0f0f0;
+      border-top: 0.1em solid rgba(43, 54, 59, 0.4);
+      color: #2b363b;
+      display: block;
+      padding: 0.5em 5px;
+      text-decoration: none;
+      font-size: 150%;
+      font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Geneva", "Verdana", sans-serif; }
+      @media screen and (min-width: 667px) {
+        #manifesto .accordion-tabs-minimal .tab-link {
+          border-top: 0;
+          display: inline-block; } }
+      #manifesto .accordion-tabs-minimal .tab-link:hover {
+        color: white;
+        background: #c1c1c1; }
+      #manifesto .accordion-tabs-minimal .tab-link:focus {
+        outline: none; }
+      #manifesto .accordion-tabs-minimal .tab-link.is-active {
+        border-bottom: 0;
+        color: #02b875; }
+        @media screen and (min-width: 667px) {
+          #manifesto .accordion-tabs-minimal .tab-link.is-active {
+            border: 0.1em solid rgba(43, 54, 59, 0.4);
+            border-bottom-color: #f0f0f0;
+            margin-bottom: -1px; } }
+    #manifesto .accordion-tabs-minimal .tab-content {
+      display: none;
+      padding: 1em 5px;
+      width: 100%; }
+      @media screen and (min-width: 667px) {
+        #manifesto .accordion-tabs-minimal .tab-content {
+          border-top: 0.1em solid rgba(43, 54, 59, 0.4);
+          float: left; } }
 
 #quotes {
   background: #464646;
