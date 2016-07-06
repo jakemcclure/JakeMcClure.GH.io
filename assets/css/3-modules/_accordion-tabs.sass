@@ -6,7 +6,7 @@
   $dark-gray: #333 !default
   $medium-screen: 40em !default
   $tab-link-color: $flat-navy
-  $tab-border: 0.1em solid transparentize($flat-navy, 0.6)
+  $tab-border: 0.1em solid transparentize($flat-navy, 0.8)
   $tab-active-background: #f0f0f0
   $tab-inactive-color: $base-background-color
   $tab-inactive-hover-color: #c0c0c0
@@ -24,13 +24,13 @@
       display: inline
 
   .tab-link
-    background-color: $tab-active-background
+    background-color: white
     border-top: $tab-border
     color: $tab-link-color
     display: block
     padding: ($base-spacing / 2) $gutter
     text-decoration: none
-    font-size: 150%
+    font-size: 140%
     font-family: $font-stack-lucida-grande
 
     @include media($tab-mode)

@@ -1629,13 +1629,13 @@ section {
       .accordion-tabs-minimal .tab-header-and-content {
         display: inline; } }
   .accordion-tabs-minimal .tab-link {
-    background-color: #f0f0f0;
-    border-top: 0.1em solid rgba(43, 54, 59, 0.4);
+    background-color: white;
+    border-top: 0.1em solid rgba(43, 54, 59, 0.2);
     color: #2b363b;
     display: block;
     padding: 0.5em 5px;
     text-decoration: none;
-    font-size: 150%;
+    font-size: 140%;
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Geneva", "Verdana", sans-serif; }
     @media screen and (min-width: 667px) {
       .accordion-tabs-minimal .tab-link {
@@ -1651,7 +1651,7 @@ section {
       color: #02b875; }
       @media screen and (min-width: 667px) {
         .accordion-tabs-minimal .tab-link.is-active {
-          border: 0.1em solid rgba(43, 54, 59, 0.4);
+          border: 0.1em solid rgba(43, 54, 59, 0.2);
           border-bottom-color: #f0f0f0;
           margin-bottom: -1px; } }
   .accordion-tabs-minimal .tab-content {
@@ -1660,7 +1660,7 @@ section {
     width: 100%; }
     @media screen and (min-width: 667px) {
       .accordion-tabs-minimal .tab-content {
-        border-top: 0.1em solid rgba(43, 54, 59, 0.4);
+        border-top: 0.1em solid rgba(43, 54, 59, 0.2);
         float: left; } }
 
 form.search-bar {
@@ -2340,13 +2340,13 @@ h3.section-header {
         #manifesto .accordion-tabs-minimal .tab-header-and-content {
           display: inline; } }
     #manifesto .accordion-tabs-minimal .tab-link {
-      background-color: #f0f0f0;
-      border-top: 0.1em solid rgba(43, 54, 59, 0.4);
+      background-color: white;
+      border-top: 0.1em solid rgba(43, 54, 59, 0.2);
       color: #2b363b;
       display: block;
       padding: 0.5em 5px;
       text-decoration: none;
-      font-size: 150%;
+      font-size: 140%;
       font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Geneva", "Verdana", sans-serif; }
       @media screen and (min-width: 667px) {
         #manifesto .accordion-tabs-minimal .tab-link {
@@ -2362,7 +2362,7 @@ h3.section-header {
         color: #02b875; }
         @media screen and (min-width: 667px) {
           #manifesto .accordion-tabs-minimal .tab-link.is-active {
-            border: 0.1em solid rgba(43, 54, 59, 0.4);
+            border: 0.1em solid rgba(43, 54, 59, 0.2);
             border-bottom-color: #f0f0f0;
             margin-bottom: -1px; } }
     #manifesto .accordion-tabs-minimal .tab-content {
@@ -2371,7 +2371,7 @@ h3.section-header {
       width: 100%; }
       @media screen and (min-width: 667px) {
         #manifesto .accordion-tabs-minimal .tab-content {
-          border-top: 0.1em solid rgba(43, 54, 59, 0.4);
+          border-top: 0.1em solid rgba(43, 54, 59, 0.2);
           float: left; } }
 
 #quotes {
