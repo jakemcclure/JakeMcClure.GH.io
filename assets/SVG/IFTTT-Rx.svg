@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="291px" height="66px" viewBox="0 0 291 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7 (28169) - http://www.bohemiancoding.com/sketch -->
+    <title>IFTTT-Rx</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="WEB-DEV-svg" transform="translate(-5.000000, -460.000000)">
+            <g id="IFTTT-Rx" transform="translate(5.000000, 442.000000)">
+                <g id="IFTTT-blue" transform="translate(0.000000, 18.000000)" fill="#33CCFF">
+                    <path d="M213,21 L234,21 L234,66 L213,66 L213,21 Z M213,0 L234,0 L234,21 L213,21 L213,0 Z M198,0 L213,0 L213,21 L198,21 L198,0 Z M234,0 L249,0 L249,21 L234,21 L234,0 Z" id="T"></path>
+                    <path d="M156,21 L177,21 L177,66 L156,66 L156,21 Z M156,0 L177,0 L177,21 L156,21 L156,0 Z M141,0 L156,0 L156,21 L141,21 L141,0 Z M177,0 L192,0 L192,21 L177,21 L177,0 Z" id="T"></path>
+                    <path d="M99,21 L120,21 L120,66 L99,66 L99,21 Z M99,0 L120,0 L120,21 L99,21 L99,0 Z M84,0 L99,0 L99,21 L84,21 L84,0 Z M120,0 L135,0 L135,21 L120,21 L120,0 Z" id="T"></path>
+                    <path d="M30,27 L51,27 L51,48 L30,48 L30,27 Z M51,27 L69,27 L69,48 L51,48 L51,27 Z M30,48 L51,48 L51,66 L30,66 L30,48 Z M30,21 L51,21 L51,27 L30,27 L30,21 Z M30,0 L51,0 L51,21 L30,21 L30,0 Z M51,0 L78,0 L78,21 L51,21 L51,0 Z" id="F"></path>
+                    <rect id="I" x="0" y="0" width="21" height="66"></rect>
+                </g>
+                <g id="Rx" transform="translate(263.726472, 50.971498) rotate(-48.000000) translate(-263.726472, -50.971498) translate(233.726472, 9.471498)" font-weight="300" font-family="Avenir-Light, Avenir" line-spacing="56.25" letter-spacing="-2.4000001" fill="#FF4400" font-size="54">
+                    <text id="R" transform="translate(27.888954, 32.854560) rotate(30.000000) translate(-27.888954, -32.854560) ">
+                        <tspan x="12.8889541" y="58.3545597">R</tspan>
+                    </text>
+                    <text id="x" transform="translate(32.673055, 52.362254) rotate(36.000000) translate(-32.673055, -52.362254) ">
+                        <tspan x="20.1730555" y="78.2372545">x</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

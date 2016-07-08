@@ -1127,6 +1127,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/assets\/IMG\/youtube-thumbnails\/Luke's First Word - Banana.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 578339,
+		"inputAbbreviatedPath": "\/_site\/assets\/IMG\/youtube-thumbnails\/Luke's First Word - Banana.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/IMG\/youtube-thumbnails\/Luke's First Word - Banana.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/assets\/IMG\/youtube-thumbnails\/luke-playing-with-rocks.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1879,6 +1890,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/ideas\/crayon syringe.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 341657,
+		"inputAbbreviatedPath": "\/_site\/ideas\/crayon syringe.png",
+		"outputAbbreviatedPath": "\/_site\/ideas\/crayon syringe.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/_site\/index.html": {
 		"fileType": 8192,
@@ -4635,6 +4657,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/IMG\/youtube-thumbnails\/Luke's First Word - Banana.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 578339,
+		"inputAbbreviatedPath": "\/assets\/IMG\/youtube-thumbnails\/Luke's First Word - Banana.png",
+		"outputAbbreviatedPath": "\/assets\/IMG\/youtube-thumbnails\/Luke's First Word - Banana.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/IMG\/youtube-thumbnails\/luke-playing-with-rocks.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -5349,6 +5382,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/ideas\/crayon syringe.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 341657,
+		"inputAbbreviatedPath": "\/ideas\/crayon syringe.png",
+		"outputAbbreviatedPath": "\/ideas\/crayon syringe.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/index.html": {
 		"fileType": 8192,

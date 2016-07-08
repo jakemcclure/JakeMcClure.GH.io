@@ -1943,7 +1943,7 @@ html.menu-open .menu-plate {
         display: block;
         margin-right: 1.3333333333%;
         width: 100%;
-        max-width: 30em;
+        max-width: 36em;
         padding: 1em 0 1.4em;
         margin: 0 auto;
         text-align: center;
@@ -1952,11 +1952,11 @@ html.menu-open .menu-plate {
           margin-right: 0; }
         @media (min-width: 36em) {
           #hero .content-wrapper .about-container .connect {
-            max-width: 32em; } }
+            max-width: 34em; } }
         #hero .content-wrapper .about-container .connect .social-container {
           display: inline-block;
           margin: 0 0.1em;
-          padding: 0 0.4em;
+          padding: 0 0.1em;
           line-height: 2;
           border-radius: 50%;
           text-align: center;
@@ -1966,9 +1966,9 @@ html.menu-open .menu-plate {
           @media (min-width: 30em) {
             #hero .content-wrapper .about-container .connect .social-container {
               margin: 0 0.2em;
-              padding: 0 0.6em; } }
+              padding: 0 0.3em; } }
           #hero .content-wrapper .about-container .connect .social-container img {
-            width: 1.5em;
+            width: 1.8em;
             height: auto;
             margin: auto;
             padding: 0;
