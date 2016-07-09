@@ -1622,7 +1622,10 @@ section {
     clear: both;
     content: "";
     display: block; }
+  .accordion-tabs-minimal .accordion-tabs-minimal {
+    display: block; }
   .accordion-tabs-minimal .tab-header-and-content {
+    display: block;
     list-style: none;
     padding: 0 0.6em; }
     @media screen and (min-width: 667px) {
@@ -2333,7 +2336,10 @@ h3.section-header {
       clear: both;
       content: "";
       display: block; }
+    #manifesto .accordion-tabs-minimal .accordion-tabs-minimal {
+      display: block; }
     #manifesto .accordion-tabs-minimal .tab-header-and-content {
+      display: block;
       list-style: none;
       padding: 0 0.6em; }
       @media screen and (min-width: 667px) {
