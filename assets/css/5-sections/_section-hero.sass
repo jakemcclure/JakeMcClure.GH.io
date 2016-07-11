@@ -1,87 +1,188 @@
-.page-wrapper .page-content
-  .hero-container
-    //display: flex
-    //flex-direction: column
-    width: 100%
+#hero
+  background: rgba(235, 235, 235, 0.4)
+  background: $flat-navy
+  padding: 0
+  //height: 100vh
+
+  .content-wrapper
+    @include fill-parent
     text-align: center
     margin: 0 auto
-    padding: 0.6em 0 1em
-    color: white
-    background: $fivethirtyeight-graybrown-desat
+    padding: 2em 0 1em
+    @media (min-width: 30em)
+      max-width: 42em
+      padding: 1em 0
 
-    .flex-container
+    .hero-svg
+      @include span-columns(4 of 4)
       margin: 0 auto
-      Padding: 0
-      display: flex
-      flex-direction: column
-
-      .section-title-rule
-        display: none
-
-      .hero
-        //width: 40vw
-        order: -2
-        width: 60%
-        max-width: 20em
-        height: auto
+      text-align: center
+      padding: 0 0 1em 0
+      .svg
+        display: block
+        width: 100%
+        max-width: 12em
         margin: 0 auto
-        border-radius: 2%
+        max-height: 9em
+        //padding: 1em 0em 0.6em 0.2em
 
-      .about-container
-        //width: 90%
-        display: flex
-        flex-wrap: wrap
-        //align-content: flex-start
-        color: white
-        //text-align: right
+      &:hover
+        .social-svg
+          fill: rgba(255,255,255,0.2)
 
-        .about
-          order: -2
+    .about-container
+      @include span-columns(4)
+      color: white
+      text-align: center
+      margin: 0 auto
+      padding: 0em 0 0.2em 0em
+      font:
+        weight: 200
+        size: 125%
+      //display: flex
+      //flex-direction: column
+      //height: auto
+      //margin: 0 auto 0 0
+      //padding-left: 0.6em
+
+      //@media (min-width: 30em)
+        //max-width: 85%
+        //flex-grow: 2
+
+      .JM-name
+        @include fill-parent
+        width: 85%
+        border-bottom: 0.05em solid transparentize(#f0f0f0, 0.6)
+        Color: white
+        margin: 0 auto
+        padding: 0 0.6em 0em
+        text-align: center
+        font-size: 130%
+        font-family: $font-stack-news-cycle
+        font-weight: 300
+        max-width: 50em
+        text-decoration: None
+
+        .mcc
+          color: $medium
+          font:
+            size: 135%
+            weight: 400
+            variant: small-caps
+            family: 'playfair display','playfair display sc','Roboto', sans-serif
+          letter-spacing: 0.02em
+          padding-left: 0.03em
+        .md
+          //font-family: "playfair display",'Roboto', sans-serif
+          //font-weight: 400
+          //color: $md-dark
+          //color: #eee
+          font-size: 60%
+          letter-spacing: -0.02em
+
+        @media (min-width: 60em)
+          width: 90%
+          font-size: 160%
+
+      .connect
+        @include span-columns(4)
+        //border: 1px solid green
+        //@include fill-parent
+        max-width: 36em
+
+        //display: flex
+        //flex-wrap: wrap
+        //justify-content: space-around
+        padding: 1em 0 1.4em
+        margin: 0 auto
+        text-align: center
+        color: #f0f0f0
+
+        //Order: 2
+        @media (min-width: 36em)
+          max-width: 34em
+
+        .social-container
+          display: inline-block
+          //align-items: baseline
+          margin: 0 0.1em
+          padding: 0 0.1em
+          line-height: 2
+          //display: flex
+          border-radius: 50%
           text-align: center
-          width: 100%
+          //color: rgba(255,255,255,0)
+          color: #bbb
+          background: None
+          Border: none
+          @media (min-width: 30em)
+            margin: 0 0.2em
+            padding: 0 0.3em
+
+          img
+            width: 1.8em
+            height: auto
+            //margin: 0 1.5em
+            margin: auto
+            padding: 0
+            vertical-align: middle
+            //&:hover
+              background: White
+            @media (min-width: 30em)
+              width: 2.2em
+
+      .about, .location
+        @include fill-parent
+        text-align: center
+        margin: 0 auto
+      .about
+        Color: #eee
+        text-align: center
+        line-height: 1.1
+        font:
+          size: 80%
+        letter-spacing: 0.04em
+        text-transform: lowercase
+        margin: 0 auto
+        padding: 0.5em 0 1.2em
+        //padding: 0.8em 0 0.5em
+        span
+          color: $medium
+          padding: 0 0.2em
+
+
+        @media (min-width: 30em)
+          //text-align: center
+
+      .location
+        //Border: 1px dashed yellow
+        display: flex
+        width: 75%
+        Color: $light-gray
+        margin: 0 auto 0.3em
+        padding: 0em 0.2em 0.2em 0.1em
+        text-align: left
+        @media (min-width: 36em)
+          max-width: 16em
+
+        p
+          //flex-direction: column
+          //display: inline-block
+          justify-content: space-around
+          text-align: left
           line-height: 1.1
           font:
-            size: 95%
-            weight: 400
-            family: "avenir next","helvetica neue","lato", "questrial",sans-serif
-          letter-spacing: 0.08em
-          color: white
+            //family: 'open sans','lato','roboto',sans-serif
+            weight: 300
+            size: 65%
+          margin: 0 auto
+          padding: 0 0.4em
+          letter-spacing: 0.06em
           text-transform: uppercase
-          margin: 1em auto 0.5em
-          padding: 0.2em 0
-
-          p
-            text-transform: none
-            margin: 0.8em 0em 0.8em 0.6em
-            padding: 0.2em 1.5em
-            text-align: left
-
-        .location
-          margin: 0
-          padding: 0
-          Width: 40%
-          //margin: 0.8em auto 0.2em
-          color: white
-          line-height: 1.2
-          //text-align: left
-
-          p
-            display: flex
-            flex-direction: column
-            align-items: baseline
-            text-align: right
-            font:
-              family: "avenir next", "open sans", sans-serif
-              weight: 400
-              size: 85%
-            margin: 0
-            padding: 0.1em 0 0 0.2em
-            color: white
-
-          span
-            margin: 0
-            padding: 0.2em 0 0.3em 0.3em
-            color: $fivethirtyeight-orange-desat
-            font-size: 100%
-            letter-spacing: 0.1em
-            text-transform: uppercase
+          img
+            width: 1.5em
+            height: auto
+            margin-right: 0.5em
+            padding: 0
+            //fill: $fivethirtyeight-graybrown-desat
+            Fill: $fivethirtyeight-orange-desat
