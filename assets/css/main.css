@@ -2271,14 +2271,13 @@ h3.section-header {
         text-align: center;
         margin: 0 auto; }
       #hero .content-wrapper .about-container .about {
-        Color: #eee;
+        Color: #fff;
         text-align: center;
         line-height: 1.1;
-        font-size: 80%;
-        letter-spacing: 0.04em;
-        text-transform: lowercase;
+        font-size: 70%;
+        letter-spacing: 0.01em;
         margin: 0 auto;
-        padding: 0.5em 0 1.2em; }
+        padding: 0.5em 0.6em 1.2em; }
         #hero .content-wrapper .about-container .about span {
           color: #02b875;
           padding: 0 0.2em; }
@@ -2289,7 +2288,7 @@ h3.section-header {
         display: flex;
         width: 75%;
         Color: #ddd;
-        margin: 0 auto 0.3em;
+        margin: 1em auto 0.3em;
         padding: 0em 0.2em 0.2em 0.1em;
         text-align: left; }
         @media (min-width: 36em) {
