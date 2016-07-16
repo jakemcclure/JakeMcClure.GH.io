@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="0 0 389 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs></defs>
+    <g id="Logos" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="JM-text">
+            <text id="Jake" font-family="AvenirNext-UltraLight, Avenir Next" font-size="40" font-weight="300" line-spacing="40" letter-spacing="-3.86999989" fill="#9B9B9B">
+                <tspan x="0" y="56">Jak</tspan>
+                <tspan x="45.6300003" y="56">e</tspan>
+            </text>
+            <text id="M.D." transform="translate(372.000000, 28.000000) rotate(-90.000000) translate(-372.000000, -28.000000) " font-family="AvenirNext-UltraLight, Avenir Next" font-size="26" font-weight="300" line-spacing="30" letter-spacing="-3.66000009" fill="#9B9B9B">
+                <tspan x="348" y="39">M.D.</tspan>
+            </text>
+            <text id="McCLURE" font-family="Didot" font-size="60" font-weight="normal" line-spacing="60" letter-spacing="-2.67692208" fill="#42CC6F">
+                <tspan x="73" y="56">McCLURE</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
