@@ -1,8 +1,9 @@
-<svg viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="0 0 47 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs></defs>
-    <g class="svg" id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="home" fill="#61594F">
-            <polygon points="18 39 18 27 26 27 26 39 36 39 36 23 42 23 22 5 2 23 8 23 8 39"></polygon>
+    <g id="svgs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SVGs" transform="translate(-315.000000, -181.000000)" fill="#6E6E72">
+            <polygon id="home" points="333.8 221 333.8 206.882353 343.2 206.882353 343.2 221 354.95 221 354.95 202.176471 362 202.176471 338.5 181 315 202.176471 322.05 202.176471 322.05 221"></polygon>
         </g>
     </g>
 </svg>
