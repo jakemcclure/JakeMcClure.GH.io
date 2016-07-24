@@ -4,54 +4,6 @@
   margin: 0 auto
   padding: 0
 
-#index-sections-nav
-  $base-line-height: 1.7em
-  $base-spacing: 2em
-  $action-color: $slack
-  $dark-gray: #333
-  $large-screen: 42em
-  $base-font-color: $slack
-
-  @include span-columns(4)
-  background: $flat-navy
-  margin: 0em auto 1.5em
-  text-align: center
-  Padding: 0 0 0.6em
-
-  nav
-    width: 70%
-    margin: 0 auto
-    padding: 0
-    text-align: center
-    border-top: 0.1em solid $gray
-    @media (min-width: 30em)
-      max-width: 50%
-
-  .index-sections-nav-link
-    font:
-      family: 'open sans', 'lato','Montserrat', sans-serif
-      //weight: 700
-      weight: 700
-      size: 0.5em
-    margin: 0 0.1em
-    letter-spacing: 0.1em
-    text-transform: uppercase
-    color: $action-color
-    background: transparentize($flat-navy,0.6)
-    border-bottom: 0.1em dashed $light-gray
-    border-left: 0.1em dashed $light-gray
-    border-right: 0.1em dashed $light-gray
-    border-color: $gray
-
-    display: inline-block
-    outline: none
-    padding: ($base-spacing / 4)
-    padding: 2em 1em 1em
-    text-decoration: none
-
-    &:hover
-      background: transparentize($white,0.8)
-
 h3.section-header, .section-footer, .post-date, .post-category, .post-duration
   margin: 0 auto
   font:
@@ -111,6 +63,7 @@ h3.section-header
 
 
 #hero, #posts, #quotes, #infographics
+  max-width: 52em
   li
     margin: 0 auto
     padding: 0 0.1em 1.4em
@@ -120,8 +73,7 @@ h3.section-header
       padding: 0
       color: none
 
-#posts, #infographics, #manifesto
-  max-width: 52em
+#posts, #infographics
   .posts-wrapper, .post
     margin: 0 auto
     text-align: center
@@ -260,26 +212,3 @@ h3.section-header
           width: 50%
         .post-excerpt
           border-bottom: none
-
-#infographics
-  .post
-    max-width: 40em
-  .post-meta
-    text-align: right
-    border: none
-    font-size: 0.6em
-    letter-spacing: 0.03em
-    padding-bottom: 0.2em
-  .post-header
-    text-align: center
-    margin: 0 auto
-  .post-thumbnail
-    width: 100%
-  //@media (min-width: 49em)
-  @media (min-width: 36em)
-    .posts-wrapper
-      display: flex
-      flex-direction: row
-      flex-wrap: wrap
-      .post
-        width: 50%

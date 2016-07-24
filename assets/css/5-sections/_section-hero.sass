@@ -18,6 +18,9 @@
       margin: 0 auto
       text-align: center
       padding: 0 0 1em 0
+      @media (min-width: 30em)
+        @include span-columns(1 of 4)
+
       .svg
         display: block
         width: 100%
@@ -30,6 +33,54 @@
         .social-svg
           fill: rgba(255,255,255,0.2)
 
+    .connect
+      //@include span-columns(4)
+      //border: 1px solid green
+      @include fill-parent
+      max-width: 36em
+
+      //display: flex
+      //flex-wrap: wrap
+      //justify-content: space-around
+      padding: 1em 0 1.4em
+      margin: 0 auto
+      text-align: center
+      color: #f0f0f0
+
+      //Order: 2
+      @media (min-width: 36em)
+        max-width: 34em
+
+      .social-container
+        display: inline-block
+        //align-items: baseline
+        margin: 0 0.1em
+        padding: 0 0.1em
+        line-height: 2
+        //display: flex
+        border-radius: 50%
+        text-align: center
+        //color: rgba(255,255,255,0)
+        color: #bbb
+        background: None
+        Border: none
+        @media (min-width: 30em)
+          margin: 0 0.2em
+          padding: 0 0.3em
+
+        img
+          height: 1.2em
+          width: auto
+          //height: auto
+          //margin: 0 1.5em
+          margin: auto
+          padding: 0
+          vertical-align: middle
+          //&:hover
+            background: White
+          @media (min-width: 30em)
+            //width: 1.6em
+
     .about-container
       @include span-columns(4)
       color: white
@@ -39,6 +90,9 @@
       font:
         weight: 200
         size: 125%
+      @media (min-width: 30em)
+        @include span-columns(3 of 4)
+        @include omega()
       //display: flex
       //flex-direction: column
       //height: auto
@@ -48,6 +102,7 @@
       //@media (min-width: 30em)
         //max-width: 85%
         //flex-grow: 2
+
 
       .JM-name
         @include fill-parent
@@ -84,54 +139,6 @@
         @media (min-width: 60em)
           width: 90%
           font-size: 160%
-
-      .connect
-        @include span-columns(4)
-        //border: 1px solid green
-        //@include fill-parent
-        max-width: 36em
-
-        //display: flex
-        //flex-wrap: wrap
-        //justify-content: space-around
-        padding: 1em 0 1.4em
-        margin: 0 auto
-        text-align: center
-        color: #f0f0f0
-
-        //Order: 2
-        @media (min-width: 36em)
-          max-width: 34em
-
-        .social-container
-          display: inline-block
-          //align-items: baseline
-          margin: 0 0.1em
-          padding: 0 0.1em
-          line-height: 2
-          //display: flex
-          border-radius: 50%
-          text-align: center
-          //color: rgba(255,255,255,0)
-          color: #bbb
-          background: None
-          Border: none
-          @media (min-width: 30em)
-            margin: 0 0.2em
-            padding: 0 0.3em
-
-          img
-            height: 1.2em
-            width: auto
-            //height: auto
-            //margin: 0 1.5em
-            margin: auto
-            padding: 0
-            vertical-align: middle
-            //&:hover
-              background: White
-            @media (min-width: 30em)
-              //width: 1.6em
 
       .about, .location
         @include fill-parent
