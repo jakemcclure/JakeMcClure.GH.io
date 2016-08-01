@@ -7,8 +7,6 @@ Collections:
     Output:  true
   reviews:
     Output:  true
-  videos:
-    Output:  true
   tutorials:
     Output:  true
 title:  Jake McClure .net

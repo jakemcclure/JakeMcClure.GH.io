@@ -1803,6 +1803,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/assets\/MDinfog\/heroin\/HeroinOD-Yr2Yr.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 121021,
+		"inputAbbreviatedPath": "\/_site\/assets\/MDinfog\/heroin\/HeroinOD-Yr2Yr.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/MDinfog\/heroin\/HeroinOD-Yr2Yr.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/assets\/MDinfog\/heroin\/ltblue-lines--narrow.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1920,6 +1931,28 @@
 		"initialSize": 185200,
 		"inputAbbreviatedPath": "\/_site\/assets\/MDinfog\/heroin\/prince-fentanyl@2x.png",
 		"outputAbbreviatedPath": "\/_site\/assets\/MDinfog\/heroin\/prince-fentanyl@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/MDinfog\/heroin\/recentOD-Yr2Yr.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 97893,
+		"inputAbbreviatedPath": "\/_site\/assets\/MDinfog\/heroin\/recentOD-Yr2Yr.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/MDinfog\/heroin\/recentOD-Yr2Yr.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/MDinfog\/heroin\/RxOD-Yr2Yr.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 118563,
+		"inputAbbreviatedPath": "\/_site\/assets\/MDinfog\/heroin\/RxOD-Yr2Yr.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/MDinfog\/heroin\/RxOD-Yr2Yr.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5646,6 +5679,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/MDinfog\/heroin\/HeroinOD-Yr2Yr.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 121021,
+		"inputAbbreviatedPath": "\/assets\/MDinfog\/heroin\/HeroinOD-Yr2Yr.png",
+		"outputAbbreviatedPath": "\/assets\/MDinfog\/heroin\/HeroinOD-Yr2Yr.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/MDinfog\/heroin\/ltblue-lines--narrow.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -5763,6 +5807,28 @@
 		"initialSize": 185200,
 		"inputAbbreviatedPath": "\/assets\/MDinfog\/heroin\/prince-fentanyl@2x.png",
 		"outputAbbreviatedPath": "\/assets\/MDinfog\/heroin\/prince-fentanyl@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/MDinfog\/heroin\/recentOD-Yr2Yr.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 97893,
+		"inputAbbreviatedPath": "\/assets\/MDinfog\/heroin\/recentOD-Yr2Yr.png",
+		"outputAbbreviatedPath": "\/assets\/MDinfog\/heroin\/recentOD-Yr2Yr.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/MDinfog\/heroin\/RxOD-Yr2Yr.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 118563,
+		"inputAbbreviatedPath": "\/assets\/MDinfog\/heroin\/RxOD-Yr2Yr.png",
+		"outputAbbreviatedPath": "\/assets\/MDinfog\/heroin\/RxOD-Yr2Yr.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
