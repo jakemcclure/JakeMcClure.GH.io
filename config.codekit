@@ -5701,6 +5701,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/MDinfog\/heroin\/OD-and-Yr2Yr.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 177549,
+		"inputAbbreviatedPath": "\/assets\/MDinfog\/heroin\/OD-and-Yr2Yr.png",
+		"outputAbbreviatedPath": "\/assets\/MDinfog\/heroin\/OD-and-Yr2Yr.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/MDinfog\/heroin\/opiates-vs-heroin--2000-14@0.5x.png": {
 		"fileType": 32768,
 		"ignore": 0,
