@@ -713,15 +713,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/_site\/assets\/css\/main.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/assets\/css\/main.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/assets\/css\/main.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1821,6 +1812,17 @@
 		"initialSize": 513,
 		"inputAbbreviatedPath": "\/_site\/assets\/MDinfog\/heroin\/ltblue-lines--narrow.png",
 		"outputAbbreviatedPath": "\/_site\/assets\/MDinfog\/heroin\/ltblue-lines--narrow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/MDinfog\/heroin\/OD-and-Yr2Yr.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 177549,
+		"inputAbbreviatedPath": "\/_site\/assets\/MDinfog\/heroin\/OD-and-Yr2Yr.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/MDinfog\/heroin\/OD-and-Yr2Yr.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
