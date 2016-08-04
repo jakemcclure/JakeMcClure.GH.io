@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* Regular */
-@import url(https://fonts.googleapis.com/css?family=Lato:100,300,300italic,400,400italic,700,900|Montserrat:400,700|Lora:400,400italic|Libre+Baskerville:400,400italic,700|Libre+Franklin:300,400,600|Merriwether:300,300italic,400|News+Cycle:400,700|Open+Sans:300,300italic,400,400italic,700,800|Playfair+Display+SC:400,700,900|Playfair+Display:400,900,700|Pontano+Sans|PT+sans|Roboto:100,300,400|Quattrocento+Sans:400|source+sans+pro:100,200,300,300italic,400,600);
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,300italic,400,400italic,700,900|Montserrat:400,700|Libre+Baskerville:400,400italic,700|Libre+Franklin:300,400,600|Merriwether:300,300italic,400|News+Cycle:400,700|Open+Sans:300,300italic,400,400italic,700,800|Playfair+Display+SC:400,700,900|Playfair+Display:400,900,700|Pontano+Sans|PT+sans|Roboto:100,300,400|Quattrocento+Sans:400|source+sans+pro:100,200,300,300italic,400,600);
 @font-face {
   font-family: "League Gothic";
   src: url("leaguegothic-regular-webfont.eot");
@@ -2292,7 +2292,6 @@ h3.section-header {
   #manifesto .header-excerpt {
     width: 80%;
     font-size: 75%;
-    font-weight: 200;
     line-height: 1.2;
     color: #999;
     padding-top: 0;
@@ -2302,7 +2301,6 @@ h3.section-header {
     margin-left: 1em;
     padding: 0.8em 0 0.4em;
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Geneva", "Verdana", sans-serif;
-    font-weight: 200;
     font-size: 120%; }
   #manifesto h2 {
     text-align: center;
@@ -2317,7 +2315,7 @@ h3.section-header {
     text-align: left;
     line-height: 1.2;
     font-size: 95%;
-    font-family: "Lucida Bright", "Garamond", "Hoefler Text", "Baskerville", "Georgia", "Times New Roman", serif;
+    font-family: "News Cycle", "Lucida Grande", "Lucida Sans", "Lato", "Roboto", "Open Sans", "Geneva", "Verdana", sans-serif;
     font-weight: 200;
     color: #131B17; }
   #manifesto, #manifesto a, #manifesto li, #manifesto ul {
