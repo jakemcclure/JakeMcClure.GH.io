@@ -1,5 +1,5 @@
 markdown:  kramdown
-url:  "http://www.jakemcclure.net"
+url:  "http://jakemcclure.net"
 baseurl:  ""
 exclude:  ["node_modules", "gulpfile.js", "package.json", "preview.jpg", "README.md"]
 Collections:
@@ -15,7 +15,7 @@ description:  A millennial physician's commentary on the intersection of healthc
 permalink:  pretty
 show_drafts:  false
 
-email:  DJakeMcClureMD@gmail.com
+email:  DJakeMcClureMD+site@gmail.com
 twitter_username:  Jake_McClure
 github_username:  JakeMcClure
 
