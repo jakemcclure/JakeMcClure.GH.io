@@ -2337,10 +2337,10 @@ h3.section-header {
     color: #999;
     padding-top: 0;
     margin: 0 auto; }
-  #manifesto h2, #manifesto h3, #manifesto h4, #manifesto h5, #manifesto .vertical-tab-content-container a {
+  #manifesto h2, #manifesto h3, #manifesto h4, #manifesto h5 {
     text-align: left;
     margin-left: 1em;
-    padding: 0.8em 0 0.4em;
+    padding: 0.4em 0 0.2em;
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Geneva", "Verdana", sans-serif;
     font-size: 120%; }
   #manifesto h2 {
@@ -2359,9 +2359,13 @@ h3.section-header {
     font-family: "News Cycle", "Lucida Grande", "Lucida Sans", "Lato", "Roboto", "Open Sans", "Geneva", "Verdana", sans-serif;
     font-weight: 200;
     color: #131B17; }
-  #manifesto, #manifesto a, #manifesto li, #manifesto ul {
+  #manifesto a, #manifesto li, #manifesto ul {
     border-color: initial;
     border-style: initial; }
+  #manifesto .vertical-tab-content-container a {
+    padding: 0.1em;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Geneva", "Verdana", sans-serif;
+    font-size: 95%; }
 
 #quotes {
   background: #464646;
