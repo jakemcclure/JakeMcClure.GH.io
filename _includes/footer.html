@@ -1,44 +1,45 @@
-<footer class="site-footer white tint-reversed">
-  <!--div class="wrapper link-list text-center">
-    <div class="link-list text-center"-->
-      <div><div><p>designed &amp; developed from scratch by JM</p>
-      <p>© 2016 • <a href="{{site.baseurl}}/index.html">Jake McClure.net</a></p>
-    </div>
-  </div>
-</footer>
-<!--      li: a(href="http://jakemcclure.net/notes") Notes-->
-<!--      li.rss-subscribe a(href="{{ "/feed.xml" | prepend: site.baseurl }}") subscribe via RSS-->
-<!--
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
+<!--<div class="wrapper-for-content-outside-of-footer">
+   Uncomment this whole section for a sticky footer. The content of the page should be inside of this .wrapper-for-content-outside-of-footer
+</div>-->
 
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
+<footer id="footer" class="footer-2" role="contentinfo">
+  <div class="footer-logo">
+    <img src="{{site.baseurl}}/assets/svg/JM-bulb-border.svg" alt="Logo image">
 
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
-    </div>
-
+    <ul class="footer-copyright">
+      <li>self-designed &amp; self-developed</li>
+      <li>© 2016 • <a href="{{site.baseurl}}/index.html">Jake McClure.net</a></li>
+    </ul>
   </div>
 
-</footer>
--->
+  <!--p>{{ site.description }}</p-->
+
+  <!--ul class="footer-info">
+    <li><a href="javascript:void(0)">About</a></li>
+    <li><a href="mailto:{{ site.email }}">Email</a></li>
+    <li><a href="javascript:void(0)">Products</a></li>
+  </ul-->
+
+  <div class="footer-secondary-links">
+    <ul class="footer-social">
+      <!--li><a href="javascript:void(0)">
+        <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/facebook-logo-circle.png" alt="Facebook"></a>
+      </li-->
+
+      {% if site.twitter_username %}
+      <li>{% include icon-twitter.html username=site.twitter_username %}
+        </li>
+        {% endif %}
+
+      <li><a href="https://www.youtube.com/channel/UC6yHs_AREfWOMhR3Qixf2aA">
+        <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/youtube-logo-circle.png" alt="YouTube"></a>
+        </li>
+
+      {% if site.github_username %}
+      <li>{% include icon-github.html username=site.github_username %}
+        </li>
+        {% endif %}
+        
+      </ul>
+    </div>
+  </footer>
