@@ -2069,7 +2069,7 @@ article.type-system-sans {
     content: "";
     display: block; }
 
-h3.section-header, .section-footer, .post-date, .post-category, .post-duration {
+header.section-header, .section-footer, .post-date, .post-category, .post-duration {
   margin: 0 auto;
   font-family: "open sans", "lato", "Montserrat", sans-serif;
   font-weight: 900;
@@ -2079,12 +2079,12 @@ h3.section-header, .section-footer, .post-date, .post-category, .post-duration {
   text-transform: uppercase;
   color: #A69F7D; }
 
-h3.section-header {
+header.section-header {
   width: 70%;
   margin: 1em auto 0;
   padding: 3em 0 1em;
   letter-spacing: 0.15em; }
-  h3.section-header span {
+  header.section-header span {
     color: #ed703b;
     font-size: 1em;
     margin-left: 0.3em;
@@ -2503,14 +2503,11 @@ h3.section-header {
     text-align: left;
     padding: inherit; }
   .footer-2 span svg {
-    height: 1.6em;
-    padding: 1px; }
-    .footer-2 span svg path {
-      fill: rgba(255, 255, 255, 0.4); }
+    height: 2em;
+    opacity: 0.5;
+    padding: 0.2em, 0.4em; }
     .footer-2 span svg:focus, .footer-2 span svg:hover {
       opacity: 1; }
-      .footer-2 span svg:focus path, .footer-2 span svg:hover path {
-        fill: rgba(255, 255, 255, 0.8); }
   .footer-2 .footer-logo {
     margin-bottom: 1em;
     margin-right: 1em;

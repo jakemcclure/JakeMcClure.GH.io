@@ -3,47 +3,46 @@ layout: default
 ---
 <section id="posts" class="posts-container outer-container">
   <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-    <div class="post-meta">
-      <span class="post-date">
-        <!--<i class="material-icons md-dark-inactive md-16">insert_invitation</i>-->
-        {{ page.date | date: "%Y %b %d" }}
-      </span>
-      <span class="post-category"> {{ page.category }}</span>
-      <span class="post-duration">
-        {% assign words = content | number_of_words %}
-        {% if words < 400 %}1 min
-        {% else %}
-          {{ words | divided _by: 200 }}mins
-        {% endif %}
-      </span>
-      <a class="permalink" href="{{ page.url | prepend: site.baseurl }}">permalink</a>
-    </div>
+
     <div class="post-header">
       <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
       <h2 class="post-subtitle" itemprop="name headline">{{ page.subtitle }}</h2>
       <div class="post-excerpt">{{ page.excerpt }}
-    </div>
+      </div>
+
+    <div class="post-meta">
+      <!--<i class="material-icons md-dark-inactive md-16">insert_invitation</i>-->
+      <time class="meta post-date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%Y %b %d" }} • {{ page.date | date_to_string }}</time>
+      <span class="meta post-category"> {{ page.category }}</span>
+      <span class="meta post-duration">
+        {% assign words = content | number_of_words %}
+        {% if words < 200 %}1 min
+        {% else %}
+          {{ words | divided _by: 200 }}mins
+        {% endif %}</span>
+      <a class="permalink" href="{{ page.url | prepend: site.baseurl }}">permalink</a>
+      </div>
 
     <img class="post-thumbnail" src="{{ post.thumbnail | prepend: site.baseurl }}" />
 
     <div class="post-tldr-wrapper">
       </div>
-      <!--<p>
-      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %d %Y" }}</time>
-      </p>-->
 
     <div class="blog-content" itemprop="articleBody">
       {{ content }}
       </div>
 
     <div class="section-footer thoughts">
-      <div class="share-toolbox thoughts"></div>
+      <div class="share-toolbox thoughts">SHARE WITH 1
+        <span class="share-toolbox sms"><a href="sms:&body=
+          {{ page.title }}:%20{{ page.url | prepend: site.baseurl }}">text</a>
+        <a href="https://twitter.com/intent/tweet?original_referer={{ page.url | prepend: site.baseurl }}&text={{ page.title }}&tw_p=tweetbutton&url={{ page.url | prepend: site.baseurl }}">tweet</a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.baseurl }}">facebook</a>
+      </span>
+      </div>
       <div class="section-footer-archive thoughts">
-        <span class="thoughts-archive">other archived <a href="{{ "/thoughts.html" | prepend: site.baseurl }}">thoughts </a>
-          </span>
-        &bull;
-        <span class="rss-subscribe thoughts"> subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></span>
-        </div>
-        <div>
+        <span class="thoughts-archive"><a href="{{ "/blog/index.html" | prepend: site.baseurl }}">archives</a></span> &bull; <!--span class="rss-subscribe thoughts"> subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></span-->
+      </div>
+      </div>
   </article>
 </section>

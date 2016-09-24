@@ -1,2 +1,2 @@
 # JakeMcClure.github.io
-a millennial physician's perspective
+A millennial physician's commentary on the intersection of healthcare's potential for innovation and the systematic friction blocking its path.

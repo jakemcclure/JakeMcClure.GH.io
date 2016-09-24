@@ -1,7 +1,7 @@
 markdown:  kramdown
 url:  "http://jakemcclure.net"
 baseurl:  ""
-exclude:  ["node_modules", "gulpfile.js", "package.json", "preview.jpg", "README.md"]
+exclude:  ["node_modules", "gulpfile.js", "package.json", "preview.jpg"]
 Collections:
   infographics:
     Output:  true
@@ -10,14 +10,21 @@ Collections:
   tutorials:
     Output:  true
 title:  Jake McClure .net
-description:  A millennial physician's commentary on the intersection of healthcare's potential for innovation and the systematic friction blocking its path.
+description:  one physician's perspective on our leverage of technology in healthcare
 
 permalink:  pretty
 show_drafts:  false
 
 email:  DJakeMcClureMD+site@gmail.com
+email_username:  DJakeMcClureMD+site@gmail.com
 twitter_username:  Jake_McClure
 github_username:  JakeMcClure
+instagram_username:  _JakeMcClure
+youtube_username:  UC6yHs_AREfWOMhR3Qixf2aA
+linkedin_username:  mcclurejake
+medium_username:  JakeMcClure
+nuzzel_username:  Jake_McClure
+
 
 # destination:  _deploy
 
