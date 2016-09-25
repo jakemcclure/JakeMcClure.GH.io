@@ -2057,6 +2057,11 @@ article.type-system-sans {
         border-top-right-radius: 0.25em;
         float: left; } }
 
+.twitter-pins {
+  margin: 0 auto; }
+  .twitter-pins blockquote {
+    padding: 2em auto; }
+
 .twitter-follow a {
   padding: 2.5em auto 1em; }
 
@@ -2119,7 +2124,8 @@ header.section-header {
     padding: 0 0.6em; }
 
 #hero, #posts, #quotes, #infographics {
-  max-width: 52em; }
+  max-width: 52em;
+  padding-bottom: 3em; }
   #hero li, #posts li, #quotes li, #infographics li {
     margin: 0 auto;
     padding: 0 0.1em 1.4em; }
@@ -2457,7 +2463,7 @@ header.section-header {
           letter-spacing: 0.06em;
           text-transform: uppercase; }
           #hero .content-wrapper .about-container .location p img {
-            height: 1.5em;
+            height: 1.2em;
             width: auto;
             margin-right: 0.5em;
             padding: 0;
