@@ -3,7 +3,7 @@
   <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="google-site-verification" content="bWdiUpX7hLZblwKnHcJ7weQCibsIDPqnQ-4g1pQKO9M" />
   <meta name="twitter:card" content="summary">
   <!--meta name="twitter:card" content="summary_large_image"-->
@@ -58,6 +58,23 @@ Vanderbilt | M.D.</p>
 
 <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
 
 <script type="text/javascript" src="//cdn.rawgit.com/icons8/bower-webicon/v0.10.7/jquery-webicon.min.js"></script>
 
@@ -134,10 +151,16 @@ Vanderbilt | M.D.</p>
       
       <li><a href="mailto:DJakeMcClureMD+site@gmail.com"><span class="icon icon--email"><svg viewBox="0 0 50 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs></defs>
-    <g id="email" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-      <rect id="email" fill="#828282" x="0" y="0" width="50" height="35" rx="3"></rect>
-      <path d="M4.5,4.5 L25,13.5" id="envelope-left" stroke="#C3C3C3" stroke-linecap="round" stroke-linejoin="round"></path>
-      <path d="M25,4.5 L45.5,13.5" id="envelope-right" stroke="#C3C3C3" stroke-linecap="round" stroke-linejoin="round" transform="translate(35.250000, 9.000000) scale(-1, 1) translate(-35.250000, -9.000000) "></path>
+    <g id="svgs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SVGs" transform="translate(-15.000000, -160.000000)">
+            <g id="email-lightgray" transform="translate(15.000000, 160.000000)">
+                <rect id="Rectangle-29" fill="#C6C6C6" x="0" y="0" width="50" height="35" rx="2"></rect>
+                <g id="envelope" transform="translate(4.000000, 4.000000)" stroke="#828282" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M0.5,0.5 L21,9.5" id="Line"></path>
+                    <path d="M21,0.5 L41.5,9.5" id="Line-Copy" transform="translate(31.250000, 5.000000) scale(-1, 1) translate(-31.250000, -5.000000) "></path>
+                </g>
+            </g>
+        </g>
     </g>
 </svg>
 </span>

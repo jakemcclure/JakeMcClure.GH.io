@@ -219,6 +219,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_includes\/_twitter-feed-HITux.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/_twitter-feed-HITux.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_includes\/_twitter-feed-jm.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/_twitter-feed-jm.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_includes\/header.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -891,35 +909,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/assets\/graphics\/antibiotics-MOA.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 182966,
-		"inputAbbreviatedPath": "\/_site\/assets\/graphics\/antibiotics-MOA.jpg",
-		"outputAbbreviatedPath": "\/_site\/assets\/graphics\/antibiotics-MOA.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/graphics\/antibiotics-MOA.png": {
+	"\/_site\/assets\/graphics\/cancer\/cancer-all.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 942885,
-		"inputAbbreviatedPath": "\/_site\/assets\/graphics\/antibiotics-MOA.png",
-		"outputAbbreviatedPath": "\/_site\/assets\/graphics\/antibiotics-MOA.png",
+		"initialSize": 550385,
+		"inputAbbreviatedPath": "\/_site\/assets\/graphics\/cancer\/cancer-all.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/graphics\/cancer\/cancer-all.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/assets\/graphics\/APAP NSAID MOA.jpg": {
-		"fileType": 16384,
+	"\/_site\/assets\/graphics\/cancer\/cancer-difficult.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 61506,
-		"inputAbbreviatedPath": "\/_site\/assets\/graphics\/APAP NSAID MOA.jpg",
-		"outputAbbreviatedPath": "\/_site\/assets\/graphics\/APAP NSAID MOA.jpg",
+		"initialSize": 463533,
+		"inputAbbreviatedPath": "\/_site\/assets\/graphics\/cancer\/cancer-difficult.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/graphics\/cancer\/cancer-difficult.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -961,7 +968,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 49152,
+		"initialSize": 7.30336e+06,
 		"inputAbbreviatedPath": "\/_site\/assets\/graphics\/data storage\/Data storage thru the years 4.JPG",
 		"outputAbbreviatedPath": "\/_site\/assets\/graphics\/data storage\/Data storage thru the years 4.JPG",
 		"outputPathIsOutsideProject": 0,
@@ -1023,156 +1030,68 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/assets\/graphics\/heroin\/crackdown\/opiates-vs-heroin--2000-14@0.5x.png": {
-		"fileType": 32768,
+	"\/_site\/assets\/graphics\/desert-journey--desat.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 86367,
-		"inputAbbreviatedPath": "\/_site\/assets\/graphics\/heroin\/crackdown\/opiates-vs-heroin--2000-14@0.5x.png",
-		"outputAbbreviatedPath": "\/_site\/assets\/graphics\/heroin\/crackdown\/opiates-vs-heroin--2000-14@0.5x.png",
+		"initialSize": 579711,
+		"inputAbbreviatedPath": "\/_site\/assets\/graphics\/desert-journey--desat.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/graphics\/desert-journey--desat.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/assets\/graphics\/heroin\/crackdown\/opiates-vs-heroin--2000-14@1x.png": {
-		"fileType": 32768,
+	"\/_site\/assets\/graphics\/different-goldfish.JPG": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 220583,
-		"inputAbbreviatedPath": "\/_site\/assets\/graphics\/heroin\/crackdown\/opiates-vs-heroin--2000-14@1x.png",
-		"outputAbbreviatedPath": "\/_site\/assets\/graphics\/heroin\/crackdown\/opiates-vs-heroin--2000-14@1x.png",
+		"initialSize": 1.01399e+06,
+		"inputAbbreviatedPath": "\/_site\/assets\/graphics\/different-goldfish.JPG",
+		"outputAbbreviatedPath": "\/_site\/assets\/graphics\/different-goldfish.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/assets\/graphics\/heroin\/crackdown\/opiates-vs-heroin--2000-14@2x.png": {
-		"fileType": 32768,
+	"\/_site\/assets\/graphics\/infectious-disease\/antibiotics-MOA.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 573132,
-		"inputAbbreviatedPath": "\/_site\/assets\/graphics\/heroin\/crackdown\/opiates-vs-heroin--2000-14@2x.png",
-		"outputAbbreviatedPath": "\/_site\/assets\/graphics\/heroin\/crackdown\/opiates-vs-heroin--2000-14@2x.png",
+		"initialSize": 182966,
+		"inputAbbreviatedPath": "\/_site\/assets\/graphics\/infectious-disease\/antibiotics-MOA.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/graphics\/infectious-disease\/antibiotics-MOA.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/assets\/graphics\/heroin\/crackdown\/post-crackdown-ALL.png": {
+	"\/_site\/assets\/graphics\/infectious-disease\/antibiotics-MOA.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 240069,
-		"inputAbbreviatedPath": "\/_site\/assets\/graphics\/heroin\/crackdown\/post-crackdown-ALL.png",
-		"outputAbbreviatedPath": "\/_site\/assets\/graphics\/heroin\/crackdown\/post-crackdown-ALL.png",
+		"initialSize": 942885,
+		"inputAbbreviatedPath": "\/_site\/assets\/graphics\/infectious-disease\/antibiotics-MOA.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/graphics\/infectious-disease\/antibiotics-MOA.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/assets\/graphics\/heroin\/crackdown\/post-crackdown-ALL@0.5x.png": {
+	"\/_site\/assets\/graphics\/infectious-disease\/zika-spread.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 97147,
-		"inputAbbreviatedPath": "\/_site\/assets\/graphics\/heroin\/crackdown\/post-crackdown-ALL@0.5x.png",
-		"outputAbbreviatedPath": "\/_site\/assets\/graphics\/heroin\/crackdown\/post-crackdown-ALL@0.5x.png",
+		"initialSize": 112577,
+		"inputAbbreviatedPath": "\/_site\/assets\/graphics\/infectious-disease\/zika-spread.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/graphics\/infectious-disease\/zika-spread.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/assets\/graphics\/heroin\/crackdown\/post-crackdown-ALL@2x.png": {
+	"\/_site\/assets\/graphics\/jm-EBM\/ForteoFTW.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 618541,
-		"inputAbbreviatedPath": "\/_site\/assets\/graphics\/heroin\/crackdown\/post-crackdown-ALL@2x.png",
-		"outputAbbreviatedPath": "\/_site\/assets\/graphics\/heroin\/crackdown\/post-crackdown-ALL@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/graphics\/heroin\/fentanyl-godzilla.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 268298,
-		"inputAbbreviatedPath": "\/_site\/assets\/graphics\/heroin\/fentanyl-godzilla.png",
-		"outputAbbreviatedPath": "\/_site\/assets\/graphics\/heroin\/fentanyl-godzilla.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/graphics\/heroin\/fentanyl-godzilla@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 724867,
-		"inputAbbreviatedPath": "\/_site\/assets\/graphics\/heroin\/fentanyl-godzilla@2x.png",
-		"outputAbbreviatedPath": "\/_site\/assets\/graphics\/heroin\/fentanyl-godzilla@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/graphics\/heroin\/fentanyl-godzilla@3x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.33382e+06,
-		"inputAbbreviatedPath": "\/_site\/assets\/graphics\/heroin\/fentanyl-godzilla@3x.png",
-		"outputAbbreviatedPath": "\/_site\/assets\/graphics\/heroin\/fentanyl-godzilla@3x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/graphics\/heroin\/heroin--2009-14.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 682743,
-		"inputAbbreviatedPath": "\/_site\/assets\/graphics\/heroin\/heroin--2009-14.png",
-		"outputAbbreviatedPath": "\/_site\/assets\/graphics\/heroin\/heroin--2009-14.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/graphics\/heroin\/heroin--2009-14@0.5x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 216601,
-		"inputAbbreviatedPath": "\/_site\/assets\/graphics\/heroin\/heroin--2009-14@0.5x.png",
-		"outputAbbreviatedPath": "\/_site\/assets\/graphics\/heroin\/heroin--2009-14@0.5x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/graphics\/heroin\/heroin--2009-14@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.9716e+06,
-		"inputAbbreviatedPath": "\/_site\/assets\/graphics\/heroin\/heroin--2009-14@2x.png",
-		"outputAbbreviatedPath": "\/_site\/assets\/graphics\/heroin\/heroin--2009-14@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/graphics\/heroin\/heroin-proj-980x980.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 134539,
-		"inputAbbreviatedPath": "\/_site\/assets\/graphics\/heroin\/heroin-proj-980x980.png",
-		"outputAbbreviatedPath": "\/_site\/assets\/graphics\/heroin\/heroin-proj-980x980.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/graphics\/heroin\/source-of-Rx-infog.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/_site\/assets\/graphics\/heroin\/source-of-Rx-infog.png",
-		"outputAbbreviatedPath": "\/_site\/assets\/graphics\/heroin\/source-of-Rx-infog.png",
+		"initialSize": 265725,
+		"inputAbbreviatedPath": "\/_site\/assets\/graphics\/jm-EBM\/ForteoFTW.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/graphics\/jm-EBM\/ForteoFTW.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1193,6 +1112,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/blog\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/cv\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/cv\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -3264,6 +3192,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/assets\/css\/3-modules\/social-media\/_twitter.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/3-modules\/social-media\/_twitter.sass",
+		"outputAbbreviatedPath": "\/assets\/css\/3-modules\/social-media\/_twitter.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/assets\/css\/4-pages\/_page-blog.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -3522,35 +3466,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/assets\/graphics\/antibiotics-MOA.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 182966,
-		"inputAbbreviatedPath": "\/assets\/graphics\/antibiotics-MOA.jpg",
-		"outputAbbreviatedPath": "\/assets\/graphics\/antibiotics-MOA.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/graphics\/antibiotics-MOA.png": {
+	"\/assets\/graphics\/cancer\/cancer-all.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 942885,
-		"inputAbbreviatedPath": "\/assets\/graphics\/antibiotics-MOA.png",
-		"outputAbbreviatedPath": "\/assets\/graphics\/antibiotics-MOA.png",
+		"initialSize": 550385,
+		"inputAbbreviatedPath": "\/assets\/graphics\/cancer\/cancer-all.png",
+		"outputAbbreviatedPath": "\/assets\/graphics\/cancer\/cancer-all.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/graphics\/APAP NSAID MOA.jpg": {
-		"fileType": 16384,
+	"\/assets\/graphics\/cancer\/cancer-difficult.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 61506,
-		"inputAbbreviatedPath": "\/assets\/graphics\/APAP NSAID MOA.jpg",
-		"outputAbbreviatedPath": "\/assets\/graphics\/APAP NSAID MOA.jpg",
+		"initialSize": 463533,
+		"inputAbbreviatedPath": "\/assets\/graphics\/cancer\/cancer-difficult.png",
+		"outputAbbreviatedPath": "\/assets\/graphics\/cancer\/cancer-difficult.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3654,200 +3587,277 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/graphics\/heroin\/crackdown\/opiates-vs-heroin--2000-14@0.5x.png": {
+	"\/assets\/graphics\/desert-journey--desat.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 579711,
+		"inputAbbreviatedPath": "\/assets\/graphics\/desert-journey--desat.jpg",
+		"outputAbbreviatedPath": "\/assets\/graphics\/desert-journey--desat.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/graphics\/different-goldfish.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.01399e+06,
+		"inputAbbreviatedPath": "\/assets\/graphics\/different-goldfish.JPG",
+		"outputAbbreviatedPath": "\/assets\/graphics\/different-goldfish.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/graphics\/infectious-disease\/antibiotics-MOA.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 182966,
+		"inputAbbreviatedPath": "\/assets\/graphics\/infectious-disease\/antibiotics-MOA.jpg",
+		"outputAbbreviatedPath": "\/assets\/graphics\/infectious-disease\/antibiotics-MOA.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/graphics\/infectious-disease\/antibiotics-MOA.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 942885,
+		"inputAbbreviatedPath": "\/assets\/graphics\/infectious-disease\/antibiotics-MOA.png",
+		"outputAbbreviatedPath": "\/assets\/graphics\/infectious-disease\/antibiotics-MOA.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/graphics\/infectious-disease\/zika-spread.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 112577,
+		"inputAbbreviatedPath": "\/assets\/graphics\/infectious-disease\/zika-spread.png",
+		"outputAbbreviatedPath": "\/assets\/graphics\/infectious-disease\/zika-spread.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/graphics\/jm-EBM\/ForteoFTW.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 265725,
+		"inputAbbreviatedPath": "\/assets\/graphics\/jm-EBM\/ForteoFTW.png",
+		"outputAbbreviatedPath": "\/assets\/graphics\/jm-EBM\/ForteoFTW.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/graphics\/jm-opioids\/crackdown\/opiates-vs-heroin--2000-14@0.5x.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 86367,
-		"inputAbbreviatedPath": "\/assets\/graphics\/heroin\/crackdown\/opiates-vs-heroin--2000-14@0.5x.png",
-		"outputAbbreviatedPath": "\/assets\/graphics\/heroin\/crackdown\/opiates-vs-heroin--2000-14@0.5x.png",
+		"inputAbbreviatedPath": "\/assets\/graphics\/jm-opioids\/crackdown\/opiates-vs-heroin--2000-14@0.5x.png",
+		"outputAbbreviatedPath": "\/assets\/graphics\/jm-opioids\/crackdown\/opiates-vs-heroin--2000-14@0.5x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/graphics\/heroin\/crackdown\/opiates-vs-heroin--2000-14@1x.png": {
+	"\/assets\/graphics\/jm-opioids\/crackdown\/opiates-vs-heroin--2000-14@1x.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 220583,
-		"inputAbbreviatedPath": "\/assets\/graphics\/heroin\/crackdown\/opiates-vs-heroin--2000-14@1x.png",
-		"outputAbbreviatedPath": "\/assets\/graphics\/heroin\/crackdown\/opiates-vs-heroin--2000-14@1x.png",
+		"inputAbbreviatedPath": "\/assets\/graphics\/jm-opioids\/crackdown\/opiates-vs-heroin--2000-14@1x.png",
+		"outputAbbreviatedPath": "\/assets\/graphics\/jm-opioids\/crackdown\/opiates-vs-heroin--2000-14@1x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/graphics\/heroin\/crackdown\/opiates-vs-heroin--2000-14@2x.png": {
+	"\/assets\/graphics\/jm-opioids\/crackdown\/opiates-vs-heroin--2000-14@2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 573132,
-		"inputAbbreviatedPath": "\/assets\/graphics\/heroin\/crackdown\/opiates-vs-heroin--2000-14@2x.png",
-		"outputAbbreviatedPath": "\/assets\/graphics\/heroin\/crackdown\/opiates-vs-heroin--2000-14@2x.png",
+		"inputAbbreviatedPath": "\/assets\/graphics\/jm-opioids\/crackdown\/opiates-vs-heroin--2000-14@2x.png",
+		"outputAbbreviatedPath": "\/assets\/graphics\/jm-opioids\/crackdown\/opiates-vs-heroin--2000-14@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/graphics\/heroin\/crackdown\/post-crackdown-ALL.png": {
+	"\/assets\/graphics\/jm-opioids\/crackdown\/post-crackdown-ALL.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 240069,
-		"inputAbbreviatedPath": "\/assets\/graphics\/heroin\/crackdown\/post-crackdown-ALL.png",
-		"outputAbbreviatedPath": "\/assets\/graphics\/heroin\/crackdown\/post-crackdown-ALL.png",
+		"inputAbbreviatedPath": "\/assets\/graphics\/jm-opioids\/crackdown\/post-crackdown-ALL.png",
+		"outputAbbreviatedPath": "\/assets\/graphics\/jm-opioids\/crackdown\/post-crackdown-ALL.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/graphics\/heroin\/crackdown\/post-crackdown-ALL@0.5x.png": {
+	"\/assets\/graphics\/jm-opioids\/crackdown\/post-crackdown-ALL@0.5x.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 97147,
-		"inputAbbreviatedPath": "\/assets\/graphics\/heroin\/crackdown\/post-crackdown-ALL@0.5x.png",
-		"outputAbbreviatedPath": "\/assets\/graphics\/heroin\/crackdown\/post-crackdown-ALL@0.5x.png",
+		"inputAbbreviatedPath": "\/assets\/graphics\/jm-opioids\/crackdown\/post-crackdown-ALL@0.5x.png",
+		"outputAbbreviatedPath": "\/assets\/graphics\/jm-opioids\/crackdown\/post-crackdown-ALL@0.5x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/graphics\/heroin\/crackdown\/post-crackdown-ALL@2x.png": {
+	"\/assets\/graphics\/jm-opioids\/crackdown\/post-crackdown-ALL@2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 618541,
-		"inputAbbreviatedPath": "\/assets\/graphics\/heroin\/crackdown\/post-crackdown-ALL@2x.png",
-		"outputAbbreviatedPath": "\/assets\/graphics\/heroin\/crackdown\/post-crackdown-ALL@2x.png",
+		"inputAbbreviatedPath": "\/assets\/graphics\/jm-opioids\/crackdown\/post-crackdown-ALL@2x.png",
+		"outputAbbreviatedPath": "\/assets\/graphics\/jm-opioids\/crackdown\/post-crackdown-ALL@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/graphics\/heroin\/fentanyl-godzilla.png": {
+	"\/assets\/graphics\/jm-opioids\/fentanyl-godzilla.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 268298,
-		"inputAbbreviatedPath": "\/assets\/graphics\/heroin\/fentanyl-godzilla.png",
-		"outputAbbreviatedPath": "\/assets\/graphics\/heroin\/fentanyl-godzilla.png",
+		"inputAbbreviatedPath": "\/assets\/graphics\/jm-opioids\/fentanyl-godzilla.png",
+		"outputAbbreviatedPath": "\/assets\/graphics\/jm-opioids\/fentanyl-godzilla.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/graphics\/heroin\/fentanyl-godzilla@2x.png": {
+	"\/assets\/graphics\/jm-opioids\/fentanyl-godzilla@2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 724867,
-		"inputAbbreviatedPath": "\/assets\/graphics\/heroin\/fentanyl-godzilla@2x.png",
-		"outputAbbreviatedPath": "\/assets\/graphics\/heroin\/fentanyl-godzilla@2x.png",
+		"inputAbbreviatedPath": "\/assets\/graphics\/jm-opioids\/fentanyl-godzilla@2x.png",
+		"outputAbbreviatedPath": "\/assets\/graphics\/jm-opioids\/fentanyl-godzilla@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/graphics\/heroin\/fentanyl-godzilla@3x.png": {
+	"\/assets\/graphics\/jm-opioids\/fentanyl-godzilla@3x.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1.33382e+06,
-		"inputAbbreviatedPath": "\/assets\/graphics\/heroin\/fentanyl-godzilla@3x.png",
-		"outputAbbreviatedPath": "\/assets\/graphics\/heroin\/fentanyl-godzilla@3x.png",
+		"inputAbbreviatedPath": "\/assets\/graphics\/jm-opioids\/fentanyl-godzilla@3x.png",
+		"outputAbbreviatedPath": "\/assets\/graphics\/jm-opioids\/fentanyl-godzilla@3x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/graphics\/heroin\/heroin--2009-14.png": {
+	"\/assets\/graphics\/jm-opioids\/heroin--2009-14.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 682743,
-		"inputAbbreviatedPath": "\/assets\/graphics\/heroin\/heroin--2009-14.png",
-		"outputAbbreviatedPath": "\/assets\/graphics\/heroin\/heroin--2009-14.png",
+		"inputAbbreviatedPath": "\/assets\/graphics\/jm-opioids\/heroin--2009-14.png",
+		"outputAbbreviatedPath": "\/assets\/graphics\/jm-opioids\/heroin--2009-14.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/graphics\/heroin\/heroin--2009-14@0.5x.png": {
+	"\/assets\/graphics\/jm-opioids\/heroin--2009-14@0.5x.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 216601,
-		"inputAbbreviatedPath": "\/assets\/graphics\/heroin\/heroin--2009-14@0.5x.png",
-		"outputAbbreviatedPath": "\/assets\/graphics\/heroin\/heroin--2009-14@0.5x.png",
+		"inputAbbreviatedPath": "\/assets\/graphics\/jm-opioids\/heroin--2009-14@0.5x.png",
+		"outputAbbreviatedPath": "\/assets\/graphics\/jm-opioids\/heroin--2009-14@0.5x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/graphics\/heroin\/heroin--2009-14@2x.png": {
+	"\/assets\/graphics\/jm-opioids\/heroin--2009-14@2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1.9716e+06,
-		"inputAbbreviatedPath": "\/assets\/graphics\/heroin\/heroin--2009-14@2x.png",
-		"outputAbbreviatedPath": "\/assets\/graphics\/heroin\/heroin--2009-14@2x.png",
+		"inputAbbreviatedPath": "\/assets\/graphics\/jm-opioids\/heroin--2009-14@2x.png",
+		"outputAbbreviatedPath": "\/assets\/graphics\/jm-opioids\/heroin--2009-14@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/graphics\/heroin\/heroin-proj-980x980.png": {
+	"\/assets\/graphics\/jm-opioids\/heroin-proj-980x980.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 134539,
-		"inputAbbreviatedPath": "\/assets\/graphics\/heroin\/heroin-proj-980x980.png",
-		"outputAbbreviatedPath": "\/assets\/graphics\/heroin\/heroin-proj-980x980.png",
+		"inputAbbreviatedPath": "\/assets\/graphics\/jm-opioids\/heroin-proj-980x980.png",
+		"outputAbbreviatedPath": "\/assets\/graphics\/jm-opioids\/heroin-proj-980x980.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/graphics\/heroin\/source-of-Rx-infog.png": {
+	"\/assets\/graphics\/jm-opioids\/source-of-Rx-infog.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 225051,
-		"inputAbbreviatedPath": "\/assets\/graphics\/heroin\/source-of-Rx-infog.png",
-		"outputAbbreviatedPath": "\/assets\/graphics\/heroin\/source-of-Rx-infog.png",
+		"inputAbbreviatedPath": "\/assets\/graphics\/jm-opioids\/source-of-Rx-infog.png",
+		"outputAbbreviatedPath": "\/assets\/graphics\/jm-opioids\/source-of-Rx-infog.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/graphics\/heroin\/yr2yr\/HeroinOD-Yr2Yr.png": {
+	"\/assets\/graphics\/jm-opioids\/yr2yr\/HeroinOD-Yr2Yr.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 121021,
-		"inputAbbreviatedPath": "\/assets\/graphics\/heroin\/yr2yr\/HeroinOD-Yr2Yr.png",
-		"outputAbbreviatedPath": "\/assets\/graphics\/heroin\/yr2yr\/HeroinOD-Yr2Yr.png",
+		"inputAbbreviatedPath": "\/assets\/graphics\/jm-opioids\/yr2yr\/HeroinOD-Yr2Yr.png",
+		"outputAbbreviatedPath": "\/assets\/graphics\/jm-opioids\/yr2yr\/HeroinOD-Yr2Yr.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/graphics\/heroin\/yr2yr\/OD-and-Yr2Yr.png": {
+	"\/assets\/graphics\/jm-opioids\/yr2yr\/OD-and-Yr2Yr.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 177549,
-		"inputAbbreviatedPath": "\/assets\/graphics\/heroin\/yr2yr\/OD-and-Yr2Yr.png",
-		"outputAbbreviatedPath": "\/assets\/graphics\/heroin\/yr2yr\/OD-and-Yr2Yr.png",
+		"inputAbbreviatedPath": "\/assets\/graphics\/jm-opioids\/yr2yr\/OD-and-Yr2Yr.png",
+		"outputAbbreviatedPath": "\/assets\/graphics\/jm-opioids\/yr2yr\/OD-and-Yr2Yr.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/graphics\/heroin\/yr2yr\/recentOD-Yr2Yr.png": {
+	"\/assets\/graphics\/jm-opioids\/yr2yr\/recentOD-Yr2Yr.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 97893,
-		"inputAbbreviatedPath": "\/assets\/graphics\/heroin\/yr2yr\/recentOD-Yr2Yr.png",
-		"outputAbbreviatedPath": "\/assets\/graphics\/heroin\/yr2yr\/recentOD-Yr2Yr.png",
+		"inputAbbreviatedPath": "\/assets\/graphics\/jm-opioids\/yr2yr\/recentOD-Yr2Yr.png",
+		"outputAbbreviatedPath": "\/assets\/graphics\/jm-opioids\/yr2yr\/recentOD-Yr2Yr.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/graphics\/heroin\/yr2yr\/RxOD-Yr2Yr.png": {
+	"\/assets\/graphics\/jm-opioids\/yr2yr\/RxOD-Yr2Yr.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 118563,
-		"inputAbbreviatedPath": "\/assets\/graphics\/heroin\/yr2yr\/RxOD-Yr2Yr.png",
-		"outputAbbreviatedPath": "\/assets\/graphics\/heroin\/yr2yr\/RxOD-Yr2Yr.png",
+		"inputAbbreviatedPath": "\/assets\/graphics\/jm-opioids\/yr2yr\/RxOD-Yr2Yr.png",
+		"outputAbbreviatedPath": "\/assets\/graphics\/jm-opioids\/yr2yr\/RxOD-Yr2Yr.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/graphics\/pharm\/APAP NSAID MOA.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61506,
+		"inputAbbreviatedPath": "\/assets\/graphics\/pharm\/APAP NSAID MOA.jpg",
+		"outputAbbreviatedPath": "\/assets\/graphics\/pharm\/APAP NSAID MOA.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3874,6 +3884,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/graphics\/seuss-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 435662,
+		"inputAbbreviatedPath": "\/assets\/graphics\/seuss-icon.png",
+		"outputAbbreviatedPath": "\/assets\/graphics\/seuss-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/graphics\/seuss.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 493091,
+		"inputAbbreviatedPath": "\/assets\/graphics\/seuss.png",
+		"outputAbbreviatedPath": "\/assets\/graphics\/seuss.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/graphics\/western-union-telephone-haterade.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3881,17 +3913,6 @@
 		"initialSize": 113357,
 		"inputAbbreviatedPath": "\/assets\/graphics\/western-union-telephone-haterade.jpg",
 		"outputAbbreviatedPath": "\/assets\/graphics\/western-union-telephone-haterade.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/graphics\/zika-spread.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 112577,
-		"inputAbbreviatedPath": "\/assets\/graphics\/zika-spread.png",
-		"outputAbbreviatedPath": "\/assets\/graphics\/zika-spread.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3914,28 +3935,6 @@
 		"initialSize": 1228,
 		"inputAbbreviatedPath": "\/assets\/img\/bluelines.png",
 		"outputAbbreviatedPath": "\/assets\/img\/bluelines.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/desert-journey--desat.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 579711,
-		"inputAbbreviatedPath": "\/assets\/img\/desert-journey--desat.jpg",
-		"outputAbbreviatedPath": "\/assets\/img\/desert-journey--desat.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/different-goldfish.JPG": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.01399e+06,
-		"inputAbbreviatedPath": "\/assets\/img\/different-goldfish.JPG",
-		"outputAbbreviatedPath": "\/assets\/img\/different-goldfish.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4028,28 +4027,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/img\/graphics\/cancer-all.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 550385,
-		"inputAbbreviatedPath": "\/assets\/img\/graphics\/cancer-all.png",
-		"outputAbbreviatedPath": "\/assets\/img\/graphics\/cancer-all.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/graphics\/cancer-difficult.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 463533,
-		"inputAbbreviatedPath": "\/assets\/img\/graphics\/cancer-difficult.png",
-		"outputAbbreviatedPath": "\/assets\/img\/graphics\/cancer-difficult.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/assets\/img\/hero-header\/header-riverfront.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4116,6 +4093,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/logos\/anchor.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7710,
+		"inputAbbreviatedPath": "\/assets\/img\/logos\/anchor.png",
+		"outputAbbreviatedPath": "\/assets\/img\/logos\/anchor.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/logos\/bits2bedside-icon-square.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4149,321 +4137,112 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/img\/logos\/connect\/anchor.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 7710,
-		"inputAbbreviatedPath": "\/assets\/img\/logos\/connect\/anchor.png",
-		"outputAbbreviatedPath": "\/assets\/img\/logos\/connect\/anchor.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/logos\/connect\/IFTTT-Rx.png": {
+	"\/assets\/img\/logos\/IFTTT-Rx.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 3025,
-		"inputAbbreviatedPath": "\/assets\/img\/logos\/connect\/IFTTT-Rx.png",
-		"outputAbbreviatedPath": "\/assets\/img\/logos\/connect\/IFTTT-Rx.png",
+		"inputAbbreviatedPath": "\/assets\/img\/logos\/IFTTT-Rx.png",
+		"outputAbbreviatedPath": "\/assets\/img\/logos\/IFTTT-Rx.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/img\/logos\/connect\/IFTTT-Rx@2x.png": {
+	"\/assets\/img\/logos\/IFTTT-Rx@2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 6788,
-		"inputAbbreviatedPath": "\/assets\/img\/logos\/connect\/IFTTT-Rx@2x.png",
-		"outputAbbreviatedPath": "\/assets\/img\/logos\/connect\/IFTTT-Rx@2x.png",
+		"inputAbbreviatedPath": "\/assets\/img\/logos\/IFTTT-Rx@2x.png",
+		"outputAbbreviatedPath": "\/assets\/img\/logos\/IFTTT-Rx@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/img\/logos\/connect\/instagram-JM.png": {
+	"\/assets\/img\/logos\/instagram-JM.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 75894,
-		"inputAbbreviatedPath": "\/assets\/img\/logos\/connect\/instagram-JM.png",
-		"outputAbbreviatedPath": "\/assets\/img\/logos\/connect\/instagram-JM.png",
+		"inputAbbreviatedPath": "\/assets\/img\/logos\/instagram-JM.png",
+		"outputAbbreviatedPath": "\/assets\/img\/logos\/instagram-JM.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/img\/logos\/connect\/instagram.png": {
+	"\/assets\/img\/logos\/instagram.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 13017,
-		"inputAbbreviatedPath": "\/assets\/img\/logos\/connect\/instagram.png",
-		"outputAbbreviatedPath": "\/assets\/img\/logos\/connect\/instagram.png",
+		"inputAbbreviatedPath": "\/assets\/img\/logos\/instagram.png",
+		"outputAbbreviatedPath": "\/assets\/img\/logos\/instagram.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/img\/logos\/connect\/Instapaper@2x.png": {
+	"\/assets\/img\/logos\/Instapaper@2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 2276,
-		"inputAbbreviatedPath": "\/assets\/img\/logos\/connect\/Instapaper@2x.png",
-		"outputAbbreviatedPath": "\/assets\/img\/logos\/connect\/Instapaper@2x.png",
+		"inputAbbreviatedPath": "\/assets\/img\/logos\/Instapaper@2x.png",
+		"outputAbbreviatedPath": "\/assets\/img\/logos\/Instapaper@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/img\/logos\/connect\/linkedin.png": {
+	"\/assets\/img\/logos\/linkedin.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 13994,
-		"inputAbbreviatedPath": "\/assets\/img\/logos\/connect\/linkedin.png",
-		"outputAbbreviatedPath": "\/assets\/img\/logos\/connect\/linkedin.png",
+		"inputAbbreviatedPath": "\/assets\/img\/logos\/linkedin.png",
+		"outputAbbreviatedPath": "\/assets\/img\/logos\/linkedin.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/img\/logos\/connect\/medium.png": {
+	"\/assets\/img\/logos\/medium-header-light@1x.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 30410,
-		"inputAbbreviatedPath": "\/assets\/img\/logos\/connect\/medium.png",
-		"outputAbbreviatedPath": "\/assets\/img\/logos\/connect\/medium.png",
+		"initialSize": 12423,
+		"inputAbbreviatedPath": "\/assets\/img\/logos\/medium-header-light@1x.png",
+		"outputAbbreviatedPath": "\/assets\/img\/logos\/medium-header-light@1x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/img\/logos\/connect\/periscope.png": {
+	"\/assets\/img\/logos\/medium-header-light@2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 5601,
-		"inputAbbreviatedPath": "\/assets\/img\/logos\/connect\/periscope.png",
-		"outputAbbreviatedPath": "\/assets\/img\/logos\/connect\/periscope.png",
+		"initialSize": 28253,
+		"inputAbbreviatedPath": "\/assets\/img\/logos\/medium-header-light@2x.png",
+		"outputAbbreviatedPath": "\/assets\/img\/logos\/medium-header-light@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/img\/logos\/connect\/twitter-header-graph.png": {
+	"\/assets\/img\/logos\/medium-header-light@3x.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 94592,
-		"inputAbbreviatedPath": "\/assets\/img\/logos\/connect\/twitter-header-graph.png",
-		"outputAbbreviatedPath": "\/assets\/img\/logos\/connect\/twitter-header-graph.png",
+		"initialSize": 46241,
+		"inputAbbreviatedPath": "\/assets\/img\/logos\/medium-header-light@3x.png",
+		"outputAbbreviatedPath": "\/assets\/img\/logos\/medium-header-light@3x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/img\/logos\/connect\/twitter-JM.png": {
+	"\/assets\/img\/logos\/medium-header@1x-thinbar.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 104847,
-		"inputAbbreviatedPath": "\/assets\/img\/logos\/connect\/twitter-JM.png",
-		"outputAbbreviatedPath": "\/assets\/img\/logos\/connect\/twitter-JM.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/logos\/connect\/twitter.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 22689,
-		"inputAbbreviatedPath": "\/assets\/img\/logos\/connect\/twitter.png",
-		"outputAbbreviatedPath": "\/assets\/img\/logos\/connect\/twitter.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/logos\/header.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 11289,
-		"inputAbbreviatedPath": "\/assets\/img\/logos\/header.png",
-		"outputAbbreviatedPath": "\/assets\/img\/logos\/header.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/logos\/header@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 33252,
-		"inputAbbreviatedPath": "\/assets\/img\/logos\/header@2x.png",
-		"outputAbbreviatedPath": "\/assets\/img\/logos\/header@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/logos\/header@3x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 65237,
-		"inputAbbreviatedPath": "\/assets\/img\/logos\/header@3x.png",
-		"outputAbbreviatedPath": "\/assets\/img\/logos\/header@3x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/logos\/ipad-steth.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 325880,
-		"inputAbbreviatedPath": "\/assets\/img\/logos\/ipad-steth.png",
-		"outputAbbreviatedPath": "\/assets\/img\/logos\/ipad-steth.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/logos\/ipad-steth@0.2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4915,
-		"inputAbbreviatedPath": "\/assets\/img\/logos\/ipad-steth@0.2x.png",
-		"outputAbbreviatedPath": "\/assets\/img\/logos\/ipad-steth@0.2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/logos\/ipad-steth@0.5x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 114462,
-		"inputAbbreviatedPath": "\/assets\/img\/logos\/ipad-steth@0.5x.png",
-		"outputAbbreviatedPath": "\/assets\/img\/logos\/ipad-steth@0.5x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/logos\/JM.text.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 8115,
-		"inputAbbreviatedPath": "\/assets\/img\/logos\/JM.text.png",
-		"outputAbbreviatedPath": "\/assets\/img\/logos\/JM.text.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/logos\/JM.text@0.5x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3276,
-		"inputAbbreviatedPath": "\/assets\/img\/logos\/JM.text@0.5x.png",
-		"outputAbbreviatedPath": "\/assets\/img\/logos\/JM.text@0.5x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/logos\/JM.text@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 20393,
-		"inputAbbreviatedPath": "\/assets\/img\/logos\/JM.text@2x.png",
-		"outputAbbreviatedPath": "\/assets\/img\/logos\/JM.text@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/logos\/JM.text@3x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 35582,
-		"inputAbbreviatedPath": "\/assets\/img\/logos\/JM.text@3x.png",
-		"outputAbbreviatedPath": "\/assets\/img\/logos\/JM.text@3x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/logos\/JMbox-brown\/JMbox-shadow@0.1x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1987,
-		"inputAbbreviatedPath": "\/assets\/img\/logos\/JMbox-brown\/JMbox-shadow@0.1x.png",
-		"outputAbbreviatedPath": "\/assets\/img\/logos\/JMbox-brown\/JMbox-shadow@0.1x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/logos\/JMbox-brown\/JMbox-shadow@0.5x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 14083,
-		"inputAbbreviatedPath": "\/assets\/img\/logos\/JMbox-brown\/JMbox-shadow@0.5x.png",
-		"outputAbbreviatedPath": "\/assets\/img\/logos\/JMbox-brown\/JMbox-shadow@0.5x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/logos\/JMbox-brown\/JMbox-shadow@1x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 35492,
-		"inputAbbreviatedPath": "\/assets\/img\/logos\/JMbox-brown\/JMbox-shadow@1x.png",
-		"outputAbbreviatedPath": "\/assets\/img\/logos\/JMbox-brown\/JMbox-shadow@1x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/logos\/JMbox-brown\/JMbox-shadow@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 94531,
-		"inputAbbreviatedPath": "\/assets\/img\/logos\/JMbox-brown\/JMbox-shadow@2x.png",
-		"outputAbbreviatedPath": "\/assets\/img\/logos\/JMbox-brown\/JMbox-shadow@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/logos\/JMbox-brown\/JMbox.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 13824,
-		"inputAbbreviatedPath": "\/assets\/img\/logos\/JMbox-brown\/JMbox.png",
-		"outputAbbreviatedPath": "\/assets\/img\/logos\/JMbox-brown\/JMbox.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/logos\/JMbox-brown\/JMbox@1x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 34173,
-		"inputAbbreviatedPath": "\/assets\/img\/logos\/JMbox-brown\/JMbox@1x.png",
-		"outputAbbreviatedPath": "\/assets\/img\/logos\/JMbox-brown\/JMbox@1x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/logos\/JMbox-brown\/JMbox@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 88397,
-		"inputAbbreviatedPath": "\/assets\/img\/logos\/JMbox-brown\/JMbox@2x.png",
-		"outputAbbreviatedPath": "\/assets\/img\/logos\/JMbox-brown\/JMbox@2x.png",
+		"initialSize": 11574,
+		"inputAbbreviatedPath": "\/assets\/img\/logos\/medium-header@1x-thinbar.png",
+		"outputAbbreviatedPath": "\/assets\/img\/logos\/medium-header@1x-thinbar.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4479,6 +4258,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/logos\/medium-header@2x-thinbar.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26460,
+		"inputAbbreviatedPath": "\/assets\/img\/logos\/medium-header@2x-thinbar.png",
+		"outputAbbreviatedPath": "\/assets\/img\/logos\/medium-header@2x-thinbar.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/logos\/medium-header@2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4486,6 +4276,17 @@
 		"initialSize": 35356,
 		"inputAbbreviatedPath": "\/assets\/img\/logos\/medium-header@2x.png",
 		"outputAbbreviatedPath": "\/assets\/img\/logos\/medium-header@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/logos\/medium-header@3x-thinbar.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44127,
+		"inputAbbreviatedPath": "\/assets\/img\/logos\/medium-header@3x-thinbar.png",
+		"outputAbbreviatedPath": "\/assets\/img\/logos\/medium-header@3x-thinbar.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4501,6 +4302,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/logos\/medium.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30410,
+		"inputAbbreviatedPath": "\/assets\/img\/logos\/medium.png",
+		"outputAbbreviatedPath": "\/assets\/img\/logos\/medium.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/logos\/nuzzel.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4512,90 +4324,46 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/img\/medium-header-light@1x.png": {
+	"\/assets\/img\/logos\/periscope.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 12423,
-		"inputAbbreviatedPath": "\/assets\/img\/medium-header-light@1x.png",
-		"outputAbbreviatedPath": "\/assets\/img\/medium-header-light@1x.png",
+		"initialSize": 5601,
+		"inputAbbreviatedPath": "\/assets\/img\/logos\/periscope.png",
+		"outputAbbreviatedPath": "\/assets\/img\/logos\/periscope.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/img\/medium-header-light@2x.png": {
+	"\/assets\/img\/logos\/twitter-header-graph.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 28253,
-		"inputAbbreviatedPath": "\/assets\/img\/medium-header-light@2x.png",
-		"outputAbbreviatedPath": "\/assets\/img\/medium-header-light@2x.png",
+		"initialSize": 94592,
+		"inputAbbreviatedPath": "\/assets\/img\/logos\/twitter-header-graph.png",
+		"outputAbbreviatedPath": "\/assets\/img\/logos\/twitter-header-graph.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/img\/medium-header-light@3x.png": {
+	"\/assets\/img\/logos\/twitter-JM.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 46241,
-		"inputAbbreviatedPath": "\/assets\/img\/medium-header-light@3x.png",
-		"outputAbbreviatedPath": "\/assets\/img\/medium-header-light@3x.png",
+		"initialSize": 104847,
+		"inputAbbreviatedPath": "\/assets\/img\/logos\/twitter-JM.png",
+		"outputAbbreviatedPath": "\/assets\/img\/logos\/twitter-JM.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/img\/medium-header@1x.png": {
+	"\/assets\/img\/logos\/twitter.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 11574,
-		"inputAbbreviatedPath": "\/assets\/img\/medium-header@1x.png",
-		"outputAbbreviatedPath": "\/assets\/img\/medium-header@1x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/medium-header@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 26460,
-		"inputAbbreviatedPath": "\/assets\/img\/medium-header@2x.png",
-		"outputAbbreviatedPath": "\/assets\/img\/medium-header@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/medium-header@3x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 44127,
-		"inputAbbreviatedPath": "\/assets\/img\/medium-header@3x.png",
-		"outputAbbreviatedPath": "\/assets\/img\/medium-header@3x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/seuss-icon.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 435662,
-		"inputAbbreviatedPath": "\/assets\/img\/seuss-icon.png",
-		"outputAbbreviatedPath": "\/assets\/img\/seuss-icon.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/seuss.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 493091,
-		"inputAbbreviatedPath": "\/assets\/img\/seuss.png",
-		"outputAbbreviatedPath": "\/assets\/img\/seuss.png",
+		"initialSize": 22689,
+		"inputAbbreviatedPath": "\/assets\/img\/logos\/twitter.png",
+		"outputAbbreviatedPath": "\/assets\/img\/logos\/twitter.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5122,6 +4890,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/main.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/cv\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/cv\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
