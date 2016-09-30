@@ -8,16 +8,19 @@
   <meta name="twitter:site" content="@bits2bedside">
   <meta name="twitter:creator" content="@Jake_McClure">
   <meta name="twitter:title" content="Jake McClure, M.D.">
-  <meta name="twitter:description" content="physician · clinical mind, #UX eye · @vusm alum">
+  <meta name="twitter:description" content="physician · clinical mind, #UX eye">
   <meta name="twitter:image" content="https://pbs.twimg.com/profile_images/702333302963744769/XNS-EfeI.jpg">
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
+  <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/css/line-awesome-font-awesome.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
   <link rel="stylesheet" type="text/css" href="{{ "assets/css/main.css" | prepend: site.baseurl }}">
+
   <!-- link to main stylesheet
-  <link rel="stylesheet" type="text/css" href="/css/main.css">
+  <link rel="stylesheet" type="text/css" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   -->
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">

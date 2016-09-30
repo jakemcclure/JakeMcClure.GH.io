@@ -1,7 +1,18 @@
-.twitter-pins
-  margin: 1em auto
-  blockquote
-    margin: 2em auto
+#twitter
+  @include fill-parent
+  text-align: center
+  margin: 0 auto
+  max-width: 28em
 
-.twitter-follow a
-  padding: 2.5em auto 1em
+  .twitter-pins, .twitter-timeline, .twitter-follow-button
+    //@include span-columns(4 of 4)
+    //margin: 1em auto
+    text-align: center
+    display: block
+
+  .twitter-pins
+    blockquote
+      margin: 2em auto
+
+  .twitter-follow-button
+    padding: 4em auto 2em

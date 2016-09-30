@@ -33,6 +33,3 @@ port:  8080
 incremental:  false
 # Build settings
 # ?need custom md processor (https://jekyllrb.com/docs/configuration/#custom-markdown-processors)
-
-  #redcarpet:
-    #extensions:  ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]

@@ -1,16 +1,16 @@
 // This is the single file output by sass. It is intended to ONLY @import other files.
 
-// 1 - TOOLS
-@import '1-tools/webfonts'
-@import '1-tools/fonts'
-@import '1-tools/normalize'
+// 0 - IMPORT
+//@import '0-import/webfonts'
+@import '0-import/fonts'
+@import '0-import/normalize'
+
+// 1-TOOLS
 @import '1-tools/bourbon/bourbon'
-@import '1-tools/vars'
+@import '0-import/JM-vars'
 @import '1-tools/base/base'
 @import '1-tools/neat/grid-settings'
 @import '1-tools/neat/neat'
-
-// 1-TOOLS
 
 // 2 - BASICS
 @import '2-basics/body-element'
@@ -20,9 +20,6 @@
 @import '2-basics/buttons'
 @import '2-basics/forms'
 //@import '2-basics/typography'
-
-//@import '2-basics/typography/typography-medium'
-//@import '2-basics/typography-modular'
 
 // 3 - Modules
 @import '3-modules/amazon-ads'

@@ -30,7 +30,7 @@
         width: 100%
         //max-width: 12em
         margin: 0 auto
-        max-height: 14em
+        max-height: 8em
         //padding: 1em 0em 0.6em 0.2em
 
     .connect
@@ -86,6 +86,16 @@
           @media (min-width: 30em)
             //width: 1.6em
 
+        /*Twitter icon by Icons8 */
+        .icons8-Twitter { /* Customizes Twitter icon */
+          fill:#bdc3c7
+          width: 1em
+          height: 1em
+        }
+        .icon { /* Customizes all icons at once */
+          display: inline-block
+        }
+
     .about-container
       @include span-columns(4)
       color: white
@@ -94,10 +104,10 @@
       padding: 0em 0 0.2em 0em
       font:
         weight: 200
-        size: 125%
+        size: 100%
       @media (min-width: 30em)
-        @include span-columns(3 of 4)
-        @include omega()
+        //@include span-columns(3 of 4)
+        //@include omega()
       //display: flex
       //flex-direction: column
       //height: auto
@@ -149,6 +159,7 @@
         @include fill-parent
         text-align: center
         margin: 0 auto
+
       .about
         Color: $white
         text-align: center
@@ -171,9 +182,11 @@
       .location
         //Border: 1px dashed yellow
         display: flex
-        width: 75%
-        Color: #46484A
-        margin: 1em auto 0.3em
+        align-items: baseline
+        width: 70%
+        line-height: 1
+        Color: #999
+        margin: 0.6em auto 1em
         padding: 0em 0.2em 0.2em 0.1em
         text-align: left
         @media (min-width: 36em)
@@ -183,22 +196,24 @@
           //flex-direction: column
           //display: inline-block
           justify-content: space-around
+          align-items: center
           text-align: left
-          line-height: 1.1
+          line-height: 1
           font:
-            //family: 'open sans','lato','roboto',sans-serif
-            weight: 300
-            size: 65%
+            family: 'roboto','open sans','lato','roboto',sans-serif
+            weight: 200
+            size: 100%
           margin: 0 auto
-          padding: 0 0.4em
+          //padding: 0 0.4em
           letter-spacing: 0.06em
           text-transform: uppercase
-          img
-            height: 1.2em
-            width: auto
-            //width: 1.5em
-            //height: auto
-            margin-right: 0.5em
-            padding: 0
-            //fill: $fivethirtyeight-graybrown-desat
-            Fill: $fivethirtyeight-orange-desat
+
+        img
+          height: 1em
+          width: auto
+          //width: 1.5em
+          //height: auto
+          margin-right: 0.5em
+          padding: 0
+          //fill: $fivethirtyeight-graybrown-desat
+          Fill: $fivethirtyeight-orange-desat
