@@ -2,12 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jake McClure .net</title>
-    <description>one physician&#39;s perspective on our leverage of technology in healthcare</description>
-    <link>http://jakemcclure.net/</link>
-    <atom:link href="http://jakemcclure.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 30 Sep 2016 11:34:15 -0400</pubDate>
-    <lastBuildDate>Fri, 30 Sep 2016 11:34:15 -0400</lastBuildDate>
-    <generator>Jekyll v3.1.6</generator>
+    <description>physician · clinical mind, UX eye
+</description>
+    <link>http://JakeMcClure.net/</link>
+    <atom:link href="http://JakeMcClure.net/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 05 Oct 2016 03:58:31 -0400</pubDate>
+    <lastBuildDate>Wed, 05 Oct 2016 03:58:31 -0400</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
     
   </channel>
 </rss>

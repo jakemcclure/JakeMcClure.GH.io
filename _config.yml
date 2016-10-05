@@ -1,35 +1,37 @@
-markdown:  kramdown
-url:  "http://jakemcclure.net"
-baseurl:  ""
-exclude:  ["node_modules", "gulpfile.js", "package.json", "preview.jpg"]
-Collections:
-  infographics:
-    Output:  true
-  reviews:
-    Output:  true
-  tutorials:
-    Output:  true
-title:  Jake McClure .net
-description:  one physician's perspective on our leverage of technology in healthcare
+# Welcome to Amplified for Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Jake McClure .net
+email: DJakeMcClureMD+site@gmail.com
+description: >
+  physician · clinical mind, UX eye
+logo: "/assets/images/JM-bulb-border.svg"
+exclude:  ["node_modules", "gulpfile.js", "package.json", "preview.jpg", ".DS_store"]
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://JakeMcClure.net" # the base hostname & protocol for your site
+paginate:	4 # The number of posts to show per page on your homepage
+
+name: 'Jake McClure'
+bio: >
+author_image: "/assets/images/author.png"
+twitter_username: Jake_McClure
+github_username:  JakeMcClure
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  parse_block_html: true
+
+gems:
+  - jekyll-paginate
 
 permalink:  pretty
 show_drafts:  false
-
-email:  DJakeMcClureMD+site@gmail.com
-email_username:  DJakeMcClureMD+site@gmail.com
-twitter_username:  Jake_McClure
-github_username:  JakeMcClure
-instagram_username:  _JakeMcClure
-youtube_username:  UC6yHs_AREfWOMhR3Qixf2aA
-linkedin_username:  mcclurejake
-medium_username:  JakeMcClure
-nuzzel_username:  Jake_McClure
-
-
-# destination:  _deploy
-
 host:  localhost
 port:  8080
-incremental:  false
-# Build settings
-# ?need custom md processor (https://jekyllrb.com/docs/configuration/#custom-markdown-processors)
