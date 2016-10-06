@@ -18,6 +18,9 @@
   <link rel="canonical" href="http://JakeMcClure.net/">
   <link rel="alternate" type="application/rss+xml" title="Jake McClure .net" href="http://JakeMcClure.net/feed.xml">
 
+<!-- TWITTER -->
+<link rel="canonical" href="https://ampbyexample.com/components/amp-twitter/">
+<script async custom-element="amp-twitter" src="https://cdn.ampproject.org/v0/amp-twitter-0.1.js"></script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@Bits2Bedside">
   <meta name="twitter:creator" content="@Jake_McClure">
@@ -36,8 +39,8 @@
   "@type": "NewsArticle",
   "mainEntityOfPage": "http://JakeMcClure.net/",
   "headline": "Jake McClure .net",
-  "datePublished": "2016-10-06T14:00:30-04:00",
-  "dateModified": "2016-10-06T14:00:30-04:00",
+  "datePublished": "2016-10-06T14:55:09-04:00",
+  "dateModified": "2016-10-06T14:55:09-04:00",
   "description": "physician · clinical mind, UX eye
 ",
   "author": {
@@ -655,16 +658,21 @@ pre {
 .pagination .disabled {
   opacity: 0; }
 
+/*---BOTTOM NAV BAR---*/
 nav#bottom {
   position: fixed;
+  bottom: 0;
   height: 2.2em;
   border-radius: 1em 1em 0 0;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(255, 255, 255, 0.8);
   text-align: center;
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: 90%; }
 
 #bottom ul {
-  width: 80%;
+  display: Flex;
+  justify-content: space-around;
+  width: 100%;
   font-size: 60%;
   line-height: 1;
   bottom: 0;
@@ -672,10 +680,13 @@ nav#bottom {
   text-align: center;
   margin: 0 auto;
   padding: 0.2em;
-  border-top: 0.1em solid rgba(0, 0, 0, 0.05); }
+  border-top: 0.1em solid rgba(0, 0, 0, 0.2); }
+
+#bottom ul li {
+  list-style: none; }
 
 #bottom .social-nav a {
-  color: #fff;
+  color: #c8c8c8;
   padding: 0.5em;
   border-radius: 25%;
   font-size: 100%;
@@ -685,8 +696,15 @@ nav#bottom {
   background: rgba(255, 255, 255, 0.05); }
 
 #bottom .social-nav a:hover {
-  color: #fff;
+  color: #999;
   background: rgba(255, 255, 255, 0.1); }
+
+/* ----- SOCIAL MEDIA ----- */
+.twitter-video {
+  margin-top: 2em; }
+
+.twitter-timeline {
+  margin: 3em auto; }
 
   </style>
 
@@ -730,36 +748,58 @@ nav#bottom {
 </h2>
   </header>
 
+  <nav id="bottom" class="nav-bar">
+    <ul class="social nav-bar">
+      
+      <span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span>
+      
+      <li class="social-nav"><a class="social-nav" href="/">y</a></li>
+      <li class="social-nav"><a class="social-nav" href="/">m</a></li>
+      <li class="social-nav"><a class="social-nav" href="/">f</a></li>
+      <li class="social-nav"><a class="social-nav" href="/">s</a></li>
+      <li class="social-nav"><a class="social-nav" href="/">i</a></li>
+      <li class="social-nav"><a class="social-nav" href="/">a</a></li>
+    </ul>
+  </nav>
+
   <section id="twitter">
   <!-- FOLLOW
   <a class="twitter-timeline" style="padding-bottom: 1.5em;" class="twitter-follow-button"
   href="https://twitter.com/Jake_McClure" data-show-count="true" data-size="large">Follow</a>
   -->
 
-    <a href="https://twitter.com/Jake_McClure" class="twitter-follow-button" data-size="small" data-show-screen-name="true" data-show-count="true">Follow • @Jake_McClure</a>
+  <a href="https://twitter.com/Jake_McClure" class="twitter-follow-button" data-size="small" data-show-screen-name="true" data-show-count="true">Follow • @Jake_McClure</a>
+
+  <blockquote class="twitter-video" data-lang="en"><p lang="en" dir="ltr">For perspective on <a href="https://twitter.com/hashtag/EMRs?src=hash">#EMRs</a> and <a href="https://twitter.com/hashtag/EHRs?src=hash">#EHRs</a>: when was the last time you *bought* a 3-star app? <a href="https://twitter.com/hashtag/HITux?src=hash">#HITux</a> <a href="https://t.co/2JFKw5CQNU">pic.twitter.com/2JFKw5CQNU</a></p>&mdash; Jake McClure, M.D. (@jake_mcclure) <a href="https://twitter.com/jake_mcclure/status/776125179932049409">September 14, 2016</a>
+    </blockquote>
+
 
   <!-- JM timeline // MAKE THIS A HOVER TOOLTIP -->
-    <a class="twitter-timeline" data-width="20em" data-height="400" data-link-color="#19CF86" href="https://twitter.com/jake_mcclure">@Jake_McClure</a>
+    <a class="twitter-timeline" data-width="20em" data-height="16em" data-link-color="#19CF86" href="https://twitter.com/jake_mcclure">@Jake_McClure</a>
 
-  <div class="twitter-pins">
-    <blockquote class="twitter-video" data-lang="en"><p lang="en" dir="ltr">For perspective on <a href="https://twitter.com/hashtag/EMRs?src=hash">#EMRs</a> and <a href="https://twitter.com/hashtag/EHRs?src=hash">#EHRs</a>: when was the last time you *bought* a 3-star app? <a href="https://twitter.com/hashtag/HITux?src=hash">#HITux</a> <a href="https://t.co/2JFKw5CQNU">pic.twitter.com/2JFKw5CQNU</a></p>&mdash; Jake McClure, M.D. (@jake_mcclure) <a href="https://twitter.com/jake_mcclure/status/776125179932049409">September 14, 2016</a>
-    </blockquote>
-
-    <blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">.<a href="https://twitter.com/UsabilityPeople">@UsabilityPeople</a> <a href="https://twitter.com/HITOutcomes">@HITOutcomes</a> Emphasis on the latter. <a href="https://twitter.com/hashtag/mHealth?src=hash">#mHealth</a> <a href="https://twitter.com/hashtag/UX?src=hash">#UX</a> dev goal: get promoted to user&#39;s
-      <a href="https://twitter.com/hashtag/homescreen?src=hash">#homescreen</a> <a href="https://t.co/EDsvMIu6W8">pic.twitter.com/EDsvMIu6W8</a></p>&mdash; Jake McClure, M.D. (@jake_mcclure) <a href="https://twitter.com/jake_mcclure/status/766361377241989120">August 18, 2016</a>
-    </blockquote>
-
-    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">.<a href="https://twitter.com/CTrappe">@CTrappe</a> (4/4) relaying data/information to patients must be thru their preferred medium, or else we lose <a href="https://t.co/sgGW5RSHqC">https://t.co/sgGW5RSHqC</a></p>&mdash; Jake McClure, M.D. (@jake_mcclure) <a href="https://twitter.com/jake_mcclure/status/772859161109491712">September 5, 2016</a></blockquote>
-
-    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">.<a href="https://twitter.com/StanfordMedX">@StanfordMedX</a> <a href="https://twitter.com/alidiab">@alidiab</a> simplifying the accounting nuances <a href="https://t.co/HH1Qp46nu3">pic.twitter.com/HH1Qp46nu3</a></p>&mdash; Jake McClure, M.D. (@jake_mcclure) <a href="https://twitter.com/jake_mcclure/status/776693853432778752">September 16, 2016</a></blockquote>
-
-    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/opioidepidemic?src=hash">#opioidepidemic</a> (1/2) do we have a pill problem? Or a heroin problem? <a href="https://t.co/CZ0xDVZp7U">pic.twitter.com/CZ0xDVZp7U</a></p>&mdash; Jake McClure, M.D. (@jake_mcclure) <a href="https://twitter.com/jake_mcclure/status/760067949658898432">August 1, 2016</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/opioidepidemic?src=hash">#opioidepidemic</a> (2/2) pill problem? Or heroin problem? <a href="https://t.co/VTLoznDw7g">pic.twitter.com/VTLoznDw7g</a></p>&mdash; Jake McClure, M.D. (@jake_mcclure) <a href="https://twitter.com/jake_mcclure/status/760068429734817792">August 1, 2016</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/opioidepidemic?src=hash">#opioidepidemic</a> <a href="https://twitter.com/hashtag/dataviz?src=hash">#dataviz</a> this is a <a href="https://twitter.com/hashtag/Heroin?src=hash">#Heroin</a> &amp; Fentanyl prblem. Haven&#39;t had large increase in <a href="https://twitter.com/hashtag/painkiller?src=hash">#painkiller</a> OD since &#39;06 <a href="https://t.co/rYFan7teH7">pic.twitter.com/rYFan7teH7</a></p>&mdash; Jake McClure, M.D. (@jake_mcclure)
-      <a href="https://twitter.com/jake_mcclure/status/760410092160155648">August 2, 2016</a></blockquote>
-    </div>
+  <amp-carousel width="400"
+    height="900"
+    layout="responsive"
+    type="slides"
+    autoplay
+    delay="8000">
+    <amp-twitter width="400"
+      height="600"
+      layout="responsive"
+      data-tweetid="766361377241989120">
+      </amp-twitter>
+    <amp-twitter width="400"
+      height="600"
+      layout="responsive"
+      data-tweetid="772859161109491712">
+      </amp-twitter>
+    <amp-twitter width="400"
+      height="600"
+      layout="responsive"
+      data-tweetid="760410092160155648">
+      </amp-twitter>
+    </amp-carousel>
 
   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 </section>
@@ -779,20 +819,6 @@ nav#bottom {
     
   </nav>
 
-  <nav id="bottom" class="nav-bar">
-    <ul class="social nav-bar">
-      
-      <span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
-</span>
-      
-      <li class="social-nav"><a class="social-nav" href="/">y</a></li>
-      <li class="social-nav"><a class="social-nav" href="/">m</a></li>
-      <li class="social-nav"><a class="social-nav" href="/">f</a></li>
-      <li class="social-nav"><a class="social-nav" href="/">s</a></li>
-      <li class="social-nav"><a class="social-nav" href="/">i</a></li>
-      <li class="social-nav"><a class="social-nav" href="/">a</a></li>
-    </ul>
-  </nav>
 </main>
 
 <footer class="site-footer">

@@ -8,6 +8,22 @@ layout: default
       <h2 class="blog-description">{{ site.description }}</h2>
   </header>
 
+  <nav id="bottom" class="nav-bar">
+    <ul class="social nav-bar">
+      {% if include.username %}
+      <li><a href="https://twitter.com/{{ include.username }}"><span class="icon icon--twitter">{% include icon-twitter.svg %}</span><span class="username">{{ include.username }}</span></a></li>
+      {% else %}
+      <span class="icon icon--twitter">{% include icon-twitter.svg %}</span>
+      {% endif %}
+      <li class="social-nav"><a class="social-nav" href="/">y</a></li>
+      <li class="social-nav"><a class="social-nav" href="/">m</a></li>
+      <li class="social-nav"><a class="social-nav" href="/">f</a></li>
+      <li class="social-nav"><a class="social-nav" href="/">s</a></li>
+      <li class="social-nav"><a class="social-nav" href="/">i</a></li>
+      <li class="social-nav"><a class="social-nav" href="/">a</a></li>
+    </ul>
+  </nav>
+
   {% include _twitter.html %}
 
   <div class="cf frame">
@@ -46,21 +62,6 @@ layout: default
     {% endif %}
   </nav>
 
-  <nav id="bottom" class="nav-bar">
-    <ul class="social nav-bar">
-      {% if include.username %}
-      <li><a href="https://twitter.com/{{ include.username }}"><span class="icon icon--twitter">{% include icon-twitter.svg %}</span><span class="username">{{ include.username }}</span></a></li>
-      {% else %}
-      <span class="icon icon--twitter">{% include icon-twitter.svg %}</span>
-      {% endif %}
-      <li class="social-nav"><a class="social-nav" href="/">y</a></li>
-      <li class="social-nav"><a class="social-nav" href="/">m</a></li>
-      <li class="social-nav"><a class="social-nav" href="/">f</a></li>
-      <li class="social-nav"><a class="social-nav" href="/">s</a></li>
-      <li class="social-nav"><a class="social-nav" href="/">i</a></li>
-      <li class="social-nav"><a class="social-nav" href="/">a</a></li>
-    </ul>
-  </nav>
 </main>
 
 {% include footer.html %}

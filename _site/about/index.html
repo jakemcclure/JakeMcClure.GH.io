@@ -18,6 +18,9 @@
   <link rel="canonical" href="http://JakeMcClure.net/about/">
   <link rel="alternate" type="application/rss+xml" title="Jake McClure .net" href="http://JakeMcClure.net/feed.xml">
 
+<!-- TWITTER -->
+<link rel="canonical" href="https://ampbyexample.com/components/amp-twitter/">
+<script async custom-element="amp-twitter" src="https://cdn.ampproject.org/v0/amp-twitter-0.1.js"></script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@Bits2Bedside">
   <meta name="twitter:creator" content="@Jake_McClure">
@@ -36,8 +39,8 @@
   "@type": "NewsArticle",
   "mainEntityOfPage": "http://JakeMcClure.net/about/",
   "headline": "About",
-  "datePublished": "2016-10-06T14:00:30-04:00",
-  "dateModified": "2016-10-06T14:00:30-04:00",
+  "datePublished": "2016-10-06T14:55:09-04:00",
+  "dateModified": "2016-10-06T14:55:09-04:00",
   "description": "physician · clinical mind, UX eye
 ",
   "author": {
@@ -655,16 +658,21 @@ pre {
 .pagination .disabled {
   opacity: 0; }
 
+/*---BOTTOM NAV BAR---*/
 nav#bottom {
   position: fixed;
+  bottom: 0;
   height: 2.2em;
   border-radius: 1em 1em 0 0;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(255, 255, 255, 0.8);
   text-align: center;
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: 90%; }
 
 #bottom ul {
-  width: 80%;
+  display: Flex;
+  justify-content: space-around;
+  width: 100%;
   font-size: 60%;
   line-height: 1;
   bottom: 0;
@@ -672,10 +680,13 @@ nav#bottom {
   text-align: center;
   margin: 0 auto;
   padding: 0.2em;
-  border-top: 0.1em solid rgba(0, 0, 0, 0.05); }
+  border-top: 0.1em solid rgba(0, 0, 0, 0.2); }
+
+#bottom ul li {
+  list-style: none; }
 
 #bottom .social-nav a {
-  color: #fff;
+  color: #c8c8c8;
   padding: 0.5em;
   border-radius: 25%;
   font-size: 100%;
@@ -685,8 +696,15 @@ nav#bottom {
   background: rgba(255, 255, 255, 0.05); }
 
 #bottom .social-nav a:hover {
-  color: #fff;
+  color: #999;
   background: rgba(255, 255, 255, 0.1); }
+
+/* ----- SOCIAL MEDIA ----- */
+.twitter-video {
+  margin-top: 2em; }
+
+.twitter-timeline {
+  margin: 3em auto; }
 
   </style>
 
