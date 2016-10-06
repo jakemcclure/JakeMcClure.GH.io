@@ -11,7 +11,13 @@ layout: default
   <nav id="bottom" class="nav-bar">
     <ul class="social nav-bar">
       {% if include.username %}
-      <li><a href="https://twitter.com/{{ include.username }}"><span class="icon icon--twitter">{% include icon-twitter.svg %}</span><span class="username">{{ include.username }}</span></a></li>
+      <li><amp-social-share type="twitter"
+        width="3em"
+        height="3em">
+        </amp-social-share>
+        </li>
+
+        <a href="https://twitter.com/{{ include.username }}"><span class="icon icon--twitter">{% include icon-twitter.svg %}</span><span class="username">{{ include.username }}</span></a>
       {% else %}
       <span class="icon icon--twitter">{% include icon-twitter.svg %}</span>
       {% endif %}

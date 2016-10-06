@@ -1,7 +1,8 @@
 @import 'bourbon/bourbon';
 @import 'syntax-highlighting';
 
-$grey-color:       #828282;
+$grey-color:     #828282;
+$medium-color:   #02b875;
 
 .icon {
 
@@ -69,6 +70,10 @@ body {
   @include box-sizing(border-box);
   @include respond-to(800) {
     padding: 0 $rs * 1;
+
+  a {
+    text-decoration: none;}
+
   }
 
   .page-links {
@@ -83,9 +88,9 @@ body {
 
       a {
         text-decoration: none;
-        color: #999999;
+        color: $medium-color;
         &:hover {
-          color: #333333;
+          color: #777;
         }
       }
   }
@@ -524,7 +529,11 @@ pre {
 }
 
 /*---BOTTOM NAV BAR---*/
-nav#bottom {
+amp-social-share[type="twitter"] {
+  background: $grey-color;
+  background-image: url(datauri:svg/icon-twitter);
+}
+#bottom {
   position: fixed;
   bottom: 0;
   height: 3em;
@@ -569,11 +578,28 @@ nav#bottom {
   width: auto;
 }
 
+/* --- SOCIAL MEDIA ----- */
 
-/* ----- SOCIAL MEDIA ----- */
+/* ------ TWITTER --- */
+#twitter .social-section  {
+  text-align: center;
+  margin: 2em auto;}
 .twitter-video {
   margin-top: 2em;
 }
 .twitter-timeline {
   margin: 3em auto;
 }
+
+
+/* ------ FACEBOOK --- */
+
+
+
+/* --- CV --- */
+.cv { margin: 0px 0px 60px; }
+.cv h1 { font-size: 3em; }
+.cv h2 { font-size: 2em; }
+.cv address, .cv .download { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
+.cv address, .cv p { font-size: 1.2em; }
+.cv .download { float: right; font-size: .8em; text-transform: uppercase; }
