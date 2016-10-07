@@ -28,8 +28,8 @@ amp-img {
 
 $rs: 16px;
 
-$font-serif: 'Lora', Georgia, Cambria, "Times New Roman", Times, serif;
-$font-sans: 'Roboto', "Helvetica Neue", 'Open Sans', Arial, Helvetica, sans-serif;
+$font-serif: 'Halant','Catamaran','PT serif','Libre Baskerville','Lora', Georgia, Cambria, "Times New Roman", Times, serif;
+$font-sans: 'Source Sans pro','Open Sans','PT sans','Roboto', "Helvetica Neue", Arial, Helvetica, sans-serif;
 
 @mixin respond-to($breakpoint) {
   @media only screen and (max-width: $breakpoint + px) {
@@ -49,7 +49,8 @@ main {
 
 body {
   background-color: #fff;
-  font-family: $font-sans;
+  font-family: $font-serif;
+  font-weight: 400;
   margin: 0;
   padding: 0;
   font-size: 100%;
@@ -103,10 +104,14 @@ body {
   margin: 0 auto;
   position: relative;
   padding: 0;
+  font-family: $font-sans;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
   @include box-sizing(border-box);
 
   .blog-title {
-    margin-bottom: 0.5em;
+    margin-bottom: 0.2em;
     font-size: 50px;
     font-weight: 700;
     letter-spacing: -2px;
@@ -135,7 +140,7 @@ body {
   }
 
   article {
-    padding: 1.2em 0;
+    padding: 1.8em 0;
     border-bottom: 0.1em solid #f2f2f0;
     &:last-child {
       border-bottom: 0px;
@@ -148,6 +153,7 @@ body {
       font-size: 2.2em;
       line-height: 1.15;
       margin: 0 0;
+      font-family: $font-sans;
       a {
         text-decoration: none;
         color: #333332;
@@ -160,9 +166,9 @@ body {
       letter-spacing: -0.02em;
       font-weight: 300;
       font-style: normal;
-      font-size: 20px;
+      font-size: 1.25em;
       line-height: 1.59;
-      color: #666665;
+      color: #888;
     }
     .post-meta {
       font-size: 85%;
@@ -285,14 +291,15 @@ body {
     }
     h3 {
       font-size: 2.2em;
+      margin-top: 3.5em;
     }
     h2, h1 {
       letter-spacing: -0.02em;
-      font-weight: 700;
+      font-weight: 800;
       font-style: normal;
       font-size: 2.6em;
       line-height: 1.2;
-      margin-top: 3.1em;
+      margin-top: 3.5em;
       margin-bottom: 0px;
     }
     table {
@@ -309,7 +316,7 @@ body {
       font-size: 1.375em;
       line-height: 1.59;
       letter-spacing: -.002em;
-      margin-top: 1.875em;
+      margin-top: 1.5em;
       margin-bottom: 0;
       color: #333333;
       -webkit-hyphens: auto;
@@ -588,12 +595,12 @@ amp-social-share[type="twitter"] {
 /* ------ TWITTER --- */
 #twitter .social-section  {
   text-align: center;
-  margin: 2em auto;}
+  padding: 2em auto;}
 .twitter-video {
-  margin-top: 2em;
+  padding-top: 2em;
 }
 .twitter-timeline {
-  margin: 3em auto;
+  padding: 3em auto;
 }
 
 .timeline-widget .u-cf {
