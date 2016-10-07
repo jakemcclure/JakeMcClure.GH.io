@@ -6,16 +6,16 @@ $medium-color:   #02b875;
 
 .icon {
 
-    > svg {
-        display: inline-block;
-        width: 16px;
-        height: 16px;
-        vertical-align: middle;
+  > svg {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
 
-        path {
-            fill: $grey-color;
-        }
+    path {
+      fill: $grey-color;
     }
+  }
 }
 
 amp-img {
@@ -28,8 +28,8 @@ amp-img {
 
 $rs: 16px;
 
-$font-serif: Georgia,Cambria,"Times New Roman",Times,'Lora', serif;
-$font-sans: Roboto, "Helvetica Neue", 'Open Sans', Arial, Helvetica, sans-serif;
+$font-serif: 'Lora', Georgia, Cambria, "Times New Roman", Times, serif;
+$font-sans: 'Roboto', "Helvetica Neue", 'Open Sans', Arial, Helvetica, sans-serif;
 
 @mixin respond-to($breakpoint) {
   @media only screen and (max-width: $breakpoint + px) {
@@ -44,7 +44,7 @@ $font-sans: Roboto, "Helvetica Neue", 'Open Sans', Arial, Helvetica, sans-serif;
 
 main {
   display: block;
-  max-width: 48em;
+  max-width: 64em;
 }
 
 body {
@@ -127,16 +127,16 @@ body {
 
 .content {
   width: 100%;
-  max-width: 700px;
-  margin: 25px auto 0 auto;
+  max-width: 42em;
+  margin: 1.6em auto 0 auto;
   @include box-sizing(border-box);
   @include respond-to(800) {
     padding: 0 $rs * 1;
   }
 
   article {
-    padding: 20px 0;
-    border-bottom: 1px solid #f2f2f0;
+    padding: 1.2em 0;
+    border-bottom: 0.1em solid #f2f2f0;
     &:last-child {
       border-bottom: 0px;
     }
@@ -145,7 +145,7 @@ body {
       font-weight: 700;
       font-style: normal;
       display: block;
-      font-size: 36px;
+      font-size: 2.2em;
       line-height: 1.15;
       margin: 0 0;
       a {
@@ -165,9 +165,9 @@ body {
       color: #666665;
     }
     .post-meta {
-      font-size: 14px;
+      font-size: 85%;
       color: #b3b3b1;
-      line-height: 30px;
+      line-height: 1.875em;
       a {
         color: #b3b3b1;
         text-decoration: none;
@@ -180,18 +180,18 @@ body {
 }
 
 .post-template .content {
-  max-width: 700px;
+  max-width: 42em;
 }
 
 .index-headline {
-  border-top: 1px solid #dededc;
+  border-top: 0.1em solid #dededc;
   margin: 0;
-  padding: 16px 0;
+  padding: 1em 0;
   span {
     color: #b3b3b1;
     font-size: $rs / 8 * 5;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 0.08em;
   }
 }
 
@@ -210,18 +210,20 @@ body {
 
 .site-footer {
   margin: 0 auto;
-  padding: $rs * 3 0;
+  padding: $rs * 4 0;
   width: 100%;
-  max-width: 700px;
+  /*max-width: 48em;*/
+  z-index: -10;
   font-size: $rs / 4 * 3;
   text-align: center;
-  color: #999999;
+  color: rgba(190, 190, 190,1.0);
   line-height: $rs * 1.1;
+  background: rgba(240, 240, 240,1.0);
   a {
-    color: #666666;
+    color: rgba(150, 150, 150,1.0);
     text-decoration: none;
     &:hover {
-      color: #333333;
+      color: rgba(120, 120, 120,1.0);
     }
   }
 }
@@ -282,15 +284,15 @@ body {
       font-family: $font-sans;
     }
     h3 {
-      font-size: 36px;
+      font-size: 2.2em;
     }
     h2, h1 {
       letter-spacing: -0.02em;
       font-weight: 700;
       font-style: normal;
-      font-size: 42px;
+      font-size: 2.6em;
       line-height: 1.2;
-      margin-top: 50px;
+      margin-top: 3.1em;
       margin-bottom: 0px;
     }
     table {
@@ -304,10 +306,10 @@ body {
     p {
       font-weight: 400;
       font-style: normal;
-      font-size: 22px;
+      font-size: 1.375em;
       line-height: 1.59;
       letter-spacing: -.002em;
-      margin-top: 30px;
+      margin-top: 1.875em;
       margin-bottom: 0;
       color: #333333;
       -webkit-hyphens: auto;
@@ -315,11 +317,11 @@ body {
       hyphens: auto;
     }
     a {
-      color: #888;
-      text-decoration: underline;
+      color: $medium-color;
+      text-decoration: none;
     }
     amp-img, amp-youtube {
-      margin-top: 30px;
+      margin-top: 1.875em;
     }
     figure {
       margin: 0;
@@ -345,14 +347,14 @@ body {
       border-top: 1px solid #dddddd;
     }
     blockquote {
-      margin: 0 0 30px;
-      margin-left: -26px;
-      border-left: 3px solid #57ad68;
-      padding-left: 20px;
+      margin: 0 0 1.875em;
+      margin-left: -1.625em;
+      border-left: 0.1875em solid #57ad68;
+      padding-left: 1.25em;
       p {
         letter-spacing: 0.01rem;
         font-weight: 400;
-        mborder-left: 3px solid #57ad68;
+        mborder-left: 0.1875em solid #57ad68;
         mpadding-left: 20px;
         mmargin-left: -26px;
         padding-bottom: 3px;
@@ -536,9 +538,8 @@ amp-social-share[type="twitter"] {
 #bottom {
   position: fixed;
   bottom: 0;
-  height: 3em;
-  border-radius: 1em 1em 0 0;
-  background: rgba(255,255,255,0.8);
+  border-radius: 0.8em 0.8em 0 0;
+  background: rgba(255,255,255,0.6);
   text-align: center;
   margin: 0 auto;
   width: 90%;
@@ -552,9 +553,8 @@ amp-social-share[type="twitter"] {
   bottom: 0;
   overflow: hidden;
   text-align: center;
-  margin: 0 auto;
+  margin: 0.4em 0.6em;
   padding: 0;
-  border-top: 0.1em solid rgba(0,0,0,0.2);
 }
 
 #bottom ul li {
@@ -573,9 +573,14 @@ amp-social-share[type="twitter"] {
   background: rgba(255,255,255,0.1);
   }
 
-#bottom .icon > svg {
-  height: 2.5em;
-  width: auto;
+#bottom .nav-bar .icon {
+  > svg {
+    height: 3em;
+    width: auto;
+    margin: 0 auto;
+    path {
+      fill: #999;}
+  }
 }
 
 /* --- SOCIAL MEDIA ----- */
@@ -591,6 +596,9 @@ amp-social-share[type="twitter"] {
   margin: 3em auto;
 }
 
+.timeline-widget .u-cf {
+  display: none;
+}
 
 /* ------ FACEBOOK --- */
 
