@@ -147,7 +147,7 @@ a {
 
 main {
   position: relative;
-  top: 0;
+  top: 4em;
   text-align: center;
   margin: 2em auto 6em;
   max-width: 64em;
@@ -245,6 +245,10 @@ main {
       font-size: 70%;
       color: #rgba(100,100,100,0.1);
       line-height: 1.875em;
+      time {
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+      }
       a {
         color: #b3b3b1;
         text-decoration: none;
