@@ -6,10 +6,13 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Jake McClure  –  physician · clinical mind, UX eye
+site-title: Jake McClure | clinical mind · UX eye
+blog-title: bits <span>2</span> Bedside
 email: DJakeMcClureMD+site@gmail.com
-description: >
-  physician · clinical mind, UX eye
+site-description: >
+  clinical mind · UX eye
+blog-description: >
+  A millennial physician's commentary on healthcare delivery and tech innovation intersecting with the systematic friction blocking its path.
 logo: "/assets/images/JM-bulb-border.svg"
 exclude:  ["node_modules", "gulpfile.js", "package.json", "preview.jpg", ".DS_store"]
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -21,6 +24,18 @@ bio: >
 author_image: "/assets/images/author.png"
 twitter_username: Jake_McClure
 github_username:  JakeMcClure
+email:  DJakeMcClureMD+site@gmail.com
+email_username:  DJakeMcClureMD+site@gmail.com
+instagram_username:  _JakeMcClure
+youtube_username:  UC6yHs_AREfWOMhR3Qixf2aA
+linkedin_username:  mcclurejake
+medium_username:  JakeMcClure
+nuzzel_username:  Jake_McClure
+snapchat_username: Jake-McClure
+houseparty_username: JakeMcClure
+anchor_username: JakeMcClure
+dribbble_username: JakeMcClure
+
 
 # Build settings
 markdown: kramdown

@@ -1,0 +1,1 @@
+javascript:function%20iptxt()%7Bvar%20d=document;try%7Bif(!d.body)throw(0);window.location='http://www.instapaper.com/text?u='+encodeURIComponent(d.location.href);%7Dcatch(e)%7Balert('Please%20wait%20until%20the%20page%20has%20loaded.');%7D%7Diptxt();void(0)

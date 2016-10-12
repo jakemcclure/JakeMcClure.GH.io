@@ -28,8 +28,9 @@ amp-img {
 
 $rs: 16px;
 
-$font-serif: 'Halant','Catamaran','PT serif','Libre Baskerville','Lora', Georgia, Cambria, "Times New Roman", Times, serif;
-$font-sans: 'Source Sans pro','Open Sans','PT sans','Roboto', "Helvetica Neue", Arial, Helvetica, sans-serif;
+$font-serif: 'Neuton','PT serif','Lora', Georgia, Cambria, "Times New Roman", Times, serif;
+$font-sans: 'Source Sans pro','Roboto', "Helvetica Neue", Arial, Helvetica, sans-serif;
+$font-tenor: 'tenor sans','Source Sans pro','Roboto', "Helvetica Neue", Arial, Helvetica, sans-serif;
 
 @mixin respond-to($breakpoint) {
   @media only screen and (max-width: $breakpoint + px) {
@@ -42,16 +43,24 @@ $font-sans: 'Source Sans pro','Open Sans','PT sans','Roboto', "Helvetica Neue", 
   margin-bottom: $rs;
 }
 
-main {
-  display: block;
-  max-width: 64em;
-}
-
 body {
-  background-color: #fff;
+  text-align: center;
+  width: 100%;
+  max-width: 44em;
+  margin: 0.25em auto 0;
+  @include box-sizing(border-box);
+  @include respond-to(800) {
+  padding: 0 $rs * 1;
+  background: #222;
+  background: -webkit-radial-gradient(rgba(255,255,255,1.0), rgba(220,220,220,1.0));
+  background: radial-gradient(rgba(255,255,255,1.0), rgba(220,220,220,1.0));
+  //background: -webkit-linear-gradient(rgba(255,255,255,1.0), rgba(220,220,220,1.0)); /* For Safari 5.1 to 6.0 */
+  //background: -o-linear-gradient(rgba(255,255,255,1.0), rgba(220,220,220,1.0)); /* For Opera 11.1 to 12.0 */
+  //background: -moz-linear-gradient(rgba(255,255,255,1.0), rgba(220,220,220,1.0)); /* For Firefox 3.6 to 15 */
+  //background: linear-gradient(rgba(255,255,255,1.0), rgba(220,220,220,1.0)); /* Standard syntax */
   font-family: $font-serif;
   font-weight: 400;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   font-size: 100%;
   text-rendering: optimizeLegibility;
@@ -63,24 +72,50 @@ body {
   font-feature-settings: "liga", "dlig";
 }
 
+a {
+  text-decoration: none;
+  color: $medium-color;
+  &:hover {
+    border-bottom: 0.1em solid $medium-color;
+  }
+}
+
+
 .site-header {
-  position: relative;
-  width: 100%;
-  max-width: 44em;
-  margin: 0.25em auto 0 auto;
+  position: fixed;
+  width: calc(100%);
+  //height: 3em;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  background: rgba(255,255,255,.6);
+  transition: .5s;
+  z-index:2;
+  box-shadow:0 1px 0 rgba(0,0,0,.1),0 1px 2px rgba(0,0,0,.1);
   @include box-sizing(border-box);
   @include respond-to(800) {
-    padding: 0 $rs * 1;
-
-  a {
-    text-decoration: none;}
-
+    padding: 0 $rs * 1;}
+  &.hide {
+      transform: translateX(-50%) translateY(-100%);
+    }
+    /*
+      position: relative;
+      width: 100%;
+      max-width: 44em;
+      margin: 0.25em auto 0 auto;
+      @include box-sizing(border-box);
+      @include respond-to(800) {
+        padding: 0 $rs * 1;}
+        */
+  amp-img.logo {
+    margin: 0.2em 0.2em 0.1em auto;
+    //Left: 0;
   }
 
   .page-links {
-      display: block;
+      display: inline-block;
       position: absolute;
-      top: 10px;
+      bottom: 10px;
       right: $rs;
       font-weight: 200;
       font-style: normal;
@@ -93,39 +128,69 @@ body {
         &:hover {
           color: #777;
         }
-      }
+        }
   }
 
 }
 
+#about {
+  position: relative;
+  top: 4em;
+  margin-bottom: 6em;
+  .site-description {
+    color: #999;
+    font-family: $font-sans;
+    font-weight: 300;
+    font-size: 130%;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    margin-bottom: 2em;
+  }
+  .social-section {
+    position: relative;}
+  }
+}
+
+main {
+  position: relative;
+  top: 0;
+  margin-top: 4em;
+  padding-top: 2em;
+  max-width: 64em;
+}
+
 .blog-header {
   width: 100%;
-  max-width: 700px;
-  margin: 0 auto;
+  max-width: 48em;
+  margin: 3em auto 0;
   position: relative;
+  top: 0;
   padding: 0;
   font-family: $font-sans;
-  font-weight: 400;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.15em;
   @include box-sizing(border-box);
 
   .blog-title {
-    margin-bottom: 0.2em;
-    font-size: 50px;
-    font-weight: 700;
-    letter-spacing: -2px;
+    margin-bottom: 0.1em;
+    font-size: 0.9em;
+    font-weight: 600;
+    letter-spacing: 0.05em;
     outline: 0;
-    line-height: 50px;
+    line-height: 2;
     word-break: break-word;
-    color: #333333;
+    color: #999;
+    span {
+      color: #cc6633;
+    }
   }
   .blog-description {
     font-size: 1.3em;
     margin: 0 0 3.25em 1.5em;
     padding: 0;
     line-height: 1.2;
-    color: #666666;
+    color: rgba(0,0,0,0.4);
     font-weight: 300;
   }
 }
@@ -133,32 +198,40 @@ body {
 .content {
   width: 100%;
   max-width: 42em;
-  margin: 1.6em auto 0 auto;
+  margin: 1.6em auto 3em auto;
   @include box-sizing(border-box);
   @include respond-to(800) {
     padding: 0 $rs * 1;
   }
 
   article {
-    padding: 1.8em 0;
-    border-bottom: 0.1em solid #f2f2f0;
+    padding: 1em 0;
+    border-bottom: 0.1em solid rgba(0,0,0,0.05);
+    text-align: center;
     &:last-child {
       border-bottom: 0px;
     }
+    .post-title, .post-excerpt, .post-content, .post-meta {
+      text-align: left;
+    }
     .post-title {
       letter-spacing: -0.02em;
-      font-weight: 700;
+      font-family: $font-sans;
+      font-weight: 600;
       font-style: normal;
       display: block;
-      font-size: 2.2em;
-      line-height: 1.15;
+      font-size: 1.4em;
+      line-height: 1.4;
       margin: 0 0;
-      font-family: $font-sans;
-      a {
+      padding: 0;
+    a {
+      text-decoration: none;
+      color: #444;
+      Border: none;
+      &:hover {
         text-decoration: none;
-        color: #333332;
-        &:hover {
-          text-decoration: none;
+        background: Rgba(0,0,0,0.05);
+        Border-bottom: 0.08em solid #cc6633;
         }
       }
     }
@@ -166,19 +239,19 @@ body {
       letter-spacing: -0.02em;
       font-weight: 300;
       font-style: normal;
-      font-size: 1.25em;
-      line-height: 1.59;
+      font-size: 1.15em;
+      line-height: 1.3;
       color: #888;
     }
     .post-meta {
-      font-size: 85%;
-      color: #b3b3b1;
+      font-size: 70%;
+      color: #rgba(100,100,100,0.1);
       line-height: 1.875em;
       a {
         color: #b3b3b1;
         text-decoration: none;
         &:hover {
-          text-decoration: underline;
+          text-decoration: none;
         }
       }
     }
@@ -224,7 +297,7 @@ body {
   text-align: center;
   color: rgba(190, 190, 190,1.0);
   line-height: $rs * 1.1;
-  background: rgba(240, 240, 240,1.0);
+  //background: rgba(240, 240, 240,1.0);
   a {
     color: rgba(150, 150, 150,1.0);
     text-decoration: none;
@@ -237,15 +310,17 @@ body {
 .post {
   .post-meta {
     font-family: $font-sans;
-  }
-  .post-title {
-    font-weight: 700;
-    font-style: normal;
-    letter-spacing: -0.04em;
-    font-size: 50px;
-    line-height: 1.1;
-    color: #333332;
-    margin-bottom: 50px;
+    color: #b3b3b1;
+    .post-title {
+      font-weight: 600;
+      font-style: normal;
+      font-family: $font-sans;
+      letter-spacing: -0.04em;
+      font-size: 2.8em;
+      line-height: 1.4;
+      color: #555;
+      margin-bottom: 1.4em;
+    }
   }
   .author-image {
     background-image: url({{ site.baseurl }}{{site.author_image}});
@@ -267,7 +342,7 @@ body {
     font-style: normal;
     font-size: 14px;
     overflow: hidden;
-    font-family: $font-sans;
+    font-family: $font-serif;
     white-space: nowrap;
     text-overflow: ellipsis;
   }
@@ -283,9 +358,9 @@ body {
       letter-spacing: -0.02em;
       font-weight: 700;
       font-style: normal;
-      font-size: 24px;
-      line-height: 1.3;
-      margin-top: 50px;
+      font-size: 1.5em;
+      line-height: 1.2;
+      margin-top: 3em;
       margin-bottom: 0px;
       font-family: $font-sans;
     }
@@ -313,8 +388,8 @@ body {
     p {
       font-weight: 400;
       font-style: normal;
-      font-size: 1.375em;
-      line-height: 1.59;
+      font-size: 1.2em;
+      line-height: 1.4;
       letter-spacing: -.002em;
       margin-top: 1.5em;
       margin-bottom: 0;
@@ -322,10 +397,6 @@ body {
       -webkit-hyphens: auto;
       -moz-hyphens: auto;
       hyphens: auto;
-    }
-    a {
-      color: $medium-color;
-      text-decoration: none;
     }
     amp-img, amp-youtube {
       margin-top: 1.875em;
@@ -425,7 +496,7 @@ body {
         text-decoration: none;
         &:hover {
           color: #888;
-          text-decoration: underline;
+          text-decoration: none;
         }
       }
       .author-image {
@@ -454,6 +525,10 @@ body {
         padding-left: 100px;
         &.published {
           color: #999999;
+          margin-top: 1.5em;
+          font-size: 60%;
+          text-transform: uppercase;
+          letter-spacing: 0.02em;
         }
       }
     }
@@ -485,9 +560,12 @@ body {
         }
         .poweredby {
           display: block;
-          padding-bottom: 18px;
-          font-weight: 700;
-          color: #333333;
+          padding-bottom: 1em;
+          font-weight: 400;
+          color: #333333;}
+        .poweredby, .copyright {
+          font-size: 70%;
+          text-align: center;
         }
       }
     }
@@ -540,7 +618,7 @@ pre {
 /*---BOTTOM NAV BAR---*/
 amp-social-share[type="twitter"] {
   background: $grey-color;
-  background-image: url(datauri:svg/icon-twitter);
+  background-image: url(_includes/icon-twitter.svg);
 }
 #bottom {
   position: fixed;
@@ -553,14 +631,12 @@ amp-social-share[type="twitter"] {
 }
 
 #bottom ul  {
-  display: Flex;
   align-content: center;
   width: 100%;
   line-height: 1;
   bottom: 0;
   overflow: hidden;
   text-align: center;
-  margin: 0.4em 0.6em;
   padding: 0;
 }
 
@@ -595,7 +671,7 @@ amp-social-share[type="twitter"] {
 /* ------ TWITTER --- */
 #twitter .social-section  {
   text-align: center;
-  padding: 2em auto;}
+  padding: 2em auto;
 .twitter-video {
   padding-top: 2em;
 }
@@ -606,10 +682,8 @@ amp-social-share[type="twitter"] {
 .timeline-widget .u-cf {
   display: none;
 }
-
+}
 /* ------ FACEBOOK --- */
-
-
 
 /* --- CV --- */
 .cv { margin: 0px 0px 60px; }

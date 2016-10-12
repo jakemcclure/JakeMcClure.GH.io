@@ -1,14 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jake McClure   •   bits2bedside</title>
-    <description>physician · clinical mind, UX eye
-</description>
+    <title></title>
+    <description></description>
     <link>http://JakeMcClure.net/</link>
     <atom:link href="http://JakeMcClure.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 07 Oct 2016 04:21:51 -0400</pubDate>
-    <lastBuildDate>Fri, 07 Oct 2016 04:21:51 -0400</lastBuildDate>
+    <pubDate>Wed, 12 Oct 2016 04:21:52 -0400</pubDate>
+    <lastBuildDate>Wed, 12 Oct 2016 04:21:52 -0400</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>The UX Prescription</title>
+        <description>&lt;p&gt;Whether a patient or provider, the chorus of dismal usability with our medical records systems is all too common. Development of electronic medical record (EMR) systems desperately need a user experience overhaul.&lt;/p&gt;
+
+&lt;p&gt;UX for short, it is a foreign concept to concept to clinicians when discussing frustrations with the workflows and lack of functionality with present-day EMRs. While the terminology may be distant, the frustrations are a recurring theme.&lt;/p&gt;
+
+&lt;p&gt;While the concept of user experience is old news to virtually every other industry leveraging technology, its place in healthcare has been a colloquial afterthought––better categorized as post-implementation optimization as opposed to pre-development investigation &amp;amp; design thinking. The latter being the more pragmatic approach of the two, we shouldn’t be surprised at the abundance of frustration when pre-implementation usability testing is absent or willfully neglected.&lt;/p&gt;
+
+&lt;p&gt;Needless to say, healthcare tech desperately needs a prescription-strength UX overhaul.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 08 Oct 2016 00:00:00 -0400</pubDate>
+        <link>http://JakeMcClure.net/2016/10/08/The-UX-Prescription/</link>
+        <guid isPermaLink="true">http://JakeMcClure.net/2016/10/08/The-UX-Prescription/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Floppy Disk UI</title>
+        <description>&lt;p&gt;Floppy Disk icons — how much longer until we consider this UI dinosaur no longer applicable? One could argue the shift should have taken place at least a decade ago as I honestly can’t recall using a floppy disk after year 2000.&lt;/p&gt;
+
+&lt;p&gt;Yet, remnants of the days when those ole 1.44 MB disks were the mobile storage king still pop up from time to time in the hospital. Spotted in 2014 was this signage in the surgeon’s lounge:&lt;/p&gt;
+
+&lt;amp-img width=&quot;600&quot; height=&quot;300&quot; layout=&quot;responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/800/1*9Sq0uTjDFZEqh2Q4CVJSTA.png&quot;&gt;&lt;/amp-img&gt;
+
+&lt;p&gt;For those whom may have been perplexed as to why we still struggle with EMR optimization and usability, perhaps, as illustrated above, the level of detail evidently needed to print a photo provides some comical insight.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 14 Sep 2016 00:00:00 -0400</pubDate>
+        <link>http://JakeMcClure.net/2016/09/14/floppy-disks/</link>
+        <guid isPermaLink="true">http://JakeMcClure.net/2016/09/14/floppy-disks/</guid>
+        
+        
+      </item>
     
   </channel>
 </rss>

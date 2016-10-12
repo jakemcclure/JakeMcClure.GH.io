@@ -1,6 +1,50 @@
 <footer class="site-footer">
-  <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i> Subscribe</span></a>
+  <!--
     <div class="inner">
-         <section class="copyright">All rights reserved <a href="mailto:{{ site.email}}">{{ site.name }}</a> &copy; {{ site.time | date: '%Y' }}</section>
+      <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i> Subscribe</span></a>
+      <section class="copyright">All rights reserved <a href="mailto:{{ site.email}}">{{ site.name }}</a> &copy; {{ site.time | date: '%Y' }}</section>
     </div>
+    -->
+
+    <a href="{{ site.baseurl }}/" class="logo">
+      <amp-img class="logo" src="{{ site.baseurl }}{{ site.logo }}" width="48" height="48"></amp-img>
+      </a>
+
+<!--
+    <nav id="bottom" class="nav-bar">
+      <ul class="social nav-bar">
+        {% if include.username %}
+        <li><amp-social-share type="twitter"
+          width="2.5em"
+          height="2.5em">
+          </amp-social-share>
+          </li>
+
+          <a href="https://twitter.com/{{ include.username }}"><span class="icon icon--twitter">{% include icon-twitter.svg %}</span><span class="username">{{ include.username }}</span></a>
+        {% else %}
+        <span class="icon icon--twitter">{% include icon-twitter.svg %}</span>
+        {% endif %}
+
+
+        <li class="social-nav"><a class="social-nav" href="/">y</a></li>
+        <li class="social-nav"><a class="social-nav" href="/">m</a></li>
+        <li class="social-nav"><a class="social-nav" href="/">f</a></li>
+        <li class="social-nav"><a class="social-nav" href="/">s</a></li>
+        <li class="social-nav"><a class="social-nav" href="/">i</a></li>
+        <li class="social-nav"><a class="social-nav" href="/">a</a></li>
+        -->
+      </ul>
+
+      <!-- <div class="page-links">
+        <a class="page-link" href="{{ site.baseurl }}/"><amp-img src="{{ site.baseurl }}/assets/images/home.svg" width="24" height="24"></amp-img></a>
+
+        {% for my_page in site.pages %}
+          {% if my_page.title %}
+          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+          {% endif %}
+        {% endfor %}
+        </div>
+
+      </nav>
+    -->
 </footer>
