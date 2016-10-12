@@ -43,8 +43,8 @@
   "@type": "NewsArticle",
   "mainEntityOfPage": "http://JakeMcClure.net/about/",
   "headline": "About",
-  "datePublished": "2016-10-12T14:09:59-04:00",
-  "dateModified": "2016-10-12T14:09:59-04:00",
+  "datePublished": "2016-10-12T14:49:24-04:00",
+  "dateModified": "2016-10-12T14:49:24-04:00",
   "description": "",
   "author": {
     "@type": "Person",
@@ -280,7 +280,7 @@ body {
   box-sizing: border-box; }
   @media only screen and (max-width: 800px) {
     body {
-      padding: 0 16px; } }
+      padding: 0 0; } }
 
 a {
   text-decoration: none;
@@ -345,7 +345,7 @@ main {
   position: relative;
   top: 0;
   text-align: center;
-  margin: 0 auto 6em;
+  margin: 2em auto 6em;
   max-width: 64em; }
 
 .blog-header {
@@ -354,19 +354,23 @@ main {
   margin: 3em auto 0;
   position: relative;
   top: 0;
-  padding: 0;
-  font-family: "Source Sans pro", "Roboto", "Helvetica Neue", Arial, Helvetica, sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
   .blog-header .blog-title {
-    margin-bottom: 0.1em;
+    width: 92%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 0.2em;
     font-size: 0.9em;
     font-weight: 600;
-    letter-spacing: 0.05em;
-    outline: 0;
+    padding: 1em 0;
+    border-top: 0.1em solid rgab(150, 150, 150, 0.4);
+    border-bottom: 0.1em solid rgab(150, 150, 150, 0.4);
+    font-family: "Source Sans pro", "Roboto", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
     line-height: 2;
     word-break: break-word;
     color: #999; }
@@ -389,7 +393,7 @@ main {
   box-sizing: border-box; }
   @media only screen and (max-width: 800px) {
     .content {
-      padding: 0 16px; } }
+      padding: 0 8px; } }
   .content article {
     padding: 1em 0;
     border-bottom: 0.1em solid rgba(0, 0, 0, 0.05);
