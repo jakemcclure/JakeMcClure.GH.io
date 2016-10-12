@@ -44,9 +44,9 @@ $font-tenor: 'tenor sans','Source Sans pro','Roboto', "Helvetica Neue", Arial, H
 }
 
 body {
-  background-color: rgba(240, 240, 255, 1);
-  background: -webkit-radial-gradient(rgba(255,255,255,1.0), rgba(240, 240, 255,1.0));
-  background: radial-gradient(rgba(255,255,255,1.0), rgba(240, 240, 255,1.0));
+  //background-color: rgba(245, 245, 255, 1);
+  background: -webkit-radial-gradient(rgba(255,255,255,1.0), rgba(245, 245, 255,1.0));
+  background: radial-gradient(rgba(255,255,255,1.0), rgba(245, 245, 255,1.0));
   //background: -webkit-linear-gradient(rgba(255,255,255,1.0), rgba(220,220,220,1.0)); /* For Safari 5.1 to 6.0 */
   //background: -o-linear-gradient(rgba(255,255,255,1.0), rgba(220,220,220,1.0)); /* For Opera 11.1 to 12.0 */
   //background: -moz-linear-gradient(rgba(255,255,255,1.0), rgba(220,220,220,1.0)); /* For Firefox 3.6 to 15 */
@@ -116,9 +116,10 @@ a {
 
   nav {
     max-width: 44em;
+    margin: 0 auto;
     amp-img.logo {
-      margin: 0.2em 0.2em 0.1em auto;
-      //Left: 0;
+      margin: 0.1em 0.1em 0.1em auto;
+      padding: 0;
     }
   }
 }
@@ -138,8 +139,11 @@ a {
     letter-spacing: 0.12em;
     margin-bottom: 2em;
   }
-  .social-section {position: relative;}
+  .social-section {
+    position: relative;
+    margin: 0 auto;
   }
+}
 
 main {
   position: relative;
@@ -268,11 +272,12 @@ main {
   text-align: center;
   padding: $rs * 1 0 0;
   font-size: $rs / 4 * 3;
+  .page-number {color: rgba(0,0,0,0.6)}
   a {
     color: #999999;
     text-decoration: none;
     &:hover {
-      color: #333333;
+      color: #777;
     }
   }
 }
@@ -581,7 +586,7 @@ main {
 
 pre,
 code {
-  font-size: 15px;
+  font-size: 0.9em;
   border: 1px solid #e8e8e8;
   border-radius: 3px;
   background-color: #eeeeff;
@@ -659,19 +664,22 @@ amp-social-share[type="twitter"] {
 /* --- SOCIAL MEDIA ----- */
 
 /* ------ TWITTER --- */
-#twitter .social-section  {
+#twitter-featured #featured-video .social-section {
   text-align: center;
-  padding: 2em auto;
-.twitter-video {
-  padding-top: 2em;
+  margin: 0 auto;
+  padding-top: 1em;
+  min-width: 20em;
+  @include box-sizing(border-box);
+
+  > div {
+    padding: 0;
+  }
 }
 .twitter-timeline {
   padding: 3em auto;
 }
-
 .timeline-widget .u-cf {
   display: none;
-}
 }
 /* ------ FACEBOOK --- */
 
