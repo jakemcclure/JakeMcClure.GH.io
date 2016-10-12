@@ -44,25 +44,20 @@ $font-tenor: 'tenor sans','Source Sans pro','Roboto', "Helvetica Neue", Arial, H
 }
 
 body {
-  text-align: center;
-  width: 100%;
-  max-width: 44em;
-  margin: 0.25em auto 0;
-  @include box-sizing(border-box);
-  @include respond-to(800) {
-  padding: 0 $rs * 1;
-  background: #222;
-  background: -webkit-radial-gradient(rgba(255,255,255,1.0), rgba(220,220,220,1.0));
-  background: radial-gradient(rgba(255,255,255,1.0), rgba(220,220,220,1.0));
+  background-color: rgba(240, 240, 255, 1);
+  background: -webkit-radial-gradient(rgba(255,255,255,1.0), rgba(240, 240, 255,1.0));
+  background: radial-gradient(rgba(255,255,255,1.0), rgba(240, 240, 255,1.0));
   //background: -webkit-linear-gradient(rgba(255,255,255,1.0), rgba(220,220,220,1.0)); /* For Safari 5.1 to 6.0 */
   //background: -o-linear-gradient(rgba(255,255,255,1.0), rgba(220,220,220,1.0)); /* For Opera 11.1 to 12.0 */
   //background: -moz-linear-gradient(rgba(255,255,255,1.0), rgba(220,220,220,1.0)); /* For Firefox 3.6 to 15 */
   //background: linear-gradient(rgba(255,255,255,1.0), rgba(220,220,220,1.0)); /* Standard syntax */
-  font-family: $font-serif;
-  font-weight: 400;
+  text-align: center;
+  width: 100%;
   margin: 0 auto;
-  padding: 0;
+  font-family: $font-sans;
+  font-weight: 400;
   font-size: 100%;
+  padding: 0;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-font-feature-settings: "liga=1, dlig=1";
@@ -70,6 +65,10 @@ body {
   -webkit-font-feature-settings: "liga", "dlig";
   -o-font-feature-settings: "liga", "dlig";
   font-feature-settings: "liga", "dlig";
+  @include box-sizing(border-box);
+  @include respond-to(800) {
+    padding: 0 $rs * 1;
+  }
 }
 
 a {
@@ -80,11 +79,11 @@ a {
   }
 }
 
-
 .site-header {
   position: fixed;
-  width: calc(100%);
-  //height: 3em;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
   left: 50%;
   top: 0;
   transform: translateX(-50%);
@@ -92,51 +91,43 @@ a {
   transition: .5s;
   z-index:2;
   box-shadow:0 1px 0 rgba(0,0,0,.1),0 1px 2px rgba(0,0,0,.1);
-  @include box-sizing(border-box);
-  @include respond-to(800) {
-    padding: 0 $rs * 1;}
-  &.hide {
-      transform: translateX(-50%) translateY(-100%);
-    }
-    /*
-      position: relative;
-      width: 100%;
-      max-width: 44em;
-      margin: 0.25em auto 0 auto;
-      @include box-sizing(border-box);
-      @include respond-to(800) {
-        padding: 0 $rs * 1;}
-        */
-  amp-img.logo {
-    margin: 0.2em 0.2em 0.1em auto;
-    //Left: 0;
-  }
-
   .page-links {
-      display: inline-block;
-      position: absolute;
-      bottom: 10px;
-      right: $rs;
-      font-weight: 200;
-      font-style: normal;
-      font-size: 0.77777em;
-      line-height: 30px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: $rs;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 0.77777em;
+    line-height: 30px;
 
-      a {
-        text-decoration: none;
-        color: $medium-color;
-        &:hover {
-          color: #777;
-        }
-        }
+    a {
+      text-decoration: none;
+      color: #999999;
+      &:hover {
+        color: #333333;
+      }
+    }
   }
 
+  &.hide {
+    transform: translateX(-50%) translateY(-100%);
+    }
+
+  nav {
+    max-width: 44em;
+    amp-img.logo {
+      margin: 0.2em 0.2em 0.1em auto;
+      //Left: 0;
+    }
+  }
 }
 
 #about {
   position: relative;
   top: 4em;
-  margin-bottom: 6em;
+  text-align: center;
+  margin: 0 auto 6em;
   .site-description {
     color: #999;
     font-family: $font-sans;
@@ -147,16 +138,14 @@ a {
     letter-spacing: 0.12em;
     margin-bottom: 2em;
   }
-  .social-section {
-    position: relative;}
+  .social-section {position: relative;}
   }
-}
 
 main {
   position: relative;
   top: 0;
-  margin-top: 4em;
-  padding-top: 2em;
+  text-align: center;
+  margin: 0 auto 6em;
   max-width: 64em;
 }
 
@@ -242,6 +231,7 @@ main {
       font-size: 1.15em;
       line-height: 1.3;
       color: #888;
+      font-family: $font-serif;
     }
     .post-meta {
       font-size: 70%;
