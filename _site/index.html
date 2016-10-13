@@ -21,8 +21,6 @@
   <meta name="twitter:creator" content="@Jake_McClure">
   <meta name="twitter:title" content="">
   
-    <meta name="twitter:description" content="A recent JAMA paper titled “Close Contact Casting vs Surgery for Initial Treatment of Unstable Ankle Fractures in Older Adults: A Randomized Clinical Trial” concluded that “casting compared with surgery...">
-  
     <meta name="twitter:description" content="Whether a patient or provider, the chorus of dismal usability with our medical records systems is all too common. Development of electronic medical record (EMR) systems desperately need a user...">
   
     <meta name="twitter:description" content="Floppy Disk icons — how much longer until we consider this UI dinosaur no longer applicable? One could argue the shift should have taken place at least a decade ago as I...">
@@ -47,8 +45,8 @@
   "@type": "NewsArticle",
   "mainEntityOfPage": "http://JakeMcClure.net/",
   "headline": "",
-  "datePublished": "2016-10-13T15:12:25-04:00",
-  "dateModified": "2016-10-13T15:12:25-04:00",
+  "datePublished": "2016-10-13T15:27:14-04:00",
+  "dateModified": "2016-10-13T15:27:14-04:00",
   "description": "",
   "author": {
     "@type": "Person",
@@ -326,6 +324,8 @@ a {
     .site-header nav amp-img.logo {
       margin: 0.1em 0.1em 0.1em auto;
       padding: 0; }
+      .site-header nav amp-img.logo :hover {
+        text-decoration: none; }
 
 #about {
   position: relative;
@@ -361,15 +361,24 @@ main {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
+  .blog-header .logo {
+    display: inline-block;
+    text-decoration: none;
+    margin: 0;
+    padding-right: 2em; }
+    .blog-header .logo :hover {
+      text-decoration: none; }
+    .blog-header .logo img {
+      padding-right: 2em; }
   .blog-header .blog-title {
-    width: 92%;
+    display: inline-block;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin-bottom: 0.2em;
+    margin-bottom: .2em;
     font-size: 0.9em;
     font-weight: 600;
-    padding: 1em 0;
+    padding: 0;
     border-top: 0.1em solid rgab(150, 150, 150, 0.4);
     border-bottom: 0.1em solid rgab(150, 150, 150, 0.4);
     font-family: "Source Sans pro", "Roboto", "Helvetica Neue", Arial, Helvetica, sans-serif;
@@ -882,30 +891,14 @@ section.ad {
 <main class="content" role="main">
   <header class="blog-header">
     <a href="/" class="logo">
-      <amp-img class="logo" src="/assets/images/JM-bulb-border.svg" width="48" height="48"></amp-img>
+      <amp-img class="amp-logo" src="/assets/images/JM-bulb-border.svg" width="48" height="48"></amp-img>
       </a>
-      <h1 class="blog-title">bits <span>2</span> Bedside</h1>
-      <!-- <h2 class="blog-description">A millennial physician's commentary on healthcare delivery and tech innovation intersecting with the systematic friction blocking its path.
+    <h1 class="blog-title">bits <span>2</span> Bedside</h1>
+    <!-- <h2 class="blog-description">A millennial physician's commentary on healthcare delivery and tech innovation intersecting with the systematic friction blocking its path.
 </h2> -->
   </header>
 
   <div class="cf frame">
-  
-    <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
-      <div class="article-item">
-        <header class="post-header">
-          <h2 class="post-title" itemprop="name"><a href="/2016/10/13/Casting-Elderly-Ankle-Fractures/" itemprop="url">Casting unstable ankle fractures is still a bad idea</a></h2>
-        </header>
-        <section class="post-excerpt" itemprop="description">
-          <p>A recent JAMA paper titled “Close Contact Casting vs Surgery for Initial Treatment of Unstable Ankle Fractures in Older Adults: A Randomized Clinical Trial” concluded that “casting compared with surgery resulted in similar functional outcomes at 6 months” and that it “may be an appropriate treatment for such patients.”
-
-</p>
-        </section>
-        <div class="post-meta">
-          <time datetime="13 Oct 2016">13 Oct 2016</time>
-        </div>
-      </div>
-    </article>
   
     <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
       <div class="article-item">
@@ -962,7 +955,7 @@ section.ad {
     -->
 
     <a href="/" class="logo">
-      <amp-img class="logo" src="/assets/images/JM-bulb-border.svg" width="48" height="48"></amp-img>
+      <amp-img class="logo" src="/assets/images/menu-orangePill.svg" width="48" height="48"></amp-img>
       </a>
   </footer>
 
