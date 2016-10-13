@@ -201,6 +201,7 @@ main {
     padding: 0 $rs * 0.5;
   }
 
+// POSTS-INDEX STYLING //
   article {
     padding: 1em 0;
     border-bottom: 0.1em solid rgba(0,0,0,0.05);
@@ -703,6 +704,13 @@ amp-social-share[type="twitter"] {
 }
 /* ------ FACEBOOK --- */
 
+
+/* ------ ADS --- */
+section.ad {
+  text-align: center;
+  margin: 0 auto;
+  padding: 1em 0;
+}
 /* --- CV --- */
 .cv { margin: 0px 0px 60px; }
 .cv h1 { font-size: 3em; }

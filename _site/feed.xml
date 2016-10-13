@@ -5,9 +5,31 @@
     <description></description>
     <link>http://JakeMcClure.net/</link>
     <atom:link href="http://JakeMcClure.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 12 Oct 2016 16:32:24 -0400</pubDate>
-    <lastBuildDate>Wed, 12 Oct 2016 16:32:24 -0400</lastBuildDate>
+    <pubDate>Thu, 13 Oct 2016 15:12:25 -0400</pubDate>
+    <lastBuildDate>Thu, 13 Oct 2016 15:12:25 -0400</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Casting unstable ankle fractures is still a bad idea</title>
+        <description>&lt;p&gt;A recent JAMA paper titled &lt;a href=&quot;http://jamanetwork.com/journals/jama/article-abstract/2565749&quot;&gt;“Close Contact Casting vs Surgery for Initial Treatment of Unstable Ankle Fractures in Older Adults: A Randomized Clinical Trial”&lt;/a&gt; concluded that “casting compared with surgery resulted in similar functional outcomes at 6 months” and that it “may be an appropriate treatment for such patients.”&lt;/p&gt;
+
+&lt;p&gt;Let’s do some digging to uncover how those are precisely the wrong conclusions the authors should have drawn.
+&amp;lt;–excerpt-separator–&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;~300 patients randomly assigned to either the surgery or casting group.
+However, casts were applied in the OR under general or spinal anesthesia. Similar setup for the surgical group as well.
+- If you’re already going to the OR and going to put the patient to sleep, do the surgery.
+- As the nonsurgical route showed in this study, 15% of the casting group healed their fracture with unacceptable alignment (malunion).
+- 19% of the casting group crossed over because the alignment of the bones just fell apart. This of course means that they now get the luxury of returning to the OR for a second procedure to address the unstable fracture pattern in the surgical manner that should’ve been attempted in the first place.
+- The authors want to give themselves a pat-on-the-back for equivalent outcomes in value/satisfaction at 6 months.
+  - Only problem: that’s an incredibly short period of time to hang your hat on when it comes to utilitzing this study to make clinical decisions.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 13 Oct 2016 00:00:00 -0400</pubDate>
+        <link>http://JakeMcClure.net/2016/10/13/Casting-Elderly-Ankle-Fractures/</link>
+        <guid isPermaLink="true">http://JakeMcClure.net/2016/10/13/Casting-Elderly-Ankle-Fractures/</guid>
+        
+        
+      </item>
     
       <item>
         <title>The UX Prescription</title>
