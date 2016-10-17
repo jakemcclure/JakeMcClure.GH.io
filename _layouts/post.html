@@ -4,13 +4,13 @@ layout: default
 <main class="content" role="main">
   <article class="post">
     <div class="post-meta">
-      <amp-img class="post-thumbnail">{{ page.thumbnail }}</amp-img>
       <h1 class="post-title">{{ page.title }}</h1>
       <h2 class="post-subtitle">{{ page.subtitle }}</h2>
       </div>
 
     <section class="post-content">
       <a name="topofpage"></a>
+      <span><amp-img class="post-thumbnail" width=640 height=400 layout="responsive" src="{{ page.thumbnail }}"></amp-img></span>
 
       {{content}}
 
@@ -29,7 +29,7 @@ layout: default
         <section class="author">
           <div class="author-image"></div>
           <h4>{{ site.name }}</h4>
-          <p class="bio">{{site.bio}}</p>
+          <!-- <p class="bio">{{site.bio}}</p> -->
 
           <p>
             <!--

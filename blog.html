@@ -1,12 +1,23 @@
 ---
-layout: page
+layout: default
 title: bits 2 Bedside
 permalink: /blog/
 ---
+<section id="blog-loop">
+  <header class="blog-header">
+    <span href="{{ site.baseurl }}/blog/" class="logo">
+      <amp-img class="amp-logo"
+        src="{{ site.baseurl }}{{ site.blog-header }}"
+        width=1125 height=300
+        layout="responsive">
+        </amp-img>
+      </span>
+    <!-- <h1 class="blog-title">{{ site.blog-title }}</h1> -->
+    <!-- <h2 class="blog-description">{{ site.blog-description }}</h2> -->
+  </header>
 
-<amp-img width="600" height="300"
-  src="{{ site.baseurl }}{{ site.blog-header }}"
-  width=1125 height=300
-  layout="responsive"></amp-img>
+  <main class="content" role="main">
+    {% include posts-index.html %}
+  </main>
 
-{% include posts-index.html %}
+</section>

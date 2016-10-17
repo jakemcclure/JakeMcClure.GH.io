@@ -183,14 +183,19 @@ a {
     position: relative;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    margin: 1.5em 0 0;
+    margin: 1.5em 0 1em;
   }
   .social-section {
     position: relative;
     margin: 0 auto;
   }
 }
-
+#blog-loop {
+  .post-excerpt {
+    font-size: 1.1em;
+    line-height: 1.4;
+  }
+}
 main {
   position: relative;
   text-align: center;
@@ -263,7 +268,7 @@ main {
     padding: 0 $rs * 0.5;
   }
 
-// POSTS-INDEX STYLING //
+  // POSTS-INDEX STYLING //
   article {
     padding: 1em 0;
     border-bottom: 0.1em solid rgba(0,0,0,0.05);
@@ -759,7 +764,7 @@ amp-social-share[type="twitter"] {
 #twitter-featured #featured-video .social-section {
   text-align: center;
   margin: 0 auto;
-  padding-top: 1em;
+  padding-top: 0em;
   min-width: 20em;
   @include box-sizing(border-box);
 
