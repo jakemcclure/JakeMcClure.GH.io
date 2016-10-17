@@ -2,7 +2,7 @@
 layout: post
 title: The UX Prescription
 published: true
-Thumbnail:
+Thumbnail: /assets/images/EMR-app-store.png
 ---
 Whether a patient or provider, the chorus of dismal usability with our medical records systems is all too common. Development of electronic medical record (EMR) systems desperately need a user experience overhaul.
 

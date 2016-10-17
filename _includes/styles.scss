@@ -192,7 +192,9 @@ a {
 }
 #blog-loop {
   .post-excerpt {
-    font-size: 1.1em;
+    font-family: $font-sans;
+    font-size: 0.9em;
+    letter-spacing: 0.04em;
     line-height: 1.4;
   }
 }
