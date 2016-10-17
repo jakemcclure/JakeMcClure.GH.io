@@ -3,20 +3,46 @@ layout: default
 Title: bits 2 Bedside
 ---
 <section id="about">
+  <span class="logo">
+    <amp-img class="amp-logo"
+      src="{{ site.baseurl }}{{ site.logo }}"
+      width=449 height=364
+      layout="responsive">
+      </amp-img>
+    </span>
+
+  <nav class="site-nav">
+    <ul>
+      <li><a href="{{ site.baseurl }}/blog/">blog</a></li>
+      <li><a href="{{ site.baseurl }}/coming-soon/">graphics</a></li>
+      <li><a class="contact" href="{{ site.url }}/about/">contact</a></li>
+      <li><a href="">for patients</a></li>
+      <li><a href="">for providers</a></li>
+    </ul>
+  </nav>
   <h2 class="site-description">{{ site.site-description }}</h2>
-  {% include _twitter-featured.html %}
+
+  <div id="featured-video">
+    {% include amp-video-featured.html %}
+  </div>
+
+  {% include _twitter-follow.html %}
   </section>
 
+<section id="blog-loop">
 <main class="content" role="main">
   <header class="blog-header">
-    <a href="{{ site.baseurl }}/" class="logo">
-      <amp-img class="amp-logo" src="{{ site.baseurl }}{{ site.logo }}" width="48" height="48"></amp-img>
-      </a>
-    <h1 class="blog-title">{{ site.blog-title }}</h1>
+    <span href="{{ site.baseurl }}/blog/" class="logo">
+      <amp-img class="amp-logo"
+        src="{{ site.baseurl }}{{ site.blog-header }}"
+        width=1125 height=300
+        layout="responsive">
+        </amp-img>
+      </span>
+    <!-- <h1 class="blog-title">{{ site.blog-title }}</h1> -->
     <!-- <h2 class="blog-description">{{ site.blog-description }}</h2> -->
   </header>
 
   {% include posts-index.html %}
 </main>
-
-<!-- {% include footer.html %} -->
+</section>

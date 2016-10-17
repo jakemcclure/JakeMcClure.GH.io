@@ -28,9 +28,9 @@ amp-img {
 
 $rs: 16px;
 
-$font-serif: 'Neuton','PT serif','Lora', Georgia, Cambria, "Times New Roman", Times, serif;
-$font-sans: 'Source Sans pro','Roboto', "Helvetica Neue", Arial, Helvetica, sans-serif;
 $font-tenor: 'tenor sans','Source Sans pro','Roboto', "Helvetica Neue", Arial, Helvetica, sans-serif;
+$font-serif: Georgia,Cambria,"Times New Roman",Times,'Lora', serif;
+$font-sans: 'Source Sans pro','Roboto', "Helvetica Neue", Arial, Helvetica, sans-serif;
 
 @mixin respond-to($breakpoint) {
   @media only screen and (max-width: $breakpoint + px) {
@@ -87,7 +87,7 @@ a {
   left: 50%;
   top: 0;
   transform: translateX(-50%);
-  background: rgba(255,255,255,.6);
+  background: rgba(255,255,255,.8);
   transition: .5s;
   z-index:2;
   box-shadow:0 1px 0 rgba(0,0,0,.1),0 1px 2px rgba(0,0,0,.1);
@@ -101,11 +101,13 @@ a {
     font-size: 0.77777em;
     line-height: 30px;
 
-    a {
+    a,img {
       text-decoration: none;
       color: #999999;
       &:hover {
         color: #333333;
+        border-bottom: none;
+        text-decoration: none;
       }
     }
   }
@@ -116,12 +118,18 @@ a {
 
   nav {
     max-width: 44em;
-    margin: 0 auto;
-    amp-img.logo {
-      margin: 0.1em 0.1em 0.1em auto;
-      padding: 0;
-      :hover {
-        text-decoration: none;
+    margin: 0.2em auto;
+    z-index: 3;
+    .name {
+      > amp-img {
+        margin: 0 auto;
+        padding: 0;
+        width: 65%;
+        max-width: 20em;
+        :hover {
+          text-decoration: none;
+          border: none;
+        }
       }
     }
   }
@@ -129,18 +137,53 @@ a {
 
 #about {
   position: relative;
-  top: 4em;
   text-align: center;
-  margin: 0 auto 6em;
+  margin: 4em auto 4em;
+  font-family: $font-sans;
+  font-weight: 300;
+  .logo {
+    display: inline-block;
+    width: 30%;
+    max-width: 8em;
+    amp-img {
+      margin: 0;
+    }
+  }
+  nav {
+    display: inline-block;
+    text-align: left;
+    ul {
+      list-style-type: none;
+      li {
+        font-size: 80%;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        padding: 0 0 0.3em 0;
+        a {
+          color: #999;
+          text-decoration: none;
+          border: none;
+          &:hover {
+            background: #eee;
+          }
+        }
+        .contact {color: #cc6633;}
+      }
+    }
+  }
+  #featured-video {
+    max-width: 40em;
+    margin: 0 auto;
+    padding: 0 0 1em 0;
+  }
   .site-description {
     color: #999;
-    font-family: $font-sans;
     font-weight: 300;
     font-size: 130%;
     position: relative;
     text-transform: uppercase;
-    letter-spacing: 0.12em;
-    margin-bottom: 2em;
+    letter-spacing: 0.1em;
+    margin: 1.5em 0 0;
   }
   .social-section {
     position: relative;
@@ -150,7 +193,6 @@ a {
 
 main {
   position: relative;
-  top: 4em;
   text-align: center;
   margin: 2em auto 6em;
   max-width: 64em;
@@ -163,20 +205,23 @@ main {
   position: relative;
   top: 0;
   @include box-sizing(border-box);
-
+  :hover {
+    text-decoration: none;
+    border-bottom: none;
+  }
   .logo {
-    display: inline-block;
+    width: 90%;
+    max-width: 28em;
     text-decoration: none;
     margin: 0;
-    padding-right: 2em;
-    :hover {
-      text-decoration: none;
+    amp-img {
+      margin: 0;
     }
-    img {
-      padding-right: 2em;
+    &:hover {
+      text-decoration: none;
+      border-bottom: none;
     }
   }
-
   .blog-title {
     display: inline-block;
     //width: 92%;
@@ -200,7 +245,7 @@ main {
     }
   }
   .blog-description {
-    font-size: 1.3em;
+    font-size: 1.15em;
     margin: 0 0 3.25em 1.5em;
     padding: 0;
     line-height: 1.2;
@@ -324,7 +369,16 @@ main {
     text-decoration: none;
     &:hover {
       color: rgba(120, 120, 120,1.0);
+      text-decoration: none;
+      border-bottom: none;}
+  amp-img:hover {
+    text-decoration: none;
+    border-bottom: none;
     }
+  .steth, .bell {display: inline-block;}
+  .steth {display: none; z-index: 20;}
+  .bell:hover {
+    > .steth {display: inline-block;}}
   .tooltip {
     display: inline-block;
     margin: 0 auto;

@@ -2,7 +2,6 @@
   <meta charset="utf-8">
   <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,600|Neuton:300,400,600,700,900|Tenor+Sans|Lora:400,700' rel="stylesheet" type='text/css'>
   <link rel="shortcut icon" href="assets/images/favicon.ico">
-  <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,minimum-scale=1">
@@ -27,12 +26,10 @@
   <meta name="google-site-verification" content="bWdiUpX7hLZblwKnHcJ7weQCibsIDPqnQ-4g1pQKO9M">
   <script async="" src="//www.google-analytics.com/analytics.js"></script>
 
-<!-- AMP -->
-  <script async custom-element="amp-twitter" src="https://cdn.ampproject.org/v0/amp-twitter-0.1.js"></script>
-  <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
-  <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
-  <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
-  <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+{% seo %}
+
+  <!-- AMP -->
+  {% include amp-head.html %}
 
   <script type="application/ld+json">
   {% include metadata.json %}

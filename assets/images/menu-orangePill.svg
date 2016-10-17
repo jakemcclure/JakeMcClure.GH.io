@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 3.7 (28169) - http://www.bohemiancoding.com/sketch -->
-    <title>menu-orangePill</title>
-    <desc>Created with Sketch.</desc>
+<svg viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>
         <path d="M1.13686838e-13,5 C-0.000234407445,9 3.49976543,9.99999988 4,10 C5.00000014,10.0000002 31,10 32,10 C33,10 36,9 36,5 C36,1 33,2.7339242e-15 32,2.7339242e-15 C31,2.7339242e-15 5,-3.77301752e-10 4,2.7339242e-15 C3,3.77307185e-10 0.000234407446,1 1.13686838e-13,5 Z" id="path-1"></path>
         <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-0.5" y="-0.5" width="37" height="11.0000001">
