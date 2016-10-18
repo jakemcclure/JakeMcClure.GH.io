@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Floppy Disk UI
-published: true
+published: false
 thumbnail: /assets/images/posts/thumbnails/floppy-disk.png
 ---
 

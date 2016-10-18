@@ -2,17 +2,23 @@
   {% for post in paginator.posts %}
     <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
       <div class="article-item">
+
         <header class="post-header">
-          <h2 class="post-title" itemprop="name"><a href="{{ site.baseurl }}{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
-        </header>
+          <h2 class="post-title" itemprop="name">
+            <a href="{{ site.baseurl }}{{ post.url }}" itemprop="url">{{ post.title }}</a>
+            </h2>
+          </header>
+
         <section class="post-excerpt" itemprop="description">
           <p>{{ post.excerpt }}</p>
-        </section>
+          </section>
+
         <div class="post-meta">
           <time datetime="{{ post.date | date_to_string }}">{{ post.date | date_to_string }}</time>
+          </div>
+
         </div>
-      </div>
-    </article>
+      </article>
   {% endfor %}
 </div>
 

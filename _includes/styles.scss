@@ -28,7 +28,6 @@ amp-img {
 
 $rs: 16px;
 
-$font-tenor: 'tenor sans','Source Sans pro','Roboto', "Helvetica Neue", Arial, Helvetica, sans-serif;
 $font-serif: Georgia,Cambria,"Times New Roman",Times,'Lora', serif;
 $font-sans: 'Source Sans pro','Roboto', "Helvetica Neue", Arial, Helvetica, sans-serif;
 
@@ -91,6 +90,13 @@ a {
   transition: .5s;
   z-index:2;
   box-shadow:0 1px 0 rgba(0,0,0,.1),0 1px 2px rgba(0,0,0,.1);
+
+  .nav-search {
+    width: 6em;
+    height: 1em;
+    background: #ddd;
+  }
+
   .page-links {
     display: block;
     position: absolute;
@@ -126,7 +132,7 @@ a {
         padding: 0;
         width: 65%;
         max-width: 20em;
-        :hover {
+        &:hover {
           text-decoration: none;
           border: none;
         }
@@ -156,6 +162,7 @@ a {
       list-style-type: none;
       li {
         font-size: 80%;
+        font-weight: 400;
         text-transform: uppercase;
         letter-spacing: 0.06em;
         padding: 0 0 0.3em 0;
@@ -171,6 +178,7 @@ a {
       }
     }
   }
+
   #featured-video {
     max-width: 40em;
     margin: 0 auto;
@@ -178,11 +186,11 @@ a {
   }
   .site-description {
     color: #999;
-    font-weight: 300;
-    font-size: 130%;
+    font-weight: 400;
+    font-size: 115%;
     position: relative;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.06em;
     margin: 1.5em 0 1em;
   }
   .social-section {
@@ -190,6 +198,7 @@ a {
     margin: 0 auto;
   }
 }
+
 #blog-loop {
   .post-excerpt {
     font-family: $font-sans;
@@ -199,6 +208,7 @@ a {
     line-height: 1.4;
   }
 }
+
 main {
   position: relative;
   text-align: center;
@@ -213,23 +223,28 @@ main {
   position: relative;
   top: 0;
   @include box-sizing(border-box);
-  :hover {
+
+  &:hover {
     text-decoration: none;
     border-bottom: none;
   }
+
   .logo {
-    width: 90%;
-    max-width: 28em;
+    width: 80%;
+    max-width: 24em;
     text-decoration: none;
     margin: 0;
+
     amp-img {
       margin: 0;
     }
+
     &:hover {
       text-decoration: none;
       border-bottom: none;
     }
   }
+
   .blog-title {
     display: inline-block;
     //width: 92%;
@@ -244,7 +259,7 @@ main {
     text-transform: uppercase;
     letter-spacing: 0.15em;
     //letter-spacing: 0.05em;
-    //outline: 0;
+    outline: 0;
     line-height: 2;
     word-break: break-word;
     color: #999;
@@ -252,6 +267,7 @@ main {
       color: #cc6633;
     }
   }
+
   .blog-description {
     font-size: 1.15em;
     margin: 0 0 3.25em 1.5em;
@@ -271,17 +287,19 @@ main {
     padding: 0 $rs * 0.5;
   }
 
-  // POSTS-INDEX STYLING //
   article {
     padding: 1em 0;
     border-bottom: 0.1em solid rgba(0,0,0,0.05);
     text-align: center;
+
     &:last-child {
       border-bottom: 0px;
     }
+
     .post-title, .post-excerpt, .post-content, .post-meta {
       text-align: left;
     }
+
     .post-title {
       letter-spacing: -0.02em;
       font-family: $font-sans;
@@ -292,17 +310,19 @@ main {
       line-height: 1.4;
       margin: 0 0;
       padding: 0;
-    a {
-      text-decoration: none;
-      color: #444;
-      Border: none;
-      &:hover {
+
+      a {
         text-decoration: none;
-        background: Rgba(0,0,0,0.05);
-        Border-bottom: 0.08em solid #cc6633;
+        color: #444;
+        border: none;
+        &:hover {
+          text-decoration: none;
+          background: Rgba(0,0,0,0.05);
+          Border-bottom: 0.08em solid #cc6633;
         }
       }
     }
+
     .post-excerpt {
       letter-spacing: -0.02em;
       font-weight: 300;
@@ -351,7 +371,7 @@ main {
   text-align: center;
   padding: $rs * 1 0 0;
   font-size: $rs / 4 * 3;
-  .page-number {color: rgba(0,0,0,0.6)}
+  .page-number {color: rgba(0,0,0,0.6);}
   a {
     color: #999999;
     text-decoration: none;
@@ -359,41 +379,6 @@ main {
       color: #777;
     }
   }
-}
-
-.site-footer {
-  margin: 0 auto;
-  text-align: center;
-  padding: $rs * 4 0;
-  width: 100%;
-  z-index: -10;
-  font-size: $rs / 4 * 3;
-  text-align: center;
-  color: rgba(190, 190, 190,1.0);
-  line-height: $rs * 1.1;
-  //background: rgba(240, 240, 240,1.0);
-  a {
-    color: rgba(150, 150, 150,1.0);
-    text-decoration: none;
-    &:hover {
-      color: rgba(120, 120, 120,1.0);
-      text-decoration: none;
-      border-bottom: none;}
-  amp-img:hover {
-    text-decoration: none;
-    border-bottom: none;
-    }
-  .steth, .bell {display: inline-block;}
-  .steth {display: none; z-index: 20;}
-  .bell:hover {
-    > .steth {display: inline-block;}}
-  .tooltip {
-    display: inline-block;
-    margin: 0 auto;
-    text-align: center;
-  }
-}
-  nav {max-width: 48em;}
 }
 
 .post {
@@ -477,10 +462,10 @@ main {
     p {
       font-weight: 400;
       font-style: normal;
-      font-size: 1.2em;
-      line-height: 1.4;
+      font-size: 1.1em;
+      line-height: 1.59;
       letter-spacing: -.002em;
-      margin-top: 1.5em;
+      margin-top: 1.875em;
       margin-bottom: 0;
       color: #333333;
       -webkit-hyphens: auto;
@@ -557,8 +542,8 @@ main {
       display: block;
       width: 15%;
       margin: 1em 0 1em 6.25em;
-      border: 0px solid rgba(235, 235, 255, 0.6);
-      border-top: 0.1em solid rgba(235, 235, 255, 0.6);
+      border: 0px solid #ddd;
+      border-top: 0.1em solid #ddd;
     }
     .isLeft {
       float: left;
@@ -569,16 +554,16 @@ main {
         padding-bottom: $rs * 2;
       }
       .bio {
-        margin-top: 18px;
-        margin-bottom: 18px;
+        margin-top: 1.125em;
+        margin-bottom: 1.125em;
       }
       .username {
-        margin-left: 4px;
-        margin-right: 18px;
-        margin-bottom: 18px;
+        margin-left: 0.25em;
+        margin-right: 1.125em;
+        margin-bottom: 1.125em;
       }
       .index-headline {
-        padding-bottom: 32px;
+        padding-bottom: 2em;
       }
       a {
         color: black;
@@ -603,7 +588,7 @@ main {
         font-weight: 600;
         padding: 0;
         margin: 0;
-        //padding-left: 7em;
+        padding-left: 7em;
       }
       p {
         font-size: 0.9em;
@@ -632,7 +617,7 @@ main {
       }
 
       .index-headline {
-        padding-bottom: 1.2em;
+        padding-bottom: 2em;
       }
       .site-footer {
         margin: 0 auto;
@@ -651,7 +636,7 @@ main {
         }
         .poweredby {
           display: block;
-          padding-bottom: 3em;
+          padding-bottom: 1.125em;
           font-weight: 400;
           color: #555;
         }
@@ -659,6 +644,7 @@ main {
           font-size: 70%;
           line-height: 1.6;
           text-align: center;
+          padding-bottom: 2em;
         }
       }
     }
@@ -683,6 +669,43 @@ main {
   }
 }
 
+.site-footer {
+  margin: 0 auto;
+  text-align: center;
+  padding: $rs * 4 0 0.2;
+  width: 100%;
+  z-index: -10;
+  font-size: $rs / 4 * 3;
+  text-align: center;
+  color: rgba(190, 190, 190,1.0);
+  line-height: $rs * 1.1;
+  //background: rgba(240, 240, 240,1.0);
+  a {
+    color: rgba(150, 150, 150,1.0);
+    text-decoration: none;
+    &:hover {
+      color: rgba(120, 120, 120,1.0);
+      text-decoration: none;
+      border-bottom: none;
+    }
+  }
+  amp-img:hover {
+    text-decoration: none;
+    border-bottom: none;
+  }
+  .steth, .bell {display: inline-block;}
+  .steth {display: none; z-index: 20;}
+  .bell:hover {
+    > .steth {display: inline-block;}
+  }
+  .tooltip {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  nav {max-width: 48em;}
+}
+
 
 pre,
 code {
@@ -697,7 +720,7 @@ code {
 }
 
 pre {
-  padding: 8px 12px;
+  padding: 0.5em 0.75em;
   overflow-x: scroll;
   > code {
     border: 0;
@@ -715,6 +738,7 @@ amp-social-share[type="twitter"] {
   background: $grey-color;
   background-image: url(_includes/icon-twitter.svg);
 }
+
 #bottom {
   position: fixed;
   bottom: 0;
@@ -794,6 +818,6 @@ section.ad {
 .cv { margin: 0px 0px 60px; }
 .cv h1 { font-size: 3em; }
 .cv h2 { font-size: 2em; }
-.cv address, .cv .download { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
+.cv address, .cv .download { font-family: 'source sans pro', 'Helvetica', 'Arial', 'Sans-Serif'; }
 .cv address, .cv p { font-size: 1.2em; }
 .cv .download { float: right; font-size: .8em; text-transform: uppercase; }

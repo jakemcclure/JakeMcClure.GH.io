@@ -1,15 +1,17 @@
 <footer class="site-footer">
+  <div class="inner">
   <!--
-    <div class="inner">
-      <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i> Subscribe</span></a>
-      <section class="copyright">All rights reserved <a href="mailto:{{ site.email}}">{{ site.name }}</a> &copy; {{ site.time | date: '%Y' }}</section>
-    </div>
-    -->
-
-    <a href="{{ site.baseurl }}/" class="logo">
-      <amp-img class="logo steth" src="{{ site.baseurl }}/assets/images/JM-steth.svg" width="48" height="48"></amp-img>
-      <amp-img class="logo bell" src="{{ site.baseurl }}/assets/images/menu-bell.svg" width="48" height="48"></amp-img>
+    <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}">
+      <span class="tooltip"><i class="fa fa-rss"></i> Subscribe</span>
       </a>
+  -->
+  <section class="copyright">All rights reserved <a href="mailto:{{ site.email }}">{{ site.name }}</a> &copy; {{ site.time | date: '%Y' }}</section>
+
+  <a href="{{ site.baseurl }}/" class="logo">
+    <amp-img class="logo steth" src="{{ site.baseurl }}/assets/images/JM-steth.svg" width="48" height="48"></amp-img>
+    <amp-img class="logo bell" src="{{ site.baseurl }}/assets/images/menu-bell.svg" width="48" height="48"></amp-img>
+    </a>
+    </div>
   </footer>
 
 <!--
