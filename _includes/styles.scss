@@ -334,18 +334,22 @@ main {
     }
     .post-meta {
       font-size: 70%;
-      color: #rgba(100,100,100,0.1);
+      color: rgba(100,100,100,0.1);
       line-height: 1.875em;
       time {
         text-transform: uppercase;
         letter-spacing: 0.03em;
       }
       a {
-        color: #b3b3b1;
+        color: rgba(100,100,100,0.1);
         text-decoration: none;
         &:hover {
           text-decoration: none;
         }
+      }
+      .link {
+        padding: 0 2em;
+        svg {path: #ccc;}
       }
     }
   }
