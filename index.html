@@ -3,6 +3,11 @@ layout: amp-default
 Title: bits 2 Bedside
 ---
 <section id="about">
+  <div id="featured-video">
+    {% include _twitter-featured.html %}
+  </div>
+
+  <h2 class="site-description">{{ site.site-description }}</h2>
   <span class="logo">
     <amp-img class="amp-logo"
       src="{{ site.baseurl }}{{ site.logo }}"
@@ -10,7 +15,6 @@ Title: bits 2 Bedside
       layout="responsive">
       </amp-img>
     </span>
-
   <nav class="site-nav">
     <ul>
       <li><a href="{{ site.baseurl }}/blog/">blog</a></li>
@@ -20,11 +24,7 @@ Title: bits 2 Bedside
       <li><a href="">for providers</a></li>
       </ul>
     </nav>
-  <h2 class="site-description">{{ site.site-description }}</h2>
 
-  <div id="featured-video">
-    {% include _twitter-featured.html %}
-  </div>
   </section>
 
 <section id="blog-loop">

@@ -10,14 +10,14 @@
           </header>
 
         <section class="post-excerpt" itemprop="description">
-          <p>{{ post.excerpt }}</p>
+          {{ post.excerpt }}
           </section>
 
         <div class="post-meta">
           <time datetime="{{ post.date | date_to_string }}">{{ post.date | date_to_string }}</time>
           <amp-img class="logo link"
             src="{{ site.baseurl }}/assets/images/ic_link_24px.svg"
-            width="16" height="16">
+            width=16 height=16 layout="responsive">
             </amp-img>
           </div>
 

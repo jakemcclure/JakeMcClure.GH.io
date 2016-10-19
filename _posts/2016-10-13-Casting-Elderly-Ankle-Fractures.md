@@ -9,7 +9,9 @@ categories:
   - EBM
   - Costs
 tags:
-  - Musculoskeletal
+  - MSK
+  - elderly
+  - surgery
 ---
 A recent JAMA paper titled ["Close Contact Casting vs Surgery for Initial Treatment of Unstable Ankle Fractures in Older Adults–A Randomized Clinical Trial"](http://jamanetwork.com/journals/jama/article-abstract/2565749) concluded:
 
