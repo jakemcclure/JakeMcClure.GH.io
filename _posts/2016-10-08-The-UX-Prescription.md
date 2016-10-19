@@ -3,7 +3,7 @@ layout: post
 title: UX &mdash; A Prescription For The Quadruple Aim
 subtitle:
 published: true
-thumbnail-image:  /assets/images/posts/EMR-app-store.png
+thumbnail-image:  
 thumbnail-video:  /assets/mov/posts/EMR-app-store.mp4
 thumbnail-description: EMRs – When was the last time you purchased a 3-star app?
 excerpt_separator: <!-- excerpt -->
