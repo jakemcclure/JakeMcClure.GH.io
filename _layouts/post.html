@@ -10,10 +10,15 @@ layout: amp-default
 
     <section class="post-content">
       <a name="topofpage"></a>
-      <span><amp-img class="post-thumbnail" width=640 height=400 layout="responsive" src="{{ page.thumbnail }}"></amp-img></span>
+      <span><amp-img class="post-thumbnail" width="1296" height="702" layout="responsive" alt="{{ page.thumbnail-description }}" src="{{ page.thumbnail-image }}"></amp-img></span>
+      <span><amp-video class="post-thumbnail" width="1920" height="1080" layout="responsive" alt="{{ page.thumbnail-description }}" src="{{ page.thumbnail-video }}"></amp-img></span>
 
       {{content}}
 
+      <!-- FOLLOW -->
+      <div id="follow" class="social-section">
+        <a href="https://twitter.com/Jake_McClure" class="twitter-follow-button" data-size="small" data-show-screen-name="true" data-show-count="true">Follow • @Jake_McClure</a>
+      </div>
     </section>
 
     <footer class="post-footer">
@@ -81,4 +86,7 @@ layout: amp-default
       </div>
     </div>
   </article>
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 </main>

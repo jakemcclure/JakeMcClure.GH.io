@@ -307,7 +307,7 @@ main {
       font-style: normal;
       display: block;
       font-size: 1.6em;
-      line-height: 1.8;
+      line-height: 1.3;
       margin: 0 0;
       padding: 0;
 
@@ -355,6 +355,12 @@ main {
         svg {
           path: #777;}
       }
+    }
+    .google-trends-embed {
+      width: 80%;
+      height: auto;
+      margin: 0 auto;
+      text-align: center;
     }
   }
 }
@@ -703,16 +709,16 @@ main {
     border-bottom: none;
   }
   .steth, .bell {display: inline-block;}
-  .steth {display: none; z-index: 20;}
-  .bell:hover {
-    > .steth {display: inline-block;}
-  }
+  .bell {display: none; z-index: 20;}
+  .steth:hover .bell {display: inline-block;}
   .tooltip {
     display: inline-block;
     margin: 0 auto;
     text-align: center;
   }
-  nav {max-width: 48em;}
+  nav {
+    max-width: 48em;
+  }
 }
 
 

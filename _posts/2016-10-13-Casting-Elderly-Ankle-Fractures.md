@@ -3,7 +3,8 @@ layout: post
 title: The Dangers of Being a Headline Reader
 date: 2016-10-14
 published: false
-Thumbnail:
+thumbnail:
+thumbnail-description:
 excerpt_separator: <!-- excerpt -->
 categories:
   - EBM

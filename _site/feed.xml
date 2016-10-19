@@ -5,24 +5,64 @@
     <description>a physician commentary on healthcare UX in the Digital Age · Jake McClure .net</description>
     <link>http://JakeMcClure.net/</link>
     <atom:link href="http://JakeMcClure.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 19 Oct 2016 03:57:08 -0400</pubDate>
-    <lastBuildDate>Wed, 19 Oct 2016 03:57:08 -0400</lastBuildDate>
+    <pubDate>Wed, 19 Oct 2016 14:37:56 -0400</pubDate>
+    <lastBuildDate>Wed, 19 Oct 2016 14:37:56 -0400</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
-        <title>The UX Prescription</title>
-        <description>&lt;p&gt;Whether a patient or provider, the chorus of dismal usability with our medical records systems is all too common. Development of electronic medical record (EMR) systems desperately need a user experience overhaul.&lt;/p&gt;
+        <title>UX &amp;mdash; A Prescription For The Quadruple Aim</title>
+        <description>&lt;p&gt;Whether a patient or provider, the chorus of dismal usability with our medical records systems is fortunately becoming a repeated refrain in healthcare conversations regarding the Quadruple Aim and more recently in discussions leading up to the final release of the MACRA. Unfortunately, the cart is being pushed ahead of the horse. The bane of present-day electronic medical record (EMR) systems can be distilled down to two little letters, &lt;strong&gt;UX&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;UX for short, it is a foreign concept to concept to clinicians when discussing frustrations with the workflows and lack of functionality with present-day EMRs. While the terminology may be distant, the frustrations are a recurring theme.&lt;/p&gt;
+&lt;!-- excerpt --&gt;
+
+&lt;p&gt;Shortened to the abbreviation “UX”, user experience is a buzzword in &amp;amp; around Silicon Valley.&lt;/p&gt;
+&lt;div class=&quot;google-trends-embed&quot;&gt;
+  &lt;script type=&quot;text/javascript&quot; src=&quot;https://ssl.gstatic.com/trends_nrtr/760_RC04/embed_loader.js&quot;&gt;&lt;/script&gt;
+  &lt;script type=&quot;text/javascript&quot;&gt; trends.embed.renderExploreWidget(&quot;GEO_MAP_2&quot;, {&quot;comparisonItem&quot;:[{&quot;keyword&quot;:&quot;ux ehr&quot;,&quot;geo&quot;:&quot;US&quot;,&quot;time&quot;:&quot;today 5-y&quot;},{&quot;keyword&quot;:&quot;ux healthcare&quot;,&quot;geo&quot;:&quot;US&quot;,&quot;time&quot;:&quot;today 5-y&quot;},{&quot;keyword&quot;:&quot;ux&quot;,&quot;geo&quot;:&quot;US&quot;,&quot;time&quot;:&quot;today 5-y&quot;},{&quot;keyword&quot;:&quot;mobile ux&quot;,&quot;geo&quot;:&quot;US&quot;,&quot;time&quot;:&quot;today 5-y&quot;}],&quot;category&quot;:0,&quot;property&quot;:&quot;&quot;}, {&quot;exploreQuery&quot;:&quot;geo=US&amp;q=ux%20ehr,ux%20healthcare,ux,mobile%20ux&quot;}); &lt;/script&gt;
+&lt;/div&gt;
+
+&lt;p&gt;However, it’s a foreign concept in the development of healthcare tech.&lt;/p&gt;
+&lt;div class=&quot;google-trends-embed&quot;&gt;
+  &lt;script type=&quot;text/javascript&quot; src=&quot;https://ssl.gstatic.com/trends_nrtr/760_RC04/embed_loader.js&quot;&gt;&lt;/script&gt;
+  &lt;script type=&quot;text/javascript&quot;&gt; trends.embed.renderExploreWidget(&quot;GEO_MAP_1&quot;, {&quot;comparisonItem&quot;:[{&quot;keyword&quot;:&quot;ux ehr&quot;,&quot;geo&quot;:&quot;US&quot;,&quot;time&quot;:&quot;today 5-y&quot;},{&quot;keyword&quot;:&quot;ux healthcare&quot;,&quot;geo&quot;:&quot;US&quot;,&quot;time&quot;:&quot;today 5-y&quot;},{&quot;keyword&quot;:&quot;ux&quot;,&quot;geo&quot;:&quot;US&quot;,&quot;time&quot;:&quot;today 5-y&quot;},{&quot;keyword&quot;:&quot;mobile ux&quot;,&quot;geo&quot;:&quot;US&quot;,&quot;time&quot;:&quot;today 5-y&quot;}],&quot;category&quot;:0,&quot;property&quot;:&quot;&quot;}, {&quot;exploreQuery&quot;:&quot;geo=US&amp;q=ux%20ehr,ux%20healthcare,ux,mobile%20ux&quot;}); &lt;/script&gt;
+
+  &lt;script type=&quot;text/javascript&quot; src=&quot;https://ssl.gstatic.com/trends_nrtr/760_RC04/embed_loader.js&quot;&gt;&lt;/script&gt;
+  &lt;script type=&quot;text/javascript&quot;&gt; trends.embed.renderExploreWidget(&quot;TIMESERIES&quot;, {&quot;comparisonItem&quot;:[{&quot;keyword&quot;:&quot;ux ehr&quot;,&quot;geo&quot;:&quot;US&quot;,&quot;time&quot;:&quot;today 5-y&quot;},{&quot;keyword&quot;:&quot;ux healthcare&quot;,&quot;geo&quot;:&quot;US&quot;,&quot;time&quot;:&quot;today 5-y&quot;},{&quot;keyword&quot;:&quot;ux&quot;,&quot;geo&quot;:&quot;US&quot;,&quot;time&quot;:&quot;today 5-y&quot;},{&quot;keyword&quot;:&quot;mobile ux&quot;,&quot;geo&quot;:&quot;US&quot;,&quot;time&quot;:&quot;today 5-y&quot;}],&quot;category&quot;:0,&quot;property&quot;:&quot;&quot;}, {&quot;exploreQuery&quot;:&quot;geo=US&amp;q=ux%20ehr,ux%20healthcare,ux,mobile%20ux&quot;}); &lt;/script&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;As outlined in an article over the summer, physicians spend an unreasonable amount of time serving as a frustrated data entry clerk. While most of the media focused on the metric of time duration, the user experience with this software is unequivocally the root of the frustration.&lt;/p&gt;
 
 &lt;p&gt;While the concept of user experience is old news to virtually every other industry leveraging technology, its place in healthcare has been a colloquial afterthought––better categorized as post-implementation optimization as opposed to pre-development investigation &amp;amp; design thinking. The latter being the more pragmatic approach of the two, we shouldn’t be surprised at the abundance of frustration when pre-implementation usability testing is absent or willfully neglected.&lt;/p&gt;
 
 &lt;p&gt;Needless to say, healthcare tech desperately needs a prescription-strength UX overhaul.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-video&quot; data-lang=&quot;en&quot;&gt;
+  &lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;For perspective on
+  &lt;a href=&quot;https://twitter.com/hashtag/EMRs?src=hash&quot;&gt;#EMRs&lt;/a&gt; and
+  &lt;a href=&quot;https://twitter.com/hashtag/EHRs?src=hash&quot;&gt;#EHRs&lt;/a&gt;: when was the last time you &lt;em&gt;bought&lt;/em&gt; a 3-star app?
+  &lt;a href=&quot;https://twitter.com/hashtag/HITux?src=hash&quot;&gt;#HITux&lt;/a&gt;
+  &lt;a href=&quot;https://t.co/2JFKw5CQNU&quot;&gt;pic.twitter.com/2JFKw5CQNU&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;— Jake McClure, M.D. (@jake_mcclure)
+  &lt;a href=&quot;https://twitter.com/jake_mcclure/status/776125179932049409&quot;&gt;September 14, 2016&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;A collection of tweets anchored on this subject can be found at &lt;a href=&quot;https://twitter.com/search?f=tweets&amp;amp;vertical=default&amp;amp;q=%23HITux&amp;amp;src=typd&quot;&gt;#HITux&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/search?vertical=default&amp;amp;q=%23QuadrupleAim&amp;amp;src=typd&quot;&gt;#QuadrupleAim&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 08 Oct 2016 00:00:00 -0400</pubDate>
-        <link>http://JakeMcClure.net/2016/10/08/The-UX-Prescription/</link>
-        <guid isPermaLink="true">http://JakeMcClure.net/2016/10/08/The-UX-Prescription/</guid>
+        <link>http://JakeMcClure.net/hit/quadruple%20aim/2016/10/08/The-UX-Prescription/</link>
+        <guid isPermaLink="true">http://JakeMcClure.net/hit/quadruple%20aim/2016/10/08/The-UX-Prescription/</guid>
         
+        <category>HITux</category>
+        
+        <category>EMR</category>
+        
+        
+        <category>HIT</category>
+        
+        <category>Quadruple Aim</category>
         
       </item>
     
