@@ -78,6 +78,15 @@ a {
   }
 }
 
+ul {
+  list-style: none;
+}
+
+.outer-container {
+  margin: 4em auto 2em;
+  text-align: left;
+}
+
 .site-header {
   position: fixed;
   width: 100%;
@@ -151,6 +160,7 @@ a {
     display: inline-block;
     width: 30%;
     max-width: 8em;
+    margin-top: 2em;
     amp-img {
       margin: 0;
     }
@@ -184,7 +194,7 @@ a {
     margin: 0 auto;
     padding: 0 0 1em 0;
   }
-  .site-description {
+  .site-description, .JM-tagline {
     color: #999;
     font-weight: 400;
     font-size: 115%;
@@ -192,6 +202,10 @@ a {
     text-transform: uppercase;
     letter-spacing: 0.06em;
     margin: 1.5em 0 1em;
+  }
+  .JM-tagline {
+    font-size: 105%;
+    color: #ccc;
   }
   .social-section {
     position: relative;
@@ -355,12 +369,6 @@ main {
         svg {
           path: #777;}
       }
-    }
-    .google-trends-embed {
-      width: 80%;
-      height: auto;
-      margin: 0 auto;
-      text-align: center;
     }
   }
 }
@@ -530,6 +538,7 @@ main {
     ul, ol {
       padding: 0 0 1.875em;
       margin: 0;
+      list-style-type: circle;
     }
     li {
       padding: 0;
@@ -547,7 +556,14 @@ main {
     ol li {
       list-style-type: decimal;
     }
+    .embed {
+      width: 80%;
+      height: auto;
+      margin: 0.6em auto 1em;
+      text-align: center;
+    }
   }
+
   .bottom-teaser {
     padding: 3em 0 0 0;
     font-family: $font-sans;
@@ -661,6 +677,9 @@ main {
           text-align: center;
           padding-bottom: 2em;
         }
+        .copyright {
+          color: #ddd;
+        }
       }
     }
   }
@@ -744,6 +763,8 @@ pre {
   }
 }
 
+
+
 .pagination .disabled {
     opacity: 0;
 }
@@ -803,7 +824,7 @@ amp-social-share[type="twitter"] {
 /* --- SOCIAL MEDIA ----- */
 
 /* ------ TWITTER --- */
-#twitter-featured #featured-video .social-section {
+#featured-video .social-section {
   text-align: center;
   margin: 0 auto;
   padding-top: 0em;

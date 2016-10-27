@@ -3,11 +3,13 @@ layout: amp-default
 Title: bits 2 Bedside
 ---
 <section id="about">
-  <div id="featured-video">
     {% include _twitter-featured.html %}
-  </div>
 
   <h2 class="site-description">{{ site.site-description }}</h2>
+  <h3 class="JM-tagline">Buy the ticket. Take the ride.</h3>
+
+  {% include _twitter-follow.html %}
+
   <span class="logo">
     <amp-img class="amp-logo"
       src="{{ site.baseurl }}{{ site.logo }}"

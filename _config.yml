@@ -1,10 +1,3 @@
-# Welcome to Amplified for Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 site-title: Bits 2 Bedside – a physician commentary on healthcare UX in the Digital Age · Jake McClure .net
 title: Bits 2 Bedside – a physician commentary on healthcare UX in the Digital Age · Jake McClure .net
@@ -15,14 +8,29 @@ site-description: >
 blog-description: >
   A millennial physician's commentary on healthcare delivery and tech innovation intersecting with the systematic friction blocking its path.
 logo: "/assets/images/JM-steth.svg"
-exclude:  ["node_modules", "gulpfile.js", "package.json", "preview.jpg", ".DS_store"]
+exclude: [
+  "node_modules",
+  "LICENSE",
+  "package.json",
+  "README.md",
+  "Gemfile",
+  "gulpfile.babel.js", "gulpfile.js",
+  ".babelrc",
+  ".gitignore",
+  "sass",
+  "scss",
+  "images", "preview.jpg",
+  "css",
+  "js",
+  "fonts",
+  ".DS_store"]
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://JakeMcClure.net" # the base hostname & protocol for your site
 paginate:	4 # The number of posts to show per page on your homepage
 
 name: 'Jake McClure'
 bio: >
-  a millennial physician playing middleman in the healthcare tech space with one foot planted in the clinical bucket of innovative, 21st century healthcare delivery while simultaneously having the other foot grounded in the pragmatic leverage of technology to maximize value to patients.
+  a millennial physician who recognizes that patients are engaged in "social media" not the latest journal article
 author:
   twitter: Jake_McClure
 author_image: "/assets/images/author.png"
@@ -33,7 +41,6 @@ twitter:
 github_username:  JakeMcClure
 email:  DJakeMcClureMD+site@gmail.com
 email_username:  DJakeMcClureMD+site@gmail.com
-instagram_username:  _JakeMcClure
 youtube_username:  UC6yHs_AREfWOMhR3Qixf2aA
 linkedin_username:  mcclurejake
 medium_username:  JakeMcClure

@@ -20,11 +20,11 @@ Whether a patient or provider, the chorus of dismal usability with our medical r
 <!-- excerpt -->
 
 Shortened to the abbreviation "UX", user experience is a buzzword in & around Silicon Valley.
-<div class="google-trends-embed">
+<div class="google-trends embed">
 <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/760_RC04/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("GEO_MAP_2", {"comparisonItem":[{"keyword":"ux ehr","geo":"US","time":"today 5-y"},{"keyword":"ux healthcare","geo":"US","time":"today 5-y"},{"keyword":"ux","geo":"US","time":"today 5-y"},{"keyword":"mobile ux","geo":"US","time":"today 5-y"}],"category":0,"property":""}, {"exploreQuery":"geo=US&q=ux%20ehr,ux%20healthcare,ux,mobile%20ux"}); </script></div>
 
 However, it's a foreign concept in the development of healthcare tech.
-<div class="google-trends-embed">
+<div class="google-trends embed">
 <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/760_RC04/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("GEO_MAP_1", {"comparisonItem":[{"keyword":"ux ehr","geo":"US","time":"today 5-y"},{"keyword":"ux healthcare","geo":"US","time":"today 5-y"},{"keyword":"ux","geo":"US","time":"today 5-y"},{"keyword":"mobile ux","geo":"US","time":"today 5-y"}],"category":0,"property":""}, {"exploreQuery":"geo=US&q=ux%20ehr,ux%20healthcare,ux,mobile%20ux"}); </script>
 
 <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/760_RC04/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"ux ehr","geo":"US","time":"today 5-y"},{"keyword":"ux healthcare","geo":"US","time":"today 5-y"},{"keyword":"ux","geo":"US","time":"today 5-y"},{"keyword":"mobile ux","geo":"US","time":"today 5-y"}],"category":0,"property":""}, {"exploreQuery":"geo=US&q=ux%20ehr,ux%20healthcare,ux,mobile%20ux"}); </script>
