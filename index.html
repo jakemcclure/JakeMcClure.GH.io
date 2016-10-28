@@ -3,11 +3,10 @@ layout: amp-default
 Title: bits 2 Bedside
 ---
 <section id="about">
-    {% include _twitter-featured.html %}
-
   <h2 class="site-description">{{ site.site-description }}</h2>
-  <h3 class="JM-tagline">Buy the ticket. Take the ride.</h3>
+  {% include _twitter-featured.html %}
 
+  <h3 class="JM-tagline">Buy the ticket. Take the ride.</h3>
   {% include _twitter-follow.html %}
 
   <span class="logo">
@@ -19,11 +18,12 @@ Title: bits 2 Bedside
     </span>
   <nav class="site-nav">
     <ul>
-      <li><a href="{{ site.baseurl }}/blog/">blog</a></li>
+      <li><a target="blog-loop" href="{{ site.baseurl }}/blog/">blog</a></li>
       <li><a href="{{ site.baseurl }}/coming-soon/">graphics</a></li>
       <li><a class="contact" href="{{ site.url }}/about/">contact</a></li>
       <li><a href="">for patients</a></li>
       <li><a href="">for providers</a></li>
+      <li><a href="{{ site.baseurl }}/dev/">dev</a></li>
       </ul>
     </nav>
 
