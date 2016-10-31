@@ -21,9 +21,6 @@
 <link rel="canonical" href="http://localhost:8080/" />
 <meta property="og:url" content="http://localhost:8080/" />
 <meta property="og:site_name" content="Bits 2 Bedside – a physician commentary on healthcare UX in the Digital Age · Jake McClure .net" />
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:site" content="@Jake_McClure" />
-<meta name="twitter:creator" content="@Jake_McClure" />
 <script type="application/ld+json">
   {
     "@context": "http://schema.org",
@@ -61,10 +58,8 @@
         content="Whether a patient or provider, the chorus of dismal usability with our medical records systems is fortunately becoming a repeated refrain in healthcare conversations regarding the Quadruple Aim and more...">
       <meta name="twitter:image" content="">
     
-  <!-- /end twitter -->
 
-
-    <!-- <script>window.twttr = (function(d, s, id) {
+    <script>window.twttr = (function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0],
     t = window.twttr || {};
   if (d.getElementById(id)) return t;
@@ -81,11 +76,12 @@
   return t;
   }(document, "script", "twitter-wjs"));
 </script>
- -->
+
     <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <!-- /end twitter -->
 
     <meta name="google-site-verification" content="bWdiUpX7hLZblwKnHcJ7weQCibsIDPqnQ-4g1pQKO9M">
-    <!-- <script async="" src="//www.google-analytics.com/analytics.js"></script>
+<script async="" src="//www.google-analytics.com/analytics.js"></script>
 
 
 	<!-- Google Analytics -->
@@ -102,7 +98,7 @@
 	</script>
 	<!-- End Google Analytics -->
 
- -->
+
 
     <!-- AMP -->
   <style amp-custom>
@@ -290,7 +286,7 @@ body {
   background: radial-gradient(white, #fafaff);
   text-align: center;
   width: 100%;
-  margin: 0;
+  margin: 0 auto;
   font-family: "Source Sans pro", "Roboto", "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 100%;
@@ -320,7 +316,8 @@ ul {
 
 .outer-container {
   margin: 4em auto 2em;
-  text-align: left; }
+  text-align: left;
+  padding: 0 0.5em; }
 
 .site-header {
   position: fixed;
@@ -876,7 +873,7 @@ amp-social-share[type="twitter"] {
   background-image: url(_includes/icon-twitter.svg); }
 
 #bottom-nav {
-  width: 90%;
+  width: 100%;
   display: block;
   position: fixed;
   margin: 0 auto;
@@ -885,6 +882,9 @@ amp-social-share[type="twitter"] {
   background: rgba(255, 255, 255, 0.8);
   text-align: center;
   max-width: 32em; }
+  #bottom-nav a:hover {
+    text-decoration: none;
+    border-bottom: none; }
   #bottom-nav .logo {
     display: inline-block; }
   #bottom-nav .steth, #bottom-nav .bell {
@@ -899,7 +899,13 @@ amp-social-share[type="twitter"] {
     margin: 0 auto;
     text-align: center; }
   #bottom-nav .icon {
-    padding: 0.2em; }
+    padding: 0.2em;
+    margin: 0 1em; }
+    #bottom-nav .icon > svg {
+      width: 1.5em;
+      height: 1.5em; }
+      #bottom-nav .icon > svg path {
+        fill-color: #ccc; }
 
 #bottom-nav ul {
   align-content: center;
@@ -986,8 +992,8 @@ section.ad {
   "@type": "NewsArticle",
   "mainEntityOfPage": "http://localhost:8080/",
   "headline": "Bits 2 Bedside – a physician commentary on healthcare UX in the Digital Age · Jake McClure .net",
-  "datePublished": "2016-10-31T01:02:51-04:00",
-  "dateModified": "2016-10-31T01:02:51-04:00",
+  "datePublished": "2016-10-31T03:24:50-04:00",
+  "dateModified": "2016-10-31T03:24:50-04:00",
   "description": "a physician commentary on healthcare UX in the Digital Age · Jake McClure .net",
   "author": {
     "@type": "Person",
@@ -1038,7 +1044,6 @@ section.ad {
     <a href="/" class="name">
       <amp-img src="/assets/images/JM-text.svg" width=393 height=60 layout="responsive"></amp-img>
       </a>
-      <span id="nav-search"></span>
     </nav>
   </header>
 
@@ -1057,7 +1062,7 @@ section.ad {
 </section>
 
 
-  <h3 class="JM-tagline">Buy the ticket. Take the ride.</h3>
+  <!--<h3 class="JM-tagline">Buy the ticket. Take the ride.</h3>-->
   <section>
   <!-- FOLLOW -->
   <div id="twitter-follow" class="social-section">
@@ -1075,12 +1080,13 @@ section.ad {
     </span>
   <nav class="site-nav">
     <ul>
-      <li><a target="blog-loop" href="/blog/">blog</a></li>
-      <li><a href="/coming-soon/">graphics</a></li>
+      <li><a href="http://localhost:8080/pts/">for patients</a></li>
+      <li><a target="blog-loop" href="http://localhost:8080/blog/">blog</a></li>
+      <li><a href="http://localhost:8080/coming-soon/">graphics</a></li>
+      <!--<li><a href="">for providers</a></li>-->
+      <li><a href="http://localhost:8080/apple/">iOS &bull; OS X</a></li>
+      <li><a href="http://localhost:8080/dev/">dev</a></li>
       <li><a class="contact" href="http://localhost:8080/about/">contact</a></li>
-      <li><a href="">for patients</a></li>
-      <li><a href="">for providers</a></li>
-      <li><a href="/dev/">dev</a></li>
       </ul>
     </nav>
 
@@ -1195,7 +1201,8 @@ section.ad {
     </main>
   </section>
 
-<footer class="site-footer">
+      </div>
+    <footer class="site-footer">
     <div class="inner">
       <section class="poweredby">Craftsmanship:<a href="http://jekyllrb.com"> Jekyll</a> ... <a href="https://github.com/ageitgey/amplify">Amplify</a>'d with a splash of <a href="https://github.com/thoughtbot/bourbon">Bourbon</a>
       </section>
@@ -1208,8 +1215,10 @@ section.ad {
     <amp-img class="logo steth" src="/assets/images/JM-steth.svg" width="36" height="36"></amp-img>
     <amp-img class="logo bell" src="/assets/images/menu-bell.svg" width="36" height="36"></amp-img>
     </a>
+  <span id="nav-search"></span>
 
-  <a class="subscribe" href="/feed.xml"> <!--<span class="tooltip"><i class="fa fa-rss"></i></span>-->
+<!--
+  <a class="subscribe" href="/feed.xml"> <span class="tooltip"><i class="fa fa-rss"></i></span>
     <amp-img class="icon" src="/images/ic_rss_feed_48px.svg"
     width="24" height="24" />
     </a>
@@ -1219,15 +1228,9 @@ section.ad {
 </span>
 
 
+-->
+</nav>
 
-  <!--
-  <amp-social-share type="twitter"
-    width="2.5em"
-    height="2.5em">
-    </amp-social-share>
-  -->
-
-  </nav>
 
 <!--
     <nav id="bottom" class="nav-bar">
@@ -1283,12 +1286,14 @@ section.ad {
           
         
           
+          <a class="page-link" href="/pts/">Jake McClure • Patient Resources</a>
+          
+        
+          
         
         </div>
 
       </nav>
 
-
-      </div>
   </body>
 </html>

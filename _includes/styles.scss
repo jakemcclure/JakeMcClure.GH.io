@@ -54,7 +54,7 @@ body {
   //background: linear-gradient(rgba(255,255,255,1.0), rgba(220,220,220,1.0)); /* Standard syntax */
   text-align: center;
   width: 100%;
-  margin: 0;
+  margin: 0 auto;
   font-family: $font-sans;
   font-weight: 400;
   font-size: 100%;
@@ -87,6 +87,7 @@ ul {
 .outer-container {
   margin: 4em auto 2em;
   text-align: left;
+  padding: 0 0.5em;
 }
 
 .site-header {
@@ -773,7 +774,7 @@ amp-social-share[type="twitter"] {
 }
 
 #bottom-nav {
-  width: 90%;
+  width: 100%;
   display: block;
   position: fixed;
   margin: 0 auto;
@@ -782,6 +783,11 @@ amp-social-share[type="twitter"] {
   background: rgba(255,255,255,0.8);
   text-align: center;
   max-width: 32em;
+
+  a:hover {
+    text-decoration: none;
+    border-bottom: none;
+  }
 
   .logo {
     display: inline-block;
@@ -799,6 +805,14 @@ amp-social-share[type="twitter"] {
   .icon {
     //margin-bottom: 0.2em;
     padding: 0.2em;
+    margin: 0 1em;
+    > svg {
+      width: 1.5em;
+      height: 1.5em;
+      path {
+        fill-color: #ccc;
+      }
+    }
   }
 }
 

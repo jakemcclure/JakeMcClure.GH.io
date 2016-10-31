@@ -26,14 +26,12 @@
         content="{{ post.excerpt | strip_html | truncatewords: 30 }}">
       <meta name="twitter:image" content="{{ post.thumbnail }}">
     {% endfor %}
-  <!-- /end twitter -->
 
-
-    <!-- {% include head-twitter.html %} -->
+    {% include head-twitter.html %}
     <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <!-- /end twitter -->
 
-    <meta name="google-site-verification" content="bWdiUpX7hLZblwKnHcJ7weQCibsIDPqnQ-4g1pQKO9M">
-    <!-- {% include head-google.html %} -->
+    {% include head-google.html %}
 
     <!-- AMP -->
   {% include amp-head.html %}

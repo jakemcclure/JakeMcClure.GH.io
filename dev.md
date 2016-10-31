@@ -1,6 +1,7 @@
 ---
 layout: amp-default
 title:  dev resources
+permalink: /dev/
 ---
 
 ## web
