@@ -15,9 +15,9 @@ $text-color:    #141414;
 
     path {
       fill: $grey-color;
+      }
     }
   }
-}
 
 amp-img {
   background-color: none;
@@ -54,7 +54,7 @@ body {
   //background: linear-gradient(rgba(255,255,255,1.0), rgba(220,220,220,1.0)); /* Standard syntax */
   text-align: center;
   width: 100%;
-  margin: 0 auto;
+  margin: 0;
   font-family: $font-sans;
   font-weight: 400;
   font-size: 100%;
@@ -700,7 +700,7 @@ main {
   text-align: center;
   color: rgba(190, 190, 190,1.0);
   line-height: $rs * 1.1;
-  //background: rgba(240, 240, 240,1.0);
+  background: rgba(240, 240, 240,1.0);
   a {
     color: rgba(150, 150, 150,1.0);
     text-decoration: none;
@@ -762,8 +762,6 @@ pre {
   }
 }
 
-
-
 .pagination .disabled {
     opacity: 0;
 }
@@ -775,15 +773,22 @@ amp-social-share[type="twitter"] {
 }
 
 #bottom-nav {
+  width: 90%;
+  display: block;
   position: fixed;
+  margin: 0 auto;
   bottom: 0;
   border-radius: 0.8em 0.8em 0 0;
-  background: rgba(255,255,255,0.6);
+  background: rgba(255,255,255,0.8);
   text-align: center;
-  margin: 0 auto;
-  width: 90%;
+  max-width: 32em;
 
-  .steth, .bell {display: inline-block;}
+  .logo {
+    display: inline-block;
+  }
+  .steth, .bell {
+    margin: 0 2em;
+  }
   .bell {display: none; z-index: 20;}
   .steth:hover .bell {display: inline-block;}
   .tooltip {
@@ -791,13 +796,13 @@ amp-social-share[type="twitter"] {
     margin: 0 auto;
     text-align: center;
   }
-  nav {
-    max-width: 48em;
-    margin: 3em auto;
+  .icon {
+    //margin-bottom: 0.2em;
+    padding: 0.2em;
   }
 }
 
-#bottom ul  {
+#bottom-nav ul  {
   align-content: center;
   width: 100%;
   line-height: 1;
@@ -807,23 +812,23 @@ amp-social-share[type="twitter"] {
   padding: 0;
 }
 
-#bottom ul li {
+#bottom-nav ul li {
   list-style: none;
 }
 
-#bottom .social-nav a {
+#bottom-nav .social-nav a {
   color: rgba(250,250,250,0.8);
   border-radius: 25%;
   font-size: 50%;
   background: rgba(255,255,255,0.05);
   }
 
-#bottom .social-nav a:hover {
+#bottom-nav .social-nav a:hover {
   color: #999;
   background: rgba(255,255,255,0.1);
   }
 
-#bottom .nav-bar .icon {
+#bottom-nav .nav-bar .icon {
   > svg {
     height: 3em;
     width: auto;

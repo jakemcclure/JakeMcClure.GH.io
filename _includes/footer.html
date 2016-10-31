@@ -1,23 +1,29 @@
-
-
-  <footer class="site-footer">
-      <div class="inner">
-        <section class="poweredby">Craftsmanship:<a href="http://jekyllrb.com"> Jekyll</a> ... <a href="https://github.com/ageitgey/amplify">Amplify</a>'d with a splash of <a href="https://github.com/thoughtbot/bourbon">Bourbon</a>
-        </section>
-        <section class="copyright">All rights reserved <a href="mailto:{{ site.email }}">{{ site.name }}</a> &copy; {{ site.time | date: '%Y' }}</section>
-      </div>
-  </footer>
+<footer class="site-footer">
+    <div class="inner">
+      <section class="poweredby">Craftsmanship:<a href="http://jekyllrb.com"> Jekyll</a> ... <a href="https://github.com/ageitgey/amplify">Amplify</a>'d with a splash of <a href="https://github.com/thoughtbot/bourbon">Bourbon</a>
+      </section>
+      <section class="copyright">All rights reserved <a href="mailto:{{ site.email }}">{{ site.name }}</a> &copy; {{ site.time | date: '%Y' }}</section>
+    </div>
+</footer>
 
 <nav id="bottom-nav">
   <a href="{{ site.baseurl }}/" class="logo">
-    <amp-img class="logo steth" src="{{ site.baseurl }}/assets/images/JM-steth.svg" width="48" height="48"></amp-img>
-    <amp-img class="logo bell" src="{{ site.baseurl }}/assets/images/menu-bell.svg" width="48" height="48"></amp-img>
+    <amp-img class="logo steth" src="{{ site.baseurl }}/assets/images/JM-steth.svg" width="36" height="36"></amp-img>
+    <amp-img class="logo bell" src="{{ site.baseurl }}/assets/images/menu-bell.svg" width="36" height="36"></amp-img>
     </a>
 
-  <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i>rss</span>
-    <amp-img src="{{ site.baseurl }}/images/ic_rss_feed_48px.svg"
-    width="48" height="48" />
+  <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <!--<span class="tooltip"><i class="fa fa-rss"></i></span>-->
+    <amp-img class="icon" src="{{ site.baseurl }}/images/ic_rss_feed_48px.svg"
+    width="24" height="24" />
     </a>
+
+  <!--
+  <amp-social-share type="twitter"
+    width="2.5em"
+    height="2.5em">
+    </amp-social-share>
+  -->
+
   </nav>
 
 <!--

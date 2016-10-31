@@ -88,6 +88,20 @@
     <!-- <script async="" src="//www.google-analytics.com/analytics.js"></script>
 
 
+	<!-- Google Analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-76343771-1', 'auto');
+		ga('send', 'pageview', {
+		  'page': '/about/',
+		  'title': 'Jake McClure • About'
+		});
+	</script>
+	<!-- End Google Analytics -->
+
  -->
 
     <!-- AMP -->
@@ -276,7 +290,7 @@ body {
   background: radial-gradient(white, #fafaff);
   text-align: center;
   width: 100%;
-  margin: 0 auto;
+  margin: 0;
   font-family: "Source Sans pro", "Roboto", "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 100%;
@@ -805,7 +819,8 @@ main {
   font-size: 12px;
   text-align: center;
   color: #bebebe;
-  line-height: 17.6px; }
+  line-height: 17.6px;
+  background: #f0f0f0; }
   .site-footer a {
     color: #969696;
     text-decoration: none; }
@@ -861,15 +876,19 @@ amp-social-share[type="twitter"] {
   background-image: url(_includes/icon-twitter.svg); }
 
 #bottom-nav {
+  width: 90%;
+  display: block;
   position: fixed;
+  margin: 0 auto;
   bottom: 0;
   border-radius: 0.8em 0.8em 0 0;
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.8);
   text-align: center;
-  margin: 0 auto;
-  width: 90%; }
-  #bottom-nav .steth, #bottom-nav .bell {
+  max-width: 32em; }
+  #bottom-nav .logo {
     display: inline-block; }
+  #bottom-nav .steth, #bottom-nav .bell {
+    margin: 0 2em; }
   #bottom-nav .bell {
     display: none;
     z-index: 20; }
@@ -879,11 +898,10 @@ amp-social-share[type="twitter"] {
     display: inline-block;
     margin: 0 auto;
     text-align: center; }
-  #bottom-nav nav {
-    max-width: 48em;
-    margin: 3em auto; }
+  #bottom-nav .icon {
+    padding: 0.2em; }
 
-#bottom ul {
+#bottom-nav ul {
   align-content: center;
   width: 100%;
   line-height: 1;
@@ -892,24 +910,24 @@ amp-social-share[type="twitter"] {
   text-align: center;
   padding: 0; }
 
-#bottom ul li {
+#bottom-nav ul li {
   list-style: none; }
 
-#bottom .social-nav a {
+#bottom-nav .social-nav a {
   color: rgba(250, 250, 250, 0.8);
   border-radius: 25%;
   font-size: 50%;
   background: rgba(255, 255, 255, 0.05); }
 
-#bottom .social-nav a:hover {
+#bottom-nav .social-nav a:hover {
   color: #999;
   background: rgba(255, 255, 255, 0.1); }
 
-#bottom .nav-bar .icon > svg {
+#bottom-nav .nav-bar .icon > svg {
   height: 3em;
   width: auto;
   margin: 0 auto; }
-  #bottom .nav-bar .icon > svg path {
+  #bottom-nav .nav-bar .icon > svg path {
     fill: #999; }
 
 /* --- SOCIAL MEDIA ----- */
@@ -968,8 +986,8 @@ section.ad {
   "@type": "NewsArticle",
   "mainEntityOfPage": "http://localhost:8080/about/",
   "headline": "Jake McClure • About",
-  "datePublished": "2016-10-30T22:57:43-04:00",
-  "dateModified": "2016-10-30T22:57:43-04:00",
+  "datePublished": "2016-10-31T00:48:22-04:00",
+  "dateModified": "2016-10-31T00:48:22-04:00",
   "description": "a physician commentary on healthcare UX in the Digital Age · Jake McClure .net",
   "author": {
     "@type": "Person",

@@ -87,15 +87,21 @@
     <meta name="google-site-verification" content="bWdiUpX7hLZblwKnHcJ7weQCibsIDPqnQ-4g1pQKO9M">
     <!-- <script async="" src="//www.google-analytics.com/analytics.js"></script>
 
-<script async="">
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-76343771-1', 'auto');
-  ga('send', 'pageview');
-</script>
+	<!-- Google Analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-76343771-1', 'auto');
+		ga('send', 'pageview', {
+		  'page': '/',
+		  'title': ''
+		});
+	</script>
+	<!-- End Google Analytics -->
+
  -->
 
     <!-- AMP -->
@@ -284,7 +290,7 @@ body {
   background: radial-gradient(white, #fafaff);
   text-align: center;
   width: 100%;
-  margin: 0 auto;
+  margin: 0;
   font-family: "Source Sans pro", "Roboto", "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 100%;
@@ -813,7 +819,8 @@ main {
   font-size: 12px;
   text-align: center;
   color: #bebebe;
-  line-height: 17.6px; }
+  line-height: 17.6px;
+  background: #f0f0f0; }
   .site-footer a {
     color: #969696;
     text-decoration: none; }
@@ -869,15 +876,19 @@ amp-social-share[type="twitter"] {
   background-image: url(_includes/icon-twitter.svg); }
 
 #bottom-nav {
+  width: 90%;
+  display: block;
   position: fixed;
+  margin: 0 auto;
   bottom: 0;
   border-radius: 0.8em 0.8em 0 0;
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.8);
   text-align: center;
-  margin: 0 auto;
-  width: 90%; }
-  #bottom-nav .steth, #bottom-nav .bell {
+  max-width: 32em; }
+  #bottom-nav .logo {
     display: inline-block; }
+  #bottom-nav .steth, #bottom-nav .bell {
+    margin: 0 2em; }
   #bottom-nav .bell {
     display: none;
     z-index: 20; }
@@ -887,11 +898,10 @@ amp-social-share[type="twitter"] {
     display: inline-block;
     margin: 0 auto;
     text-align: center; }
-  #bottom-nav nav {
-    max-width: 48em;
-    margin: 3em auto; }
+  #bottom-nav .icon {
+    padding: 0.2em; }
 
-#bottom ul {
+#bottom-nav ul {
   align-content: center;
   width: 100%;
   line-height: 1;
@@ -900,24 +910,24 @@ amp-social-share[type="twitter"] {
   text-align: center;
   padding: 0; }
 
-#bottom ul li {
+#bottom-nav ul li {
   list-style: none; }
 
-#bottom .social-nav a {
+#bottom-nav .social-nav a {
   color: rgba(250, 250, 250, 0.8);
   border-radius: 25%;
   font-size: 50%;
   background: rgba(255, 255, 255, 0.05); }
 
-#bottom .social-nav a:hover {
+#bottom-nav .social-nav a:hover {
   color: #999;
   background: rgba(255, 255, 255, 0.1); }
 
-#bottom .nav-bar .icon > svg {
+#bottom-nav .nav-bar .icon > svg {
   height: 3em;
   width: auto;
   margin: 0 auto; }
-  #bottom .nav-bar .icon > svg path {
+  #bottom-nav .nav-bar .icon > svg path {
     fill: #999; }
 
 /* --- SOCIAL MEDIA ----- */
@@ -976,8 +986,8 @@ section.ad {
   "@type": "NewsArticle",
   "mainEntityOfPage": "http://localhost:8080/",
   "headline": "Bits 2 Bedside – a physician commentary on healthcare UX in the Digital Age · Jake McClure .net",
-  "datePublished": "2016-10-30T22:37:28-04:00",
-  "dateModified": "2016-10-30T22:37:28-04:00",
+  "datePublished": "2016-10-31T00:48:22-04:00",
+  "dateModified": "2016-10-31T00:48:22-04:00",
   "description": "a physician commentary on healthcare UX in the Digital Age · Jake McClure .net",
   "author": {
     "@type": "Person",
@@ -1185,33 +1195,39 @@ section.ad {
     </main>
   </section>
 
-
-
-  <footer class="site-footer">
-      <div class="inner">
-        <section class="poweredby">Craftsmanship:<a href="http://jekyllrb.com"> Jekyll</a> ... <a href="https://github.com/ageitgey/amplify">Amplify</a>'d with a splash of <a href="https://github.com/thoughtbot/bourbon">Bourbon</a>
-        </section>
-        <section class="copyright">All rights reserved <a href="mailto:DJakeMcClureMD+site@gmail.com">Jake McClure</a> &copy; 2016</section>
-      </div>
-  </footer>
+<footer class="site-footer">
+    <div class="inner">
+      <section class="poweredby">Craftsmanship:<a href="http://jekyllrb.com"> Jekyll</a> ... <a href="https://github.com/ageitgey/amplify">Amplify</a>'d with a splash of <a href="https://github.com/thoughtbot/bourbon">Bourbon</a>
+      </section>
+      <section class="copyright">All rights reserved <a href="mailto:DJakeMcClureMD+site@gmail.com">Jake McClure</a> &copy; 2016</section>
+    </div>
+</footer>
 
 <nav id="bottom-nav">
   <a href="/" class="logo">
-    <amp-img class="logo steth" src="/assets/images/JM-steth.svg" width="48" height="48"></amp-img>
-    <amp-img class="logo bell" src="/assets/images/menu-bell.svg" width="48" height="48"></amp-img>
+    <amp-img class="logo steth" src="/assets/images/JM-steth.svg" width="36" height="36"></amp-img>
+    <amp-img class="logo bell" src="/assets/images/menu-bell.svg" width="36" height="36"></amp-img>
     </a>
 
-  <a class="subscribe" href="/feed.xml"> <span class="tooltip"> <i class="fa fa-rss"></i>rss</span>
-    <amp-img src="/images/ic_rss_feed_48px.svg"
-    width="48" height="48" />
+  <a class="subscribe" href="/feed.xml"> <!--<span class="tooltip"><i class="fa fa-rss"></i></span>-->
+    <amp-img class="icon" src="/images/ic_rss_feed_48px.svg"
+    width="24" height="24" />
     </a>
+
+  <!--
+  <amp-social-share type="twitter"
+    width="2.5em"
+    height="2.5em">
+    </amp-social-share>
+  -->
+
   </nav>
 
 <!--
     <nav id="bottom" class="nav-bar">
       <ul class="social nav-bar">
         
-        <span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+        <span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#cccccc" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
 </span>
         
 
@@ -1258,6 +1274,8 @@ section.ad {
         
           
           <a class="page-link" href="/infographics/">Infographics @ bits 2 Bedside</a>
+          
+        
           
         
         </div>

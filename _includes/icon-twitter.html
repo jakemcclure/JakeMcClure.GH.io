@@ -3,3 +3,8 @@
 {% else %}
 <span class="icon icon--twitter">{% include icon-twitter.svg %}</span>
 {% endif %}
+
+<a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <!--<span class="tooltip"><i class="fa fa-rss"></i></span>-->
+  <amp-img class="icon" src="{{ site.baseurl }}/images/icon-twitter.svg"
+  width="24" height="24" />
+  </a>
