@@ -33,13 +33,12 @@ exclude:
   - README.md
   - CNAME
 
-baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://JakeMcClure.net" # the base hostname & protocol for your site
-paginate:	4 # The number of posts to show per page on your homepage
-
+baseurl: "" # the subpath of your site, e.g. /blog
 name: 'Jake McClure'
 bio: >
   a millennial physician who recognizes that patients are engaged in "social media" not the latest journal article
+
 author:
   twitter: Jake_McClure
 author_image: "/assets/images/author.png"
@@ -55,17 +54,25 @@ linkedin_username:  mcclurejake
 medium_username:  JakeMcClure
 nuzzel_username:  Jake_McClure
 snapchat_username: Jake-McClure
+google_analytics: UA-76343771-1
 
 
 # Build settings
+paginate:	4 # The number of posts to show per page on your homepage
 markdown: kramdown
 
 kramdown:
   parse_block_html: true
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
 
 gems:
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
 
 permalink:  pretty
 show_drafts:  true
