@@ -1,14 +1,14 @@
 ### Jekyll ###
 _site/
 .sass-cache/
-.sass-cache
-.DS_Store
 .jekyll-metadata
 scripts/
 Gemfile.lock
 .publish/
-css/
-*.codekit
+.jekyll
+.bundle
+Gemfile.lock
+package.json
 
 ### Always-ignore files and folders ###
 *.diff
@@ -38,13 +38,16 @@ bower_components
 
 ### Sass ###
 .sass-cache/
+.sass-cache
 *.css.map
+css/
 
 ### Linux ###
 *~
 
 ### OSX ###
 *.DS_Store
+.DS_Store
 .AppleDouble
 .LSOverride
 

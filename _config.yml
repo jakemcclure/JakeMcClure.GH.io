@@ -8,12 +8,10 @@ site-description: >
 blog-description: >
   A millennial physician's commentary on healthcare delivery and tech innovation intersecting with the systematic friction blocking its path.
 logo: "/assets/images/JM-steth.svg"
-exclude: [
+
+exclude:  [
   "node_modules",
-  "LICENSE",
   "package.json",
-  "README.md",
-  "Gemfile",
   "gulpfile.babel.js", "gulpfile.js",
   ".babelrc",
   ".gitignore",
@@ -23,7 +21,18 @@ exclude: [
   "css",
   "js",
   "fonts",
-  ".DS_store"]
+  ".DS_store",
+  "_site/",
+  "_includes/",
+  "_config.yml"]
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://JakeMcClure.net" # the base hostname & protocol for your site
 paginate:	4 # The number of posts to show per page on your homepage
