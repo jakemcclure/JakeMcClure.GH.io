@@ -4,6 +4,7 @@
 $grey-color:    #828282;
 $medium-color:  #02b875;
 $text-color:    #141414;
+$burnt-orange:  #cc6633;
 
 .icon {
 
@@ -52,6 +53,7 @@ body {
   //background: -o-linear-gradient(rgba(255,255,255,1.0), rgba(220,220,220,1.0)); /* For Opera 11.1 to 12.0 */
   //background: -moz-linear-gradient(rgba(255,255,255,1.0), rgba(220,220,220,1.0)); /* For Firefox 3.6 to 15 */
   //background: linear-gradient(rgba(255,255,255,1.0), rgba(220,220,220,1.0)); /* Standard syntax */
+  //background: #555555;
   text-align: center;
   width: 100%;
   margin: 0 auto;
@@ -85,9 +87,9 @@ ul {
 }
 
 .outer-container {
-  margin: 4em auto 2em;
+  margin: 4em 0.5em 2em;
   text-align: left;
-  padding: 0 0.5em;
+  padding: 0;
 }
 
 .site-header {
@@ -159,6 +161,8 @@ ul {
   margin: 4em auto 2em;
   font-family: $font-sans;
   font-weight: 300;
+  //background: None;
+  //color: #ffffff;
   .logo {
     display: inline-block;
     width: 40%;
@@ -218,6 +222,10 @@ ul {
 }
 
 #blog-loop {
+  margin: 2em auto;
+  //background: -webkit-radial-gradient(rgba(255,255,255,1.0), rgba(250, 250, 255,1.0));
+  //background: radial-gradient(rgba(255,255,255,1.0), rgba(250, 250, 255,1.0));
+
   .post-excerpt {
     font-family: $font-sans;
     color: $text-color;
@@ -700,14 +708,16 @@ main {
   z-index: -10;
   font-size: $rs / 4 * 3;
   text-align: center;
-  color: rgba(190, 190, 190,1.0);
+  //color: rgba(190, 190, 190,1.0);
+  color: rgba(230, 230, 230,1.0);
   line-height: $rs * 1.1;
-  background: rgba(240, 240, 240,1.0);
+  //background: rgba(240, 240, 240,1.0);
   a {
-    color: rgba(150, 150, 150,1.0);
+    color: $burnt-orange;
     text-decoration: none;
     &:hover {
-      color: rgba(120, 120, 120,1.0);
+      color: rgba(230, 230, 230,1.0);
+      background: $burnt-orange;
       text-decoration: none;
       border-bottom: none;
     }
