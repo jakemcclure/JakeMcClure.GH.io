@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7 (28169) - http://www.bohemiancoding.com/sketch -->
+    <title>cal-48px</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="svgs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cal-48px" fill="#CCCCCC">
+            <path d="M35.1111111,26.2 L24,26.2 L24,37.2 L35.1111111,37.2 L35.1111111,26.2 L35.1111111,26.2 Z M32.8888889,2 L32.8888889,6.4 L15.1111111,6.4 L15.1111111,2 L10.6666667,2 L10.6666667,6.4 L8.44444444,6.4 C5.97777778,6.4 4.02222222,8.38 4.02222222,10.8 L4,41.6 C4,44.02 5.97777778,46 8.44444444,46 L39.5555556,46 C42,46 44,44.02 44,41.6 L44,10.8 C44,8.38 42,6.4 39.5555556,6.4 L37.3333333,6.4 L37.3333333,2 L32.8888889,2 L32.8888889,2 Z M39.5555556,41.6 L8.44444444,41.6 L8.44444444,17.4 L39.5555556,17.4 L39.5555556,41.6 L39.5555556,41.6 Z" id="cal"></path>
+        </g>
+    </g>
+</svg>

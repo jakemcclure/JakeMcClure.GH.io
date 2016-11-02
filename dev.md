@@ -7,6 +7,8 @@ permalink: /dev/
 ## web
 
 ### style
+- [amp]()
+- [amplify](https://github.com/ageitgey/amplify)
 - [autoprefixer](https://github.com/postcss/autoprefixer)
 
 ### layout
@@ -15,6 +17,16 @@ permalink: /dev/
 - [Neat](https://github.com/thoughtbot/neat) - lightweight semantic grid framework for Sass and Bourbon
 - [Bitters](https://github.com/thoughtbot/bitters) - Scaffold styles, variables and structure
 - [Refills](https://github.com/thoughtbot/refills) - Prepackaged patterns and components
+
+### gh
+- [GH-pages setup](https://jekyllrb.com/docs/github-pages/)
+- [GH-pages sitemaps](https://help.github.com/articles/sitemaps-for-github-pages/)
+- [branch changes](https://help.github.com/desktop/guides/contributing/making-changes-in-a-branch/)
+
+### jekyll
+- [front matter]
+(http://jekyllrb.com/docs/frontmatter/)
+
 
 ## assets
 
