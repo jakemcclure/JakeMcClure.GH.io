@@ -28,7 +28,14 @@ permalink: /dev/
 (http://jekyllrb.com/docs/frontmatter/)
 
 
+
 ## assets
 
 ### svg
 - [Foundry](https://github.com/thoughtbot/foundry) - a new generation of vector assets and infinite possibility for the interactive web and mobile applications  
+
+
+
+## social
+### fb
+- [comments](https://developers.facebook.com/docs/plugins/comments/#settings)
