@@ -8,11 +8,12 @@ thumbnail-video:
 thumbnail-video-fallback:
 thumbnail-description:
 excerpt_separator: <!-- excerpt -->
+excerpt:  
 categories:
   - HITux
 author: jake_mcclure
 ---
-A new rallying call as the rate of health tech integration grows by the day.
+As the rate of health tech integration grows by the day, I discuss the origins of "Bits To Bedside"––the rally call for this blog.
 
 <!-- excerpt -->
 

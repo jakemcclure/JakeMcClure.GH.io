@@ -5,13 +5,13 @@
     <description>a physician commentary on healthcare UX in the Digital Age · Jake McClure .net</description>
     <link>http://localhost:8080/</link>
     <atom:link href="http://localhost:8080/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 07 Nov 2016 04:13:52 -0500</pubDate>
-    <lastBuildDate>Mon, 07 Nov 2016 04:13:52 -0500</lastBuildDate>
+    <pubDate>Mon, 07 Nov 2016 04:34:12 -0500</pubDate>
+    <lastBuildDate>Mon, 07 Nov 2016 04:34:12 -0500</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
         <title>Building Blocks</title>
-        <description>&lt;p&gt;A new rallying call as the rate of health tech integration grows by the day.&lt;/p&gt;
+        <description>&lt;p&gt;As the rate of health tech integration grows by the day, I discuss the origins of “Bits To Bedside”––the rally call for this blog.&lt;/p&gt;
 
 &lt;!-- excerpt --&gt;
 

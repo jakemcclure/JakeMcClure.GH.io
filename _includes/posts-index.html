@@ -10,7 +10,7 @@
           </header>
 
         <section class="post-excerpt" itemprop="description">
-          {{ post.excerpt }}
+          {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
           </section>
 
         <div class="post-meta">

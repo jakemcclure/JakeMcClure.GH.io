@@ -238,6 +238,18 @@ ul {
     font-size: 1.0em;
     letter-spacing: 0.01em;
     line-height: 1.2;
+    margin-bottom: 0.4em;
+  }
+
+  .post-meta {
+    margin-left: 0.4em;
+    .link {
+      > svg {
+        path {
+          fill: #999;
+        }
+      }
+    }
   }
 }
 
