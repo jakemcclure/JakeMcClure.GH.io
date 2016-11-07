@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Can Virtual Reality Be The Game Changer For The Patient Experience?
+title: Can VR Be The Game Changer For The Patient Experience?
 date: 2016-10-25
 published: true
 thumbnail-image:  

@@ -41,6 +41,9 @@ bio: >
 
 author:
   twitter: Jake_McClure
+
+twitter:
+  username: Jake_McClure
 author_image: "/assets/images/author.png"
 blog-header: "/assets/images/b2b-header.png"
 twitter_username: Jake_McClure
@@ -72,7 +75,7 @@ gems:
   - jekyll-sitemap
   - jekyll-feed
 
-permalink:  pretty
+permalink:    /:year-:month-:day/:title/
 show_drafts:  true
-host:  localhost
-port:  8080
+host:         localhost
+port:         8080

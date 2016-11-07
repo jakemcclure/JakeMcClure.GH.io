@@ -7,6 +7,8 @@ excerpt: During 2003–2009, the number of deaths caused by drug overdose in Flo
 categories: blog
 published: false
 ---
+We're battling a different beast.
+
 In the South we have a saying, "If it ain't broke, don't fix it." When it comes to our opiate epidemic 2.0 where statistics continue to trend in the wrong direction, the problem is still rampant, taking a toll on families across the country, and the proposed solutions I keep hearing from DC are a rehashed epidemic 1.0 playbook.
 
 Now, if you look closely at the statistics and the opiate market, both prescription and illicit, over the past 2 decades, you can see how the game has changed with respect to the 1.0 playbook.

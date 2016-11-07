@@ -5,9 +5,43 @@
     <description>a physician commentary on healthcare UX in the Digital Age · Jake McClure .net</description>
     <link>http://localhost:8080/</link>
     <atom:link href="http://localhost:8080/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 03 Nov 2016 02:38:20 -0400</pubDate>
-    <lastBuildDate>Thu, 03 Nov 2016 02:38:20 -0400</lastBuildDate>
+    <pubDate>Mon, 07 Nov 2016 04:13:52 -0500</pubDate>
+    <lastBuildDate>Mon, 07 Nov 2016 04:13:52 -0500</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
+    
+      <item>
+        <title>Building Blocks</title>
+        <description>&lt;p&gt;A new rallying call as the rate of health tech integration grows by the day.&lt;/p&gt;
+
+&lt;!-- excerpt --&gt;
+
+&lt;p&gt;A decade ago, the concept of “translational research” provided an academic framework for facilitating medical innovation. There was an emerging focus on coordinating the approach between laboratory science and the clinical practicality of such research. The phrase &lt;em&gt;“Bench to Bedside”&lt;/em&gt; was a well-fitting label providing a centralized thought structure with regard to modern medical research.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;practical: &lt;em&gt;adj.&lt;/em&gt;  of or concerned with the actual doing or use of something rather than with theory and ideas&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The scientific method is our broad framework for approaching clinical problems. Translational research merely refined the approach by adding in a component of practicality.&lt;/p&gt;
+
+&lt;p&gt;Pragmatic by nature, I’m often stumped why we approach research and problem-solving in any other way. At the end of the day, if results and strategy don’t move us incrementally closer to a practical solution, then why do we do the research/go through the strategic planning in the first place.&lt;/p&gt;
+
+&lt;p&gt;In post-Affordable Care Act healthcare, we’ve seen over the past decade the extremely slow, laggard creep of technological capabilities trickling into both healthcare delivery and our patient’s management of acute and chronic illnesses.&lt;/p&gt;
+
+&lt;p&gt;Because the rate of technological integration is rather slow, we are afforded the strategic advantage of time. Time to choose wisely and strategize how best to leverage today’s tech to better healthcare for tomorrow.&lt;/p&gt;
+
+&lt;p&gt;Innovation in healthcare won’t be on the backs of one or two homerun hitters. In baseball, homerun hitters often lead the league in strikeouts. Similar findings out in the wild with healthcare - Exhibit A: see the win/loss stat column of Theranos.&lt;/p&gt;
+
+&lt;h2 id=&quot;bits-to-bedside&quot;&gt;BITS to BEDSIDE&lt;/h2&gt;
+&lt;p&gt;Because industries outside healthcare have already shown us the fundamental components of successful tech integration, we shouldn’t be swinging for the fences. Instead, we play “small ball”. We build upon the basics.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 04 Nov 2016 00:44:01 -0400</pubDate>
+        <link>http://localhost:8080/2016-11-04/Think-Differently/</link>
+        <guid isPermaLink="true">http://localhost:8080/2016-11-04/Think-Differently/</guid>
+        
+        
+        <category>HITux</category>
+        
+      </item>
     
       <item>
         <title>Belichick Wouldn't Be Fond of EMR Meaningful Use Either</title>
@@ -46,8 +80,8 @@
 &lt;p&gt;But for me personally, it’s a personal decision, I’m done with the tablets. I’ll use the paper pictures from here on because I’ve given it my best shot. I’ve tried to work through the process but it just doesn’t work for me and that’s because there’s no consistency to it. Long answer to a short question; sorry.&lt;/p&gt;
 </description>
         <pubDate>Tue, 01 Nov 2016 00:00:00 -0400</pubDate>
-        <link>http://localhost:8080/hitux/2016/11/01/Belichick-EMR/</link>
-        <guid isPermaLink="true">http://localhost:8080/hitux/2016/11/01/Belichick-EMR/</guid>
+        <link>http://localhost:8080/2016-11-01/Belichick-EMR/</link>
+        <guid isPermaLink="true">http://localhost:8080/2016-11-01/Belichick-EMR/</guid>
         
         <category>EMR</category>
         
@@ -65,8 +99,8 @@
 &lt;!-- excerpt --&gt;
 </description>
         <pubDate>Wed, 26 Oct 2016 00:00:00 -0400</pubDate>
-        <link>http://localhost:8080/concussions/2016/10/26/Youth-Concussions/</link>
-        <guid isPermaLink="true">http://localhost:8080/concussions/2016/10/26/Youth-Concussions/</guid>
+        <link>http://localhost:8080/2016-10-26/Youth-Concussions/</link>
+        <guid isPermaLink="true">http://localhost:8080/2016-10-26/Youth-Concussions/</guid>
         
         <category>Peds</category>
         
@@ -80,7 +114,7 @@
       </item>
     
       <item>
-        <title>Can Virtual Reality Be The Game Changer For The Patient Experience?</title>
+        <title>Can VR Be The Game Changer For The Patient Experience?</title>
         <description>&lt;p&gt;Digging in to how leveraging the capabilities of VR can improve the patient experience in &amp;amp; with the healthcare system.&lt;/p&gt;
 
 &lt;!-- excerpt --&gt;
@@ -99,8 +133,8 @@
 &lt;p&gt;With VR, monotony morphs into marvel.&lt;/p&gt;
 </description>
         <pubDate>Tue, 25 Oct 2016 00:00:00 -0400</pubDate>
-        <link>http://localhost:8080/patient%20ux/2016/10/25/VR-Chemotherapy/</link>
-        <guid isPermaLink="true">http://localhost:8080/patient%20ux/2016/10/25/VR-Chemotherapy/</guid>
+        <link>http://localhost:8080/2016-10-25/VR-Chemotherapy/</link>
+        <guid isPermaLink="true">http://localhost:8080/2016-10-25/VR-Chemotherapy/</guid>
         
         <category>VR</category>
         
@@ -152,8 +186,8 @@
 &lt;p&gt;A collection of tweets anchored on this subject can be found at &lt;a href=&quot;https://twitter.com/search?f=tweets&amp;amp;vertical=default&amp;amp;q=%23HITux&amp;amp;src=typd&quot;&gt;#HITux&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/search?vertical=default&amp;amp;q=%23QuadrupleAim&amp;amp;src=typd&quot;&gt;#QuadrupleAim&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 08 Oct 2016 00:00:00 -0400</pubDate>
-        <link>http://localhost:8080/hit/quadruple%20aim/2016/10/08/The-UX-Prescription/</link>
-        <guid isPermaLink="true">http://localhost:8080/hit/quadruple%20aim/2016/10/08/The-UX-Prescription/</guid>
+        <link>http://localhost:8080/2016-10-08/The-UX-Prescription/</link>
+        <guid isPermaLink="true">http://localhost:8080/2016-10-08/The-UX-Prescription/</guid>
         
         <category>HITux</category>
         

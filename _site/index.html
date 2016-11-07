@@ -13,27 +13,6 @@
   <link rel="canonical" href="http://localhost:8080/">
   <link rel="alternate" type="application/rss+xml" title="Bits 2 Bedside – a physician commentary on healthcare UX in the Digital Age · Jake McClure .net" href="http://localhost:8080/feed.xml">
 
-  <!-- Begin Jekyll SEO tag v2.0.0 -->
-<title>Bits 2 Bedside – a physician commentary on healthcare UX in the Digital Age · Jake McClure .net - a physician commentary on healthcare UX in the Digital Age · Jake McClure .net</title>
-<meta property="og:title" content="Bits 2 Bedside – a physician commentary on healthcare UX in the Digital Age · Jake McClure .net" />
-<meta name="description" content="a physician commentary on healthcare UX in the Digital Age · Jake McClure .net" />
-<meta property="og:description" content="a physician commentary on healthcare UX in the Digital Age · Jake McClure .net" />
-<link rel="canonical" href="http://localhost:8080/" />
-<meta property="og:url" content="http://localhost:8080/" />
-<meta property="og:site_name" content="Bits 2 Bedside – a physician commentary on healthcare UX in the Digital Age · Jake McClure .net" />
-<script type="application/ld+json">
-  {
-    "@context": "http://schema.org",
-    "@type": "WebSite",
-    "name": "Bits 2 Bedside – a physician commentary on healthcare UX in the Digital Age · Jake McClure .net",
-    "headline": "Bits 2 Bedside – a physician commentary on healthcare UX in the Digital Age · Jake McClure .net",
-    "description": "a physician commentary on healthcare UX in the Digital Age · Jake McClure .net",
-    "logo": "http://localhost:8080/images/vitruvianMD.png",
-    "url": "http://localhost:8080/"
-  }
-</script>
-<!-- End Jekyll SEO tag -->
-
   <!-- TWITTER -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@Bits2Bedside">
@@ -41,6 +20,12 @@
     <meta name="twitter:title"
       content="Bits 2 Bedside – a physician commentary on healthcare UX in the Digital Age · Jake McClure .net
       ">
+    
+      <meta name="twitter:description"
+        content="A new rallying call as the rate of health tech integration grows by the day.
+
+">
+      <meta name="twitter:image" content="/assets/images/posts/EMR blocks.JPG">
     
       <meta name="twitter:description"
         content="Your browser doesn’t support HTML5 video New England Patriots head coach Bill Belichick recently endured a nightmare of Microsoft Surface tablet troubleshooting on the sidelines. Needless to say, he would...">
@@ -291,10 +276,10 @@ body {
   text-align: center;
   width: 100%;
   margin: 0 auto;
-  font-family: "Source Sans pro", "Roboto", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: "Source Sans pro", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
   font-size: 100%;
-  padding: 0;
+  color: #141414;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-font-feature-settings: "liga=1, dlig=1";
@@ -324,16 +309,17 @@ ul {
   padding: 0; }
 
 .site-header {
-  position: fixed;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.9);
+  transition: .5s;
+  z-index: 5;
   width: 100%;
   text-align: center;
   margin: 0 auto;
-  left: 50%;
-  top: 0;
-  transform: translateX(-50%);
-  background: rgba(255, 255, 255, 0.8);
-  transition: .5s;
-  z-index: 2;
+  padding: 0;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.1); }
   .site-header .nav-search {
     width: 6em;
@@ -359,13 +345,13 @@ ul {
     transform: translateX(-50%) translateY(-100%); }
   .site-header nav {
     max-width: 44em;
-    margin: 0.2em auto;
+    margin: 0 auto;
     z-index: 3; }
     .site-header nav .name > amp-img {
-      margin: 0 auto;
-      padding: 0;
-      width: 65%;
-      max-width: 20em; }
+      margin: 0 0 0 2em;
+      padding: 0 0 0.6em 0;
+      width: 50%;
+      max-width: 16em; }
       .site-header nav .name > amp-img:hover {
         text-decoration: none;
         border: none; }
@@ -373,35 +359,39 @@ ul {
 #about {
   position: relative;
   text-align: center;
-  margin: 4em auto 2em;
-  font-family: "Source Sans pro", "Roboto", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  margin: 3em auto 2em;
+  font-family: "Source Sans pro", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-weight: 300; }
   #about .logo {
     display: inline-block;
-    width: 40%;
-    max-width: 8em;
-    margin-top: 2em; }
+    width: 50%;
+    max-width: 10em;
+    margin-top: 1em; }
     #about .logo amp-img {
       margin: 0; }
   #about nav {
+    vertical-align: top;
     display: inline-block;
     text-align: left; }
     #about nav ul {
       list-style-type: none; }
       #about nav ul li {
-        font-size: 80%;
+        font-size: 90%;
         font-weight: 400;
         text-transform: uppercase;
         letter-spacing: 0.06em;
-        padding: 0 0 0.3em 0; }
+        padding: 0 0 0.4em 0; }
         #about nav ul li a {
-          color: #999;
+          color: #888;
           text-decoration: none;
+          padding: 0.2em 0.4em;
           border: none; }
-          #about nav ul li a:hover {
+          #about nav ul li a:hover, #about nav ul li a:focus {
             background: #eee; }
         #about nav ul li .contact {
-          color: #cc6633; }
+          color: #cc6633;
+          Border-radius: 0.4em;
+          Border: 1px solid #cc6633; }
   #about #featured-video {
     max-width: 40em;
     margin: 0 auto;
@@ -422,13 +412,13 @@ ul {
     margin: 0 auto; }
 
 #blog-loop {
-  margin: 2em auto; }
+  margin: 1em auto 2em; }
   #blog-loop .post-excerpt {
-    font-family: "Source Sans pro", "Roboto", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-family: "Source Sans pro", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     color: #141414;
     font-size: 1.0em;
-    letter-spacing: 0.02em;
-    line-height: 1.25; }
+    letter-spacing: 0.01em;
+    line-height: 1.2; }
 
 main {
   position: relative;
@@ -469,7 +459,7 @@ main {
     padding: 0;
     border-top: 0.1em solid rgab(150, 150, 150, 0.4);
     border-bottom: 0.1em solid rgab(150, 150, 150, 0.4);
-    font-family: "Source Sans pro", "Roboto", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-family: "Source Sans pro", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.15em;
     outline: 0;
@@ -497,8 +487,8 @@ main {
     .content {
       padding: 0 8px; } }
   .content article {
-    padding: 1em 0;
-    border-bottom: 0.1em solid rgba(0, 0, 0, 0.05);
+    padding: 1.2em 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.02);
     text-align: center; }
     .content article:last-child {
       border-bottom: 0px; }
@@ -506,13 +496,13 @@ main {
       text-align: left; }
     .content article .post-title {
       letter-spacing: -0.02em;
-      font-family: "Source Sans pro", "Roboto", "Helvetica Neue", Arial, Helvetica, sans-serif;
+      font-family: "Source Sans pro", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
       font-weight: 600;
       font-style: normal;
       display: block;
       font-size: 1.2em;
       line-height: 1.2;
-      margin: 0 0;
+      margin: 0 auto 0.6em;
       padding: 0; }
       .content article .post-title a {
         text-decoration: none;
@@ -528,7 +518,7 @@ main {
       font-style: normal;
       font-size: 1.1em;
       line-height: 1.4;
-      color: #333333;
+      color: #555555;
       font-family: Georgia, Cambria, "Times New Roman", Times, "Lora", serif; }
     .content article .post-meta {
       font-size: 80%;
@@ -545,7 +535,8 @@ main {
       .content article .post-meta .link {
         display: inline-block;
         margin: 0 0 0 1em;
-        padding: 0; }
+        padding: 0;
+        width: 1em; }
         .content article .post-meta .link svg {
           path: #777; }
 
@@ -575,13 +566,13 @@ main {
       color: #777; }
 
 .post .post-meta {
-  font-family: "Source Sans pro", "Roboto", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: "Source Sans pro", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   color: #aaa; }
   .post .post-meta .post-title {
     font-weight: 600;
     font-style: normal;
-    font-family: "Source Sans pro", "Roboto", "Helvetica Neue", Arial, Helvetica, sans-serif;
-    letter-spacing: -0.04em;
+    font-family: "Source Sans pro", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    letter-spacing: -0.02em;
     font-size: 1.8em;
     line-height: 1.4;
     color: #444;
@@ -613,7 +604,7 @@ main {
   font-family: Georgia, Cambria, "Times New Roman", Times, "Lora", serif;
   color: #141414; }
   .post .post-content h1, .post .post-content h2, .post .post-content h3 {
-    font-family: "Source Sans pro", "Roboto", "Helvetica Neue", Arial, Helvetica, sans-serif; }
+    font-family: "Source Sans pro", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
   .post .post-content h3, .post .post-content h4, .post .post-content h5, .post .post-content h6 {
     letter-spacing: -0.02em;
     font-weight: 600;
@@ -623,7 +614,7 @@ main {
     line-height: 1.2;
     margin-top: 3em;
     margin-bottom: 0px;
-    font-family: "Source Sans pro", "Roboto", "Helvetica Neue", Arial, Helvetica, sans-serif; }
+    font-family: "Source Sans pro", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
   .post .post-content h3 {
     font-size: 2.2em;
     margin-top: 3.5em; }
@@ -631,7 +622,7 @@ main {
     letter-spacing: -0.02em;
     font-weight: 800;
     font-style: normal;
-    font-size: 2.6em;
+    font-size: 1.6em;
     line-height: 1.2;
     margin-top: 3.5em;
     margin-bottom: 0px; }
@@ -713,7 +704,7 @@ main {
     text-align: center; }
 .post .bottom-teaser {
   padding: 3em 0 0 0;
-  font-family: "Source Sans pro", "Roboto", "Helvetica Neue", Arial, Helvetica, sans-serif; }
+  font-family: "Source Sans pro", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
   .post .bottom-teaser hr {
     border: 0;
     padding: 0;
@@ -953,7 +944,7 @@ amp-social-share[type="twitter"] {
 
 /* --- SOCIAL MEDIA ----- */
 /* ------ TWITTER --- */
-#featured-video .social-section {
+.social-section {
   text-align: center;
   margin: 0 auto;
   padding-top: 0em;
@@ -961,7 +952,7 @@ amp-social-share[type="twitter"] {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
-  #featured-video .social-section > div {
+  .social-section > div {
     padding: 0; }
 
 .twitter-timeline {
@@ -974,18 +965,26 @@ amp-social-share[type="twitter"] {
 /* ------ ADS --- */
 section.ad {
   text-align: center;
-  margin: 0 auto;
-  padding: 1em 0; }
+  margin: 0;
+  padding: 1em 0;
+  width: 100%; }
 
 /* --- CV --- */
+.JM-photo {
+  width: 40%;
+  display: inline-block; }
+
+h1.name {
+  display: inline-block; }
+
 .cv {
-  margin: 0px 0px 60px; }
+  margin: 0px 0px 4em; }
 
 .cv h1 {
-  font-size: 3em; }
+  font-size: 1.6em; }
 
 .cv h2 {
-  font-size: 2em; }
+  font-size: 1.4em; }
 
 .cv address, .cv .download {
   font-family: 'source sans pro', 'Helvetica', 'Arial', 'Sans-Serif'; }
@@ -1007,8 +1006,8 @@ section.ad {
   "@type": "NewsArticle",
   "mainEntityOfPage": "http://localhost:8080/",
   "headline": "Bits 2 Bedside – a physician commentary on healthcare UX in the Digital Age · Jake McClure .net",
-  "datePublished": "2016-11-03T02:38:20-04:00",
-  "dateModified": "2016-11-03T02:38:20-04:00",
+  "datePublished": "2016-11-07T04:13:52-05:00",
+  "dateModified": "2016-11-07T04:13:52-05:00",
   "description": "a physician commentary on healthcare UX in the Digital Age · Jake McClure .net",
   "author": {
     "@type": "Person",
@@ -1035,22 +1034,42 @@ section.ad {
 </script>
 
 <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-
-<script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.1.js"></script>
-<script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
-
-<script async custom-element="amp-twitter" src="https://cdn.ampproject.org/v0/amp-twitter-0.1.js"></script>
+<script async src="https://cdn.ampproject.org/v0.js"></script>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
 <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+<script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.1.js"></script>
+<script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
+<script async custom-element="amp-twitter" src="https://cdn.ampproject.org/v0/amp-twitter-0.1.js"></script>
+<script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
 <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
-
 <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
-<script async src="https://cdn.ampproject.org/v0.js"></script>
 
-
+  <!-- Begin Jekyll SEO tag v2.0.0 -->
+<title>Bits 2 Bedside – a physician commentary on healthcare UX in the Digital Age · Jake McClure .net - a physician commentary on healthcare UX in the Digital Age · Jake McClure .net</title>
+<meta property="og:title" content="Bits 2 Bedside – a physician commentary on healthcare UX in the Digital Age · Jake McClure .net" />
+<meta name="description" content="a physician commentary on healthcare UX in the Digital Age · Jake McClure .net" />
+<meta property="og:description" content="a physician commentary on healthcare UX in the Digital Age · Jake McClure .net" />
+<link rel="canonical" href="http://localhost:8080/" />
+<meta property="og:url" content="http://localhost:8080/" />
+<meta property="og:site_name" content="Bits 2 Bedside – a physician commentary on healthcare UX in the Digital Age · Jake McClure .net" />
+<link rel="next" href="http://localhost:8080/page2">
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@Jake_McClure" />
+<meta name="twitter:creator" content="@Jake_McClure" />
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Bits 2 Bedside – a physician commentary on healthcare UX in the Digital Age · Jake McClure .net",
+    "headline": "Bits 2 Bedside – a physician commentary on healthcare UX in the Digital Age · Jake McClure .net",
+    "description": "a physician commentary on healthcare UX in the Digital Age · Jake McClure .net",
+    "logo": "http://localhost:8080/images/vitruvianMD.png",
+    "url": "http://localhost:8080/"
+  }
+</script>
+<!-- End Jekyll SEO tag -->
 </head>
 
   <body>
@@ -1095,9 +1114,9 @@ section.ad {
     </span>
   <nav class="site-nav">
     <ul>
-      <li><a href="http://localhost:8080/pts/">for patients</a></li>
-      <li><a target="blog-loop" href="http://localhost:8080/blog/">blog</a></li>
+      <li><a target="blog-loop" href="/blog/">blog</a></li>
       <li><a href="http://localhost:8080/coming-soon/">graphics</a></li>
+      <li><a href="http://localhost:8080/pts/">for patients</a></li>
       <!--<li><a href="">for providers</a></li>-->
       <li><a href="http://localhost:8080/coming-soon/">iOS &bull; OS X</a></li>
       <li><a href="http://localhost:8080/dev/">dev</a></li>
@@ -1128,7 +1147,33 @@ section.ad {
 
         <header class="post-header">
           <h2 class="post-title" itemprop="name">
-            <a href="/hitux/2016/11/01/Belichick-EMR/" itemprop="url">Belichick Wouldn't Be Fond of EMR Meaningful Use Either</a>
+            <a href="/2016-11-04/Think-Differently/" itemprop="url">Building Blocks</a>
+            </h2>
+          </header>
+
+        <section class="post-excerpt" itemprop="description">
+          <p>A new rallying call as the rate of health tech integration grows by the day.</p>
+
+
+          </section>
+
+        <div class="post-meta">
+          <time datetime="04 Nov 2016">04 Nov 2016</time>
+          <amp-img class="logo link"
+            src="http://localhost:8080/assets/images/ic_link_24px.svg"
+            width=16 height=16 layout="responsive">
+            </amp-img>
+          </div>
+
+        </div>
+      </article>
+  
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+      <div class="article-item">
+
+        <header class="post-header">
+          <h2 class="post-title" itemprop="name">
+            <a href="/2016-11-01/Belichick-EMR/" itemprop="url">Belichick Wouldn't Be Fond of EMR Meaningful Use Either</a>
             </h2>
           </header>
 
@@ -1147,7 +1192,7 @@ section.ad {
         <div class="post-meta">
           <time datetime="01 Nov 2016">01 Nov 2016</time>
           <amp-img class="logo link"
-            src="/assets/images/ic_link_24px.svg"
+            src="http://localhost:8080/assets/images/ic_link_24px.svg"
             width=16 height=16 layout="responsive">
             </amp-img>
           </div>
@@ -1160,7 +1205,7 @@ section.ad {
 
         <header class="post-header">
           <h2 class="post-title" itemprop="name">
-            <a href="/concussions/2016/10/26/Youth-Concussions/" itemprop="url">Youth Concussions</a>
+            <a href="/2016-10-26/Youth-Concussions/" itemprop="url">Youth Concussions</a>
             </h2>
           </header>
 
@@ -1173,7 +1218,7 @@ section.ad {
         <div class="post-meta">
           <time datetime="26 Oct 2016">26 Oct 2016</time>
           <amp-img class="logo link"
-            src="/assets/images/ic_link_24px.svg"
+            src="http://localhost:8080/assets/images/ic_link_24px.svg"
             width=16 height=16 layout="responsive">
             </amp-img>
           </div>
@@ -1186,7 +1231,7 @@ section.ad {
 
         <header class="post-header">
           <h2 class="post-title" itemprop="name">
-            <a href="/patient%20ux/2016/10/25/VR-Chemotherapy/" itemprop="url">Can Virtual Reality Be The Game Changer For The Patient Experience?</a>
+            <a href="/2016-10-25/VR-Chemotherapy/" itemprop="url">Can VR Be The Game Changer For The Patient Experience?</a>
             </h2>
           </header>
 
@@ -1199,33 +1244,7 @@ section.ad {
         <div class="post-meta">
           <time datetime="25 Oct 2016">25 Oct 2016</time>
           <amp-img class="logo link"
-            src="/assets/images/ic_link_24px.svg"
-            width=16 height=16 layout="responsive">
-            </amp-img>
-          </div>
-
-        </div>
-      </article>
-  
-    <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
-      <div class="article-item">
-
-        <header class="post-header">
-          <h2 class="post-title" itemprop="name">
-            <a href="/hit/quadruple%20aim/2016/10/08/The-UX-Prescription/" itemprop="url">UX &mdash; A Prescription For The Quadruple Aim</a>
-            </h2>
-          </header>
-
-        <section class="post-excerpt" itemprop="description">
-          <p>Whether a patient or provider, the chorus of dismal usability with our medical records systems is fortunately becoming a repeated refrain in healthcare conversations regarding the Quadruple Aim and more recently in discussions leading up to the final release of the MACRA. Unfortunately, the cart is being pushed ahead of the horse. The bane of present-day electronic medical record (EMR) systems can be distilled down to two little letters, <strong>UX</strong>.</p>
-
-
-          </section>
-
-        <div class="post-meta">
-          <time datetime="08 Oct 2016">08 Oct 2016</time>
-          <amp-img class="logo link"
-            src="/assets/images/ic_link_24px.svg"
+            src="http://localhost:8080/assets/images/ic_link_24px.svg"
             width=16 height=16 layout="responsive">
             </amp-img>
           </div>
@@ -1237,9 +1256,9 @@ section.ad {
 
 <nav class="pagination" role="navigation">
   
-    <a class="newer-posts disabled">&larr; Older posts</a>
+    <a class="newer-posts" href="/page2">&larr; Older posts</a>
   
-  <span class="page-number">Page 1 of 1</span>
+  <span class="page-number">Page 1 of 2</span>
   
     <a class="older-posts disabled">Newer posts &rarr;</a>
   
@@ -1249,12 +1268,47 @@ section.ad {
   </section>
 
       </div>
+
+    <!-- amp ads @ https://github.com/ampproject/amphtml/blob/master/ads/README.md -->
+<section class="ad amazon">
+  <amp-ad width="728"
+          height="90"
+          type="a9"
+          data-aax_size="728x90"
+          data-aax_pubname="test123"
+          data-aax_src="302"
+          layout="responsive">
+    <div placeholder>
+      <div class="alignleft">
+        <script type="text/javascript">
+          amzn_assoc_ad_type = "banner";
+          amzn_assoc_marketplace = "amazon";
+          amzn_assoc_region = "US";
+          amzn_assoc_placement = "assoc_banner_placement_default";
+          amzn_assoc_campaigns = "primemain";
+          amzn_assoc_banner_type = "category";
+          amzn_assoc_p = "48";
+          amzn_assoc_isresponsive = "false";
+          amzn_assoc_banner_id = "1PREMK5A0BD4VB6F8Y02";
+          amzn_assoc_width = "728";
+          amzn_assoc_height = "90";
+          amzn_assoc_tracking_id = "mcclure-20";
+          amzn_assoc_linkid = "e10f13174b8524d3d6810a833a0f4c5b";
+          </script>
+        <script src="//z-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1"></script>
+        </div>
+      </div>
+        </amp-ad>
+  </section>
+
+
     <footer class="site-footer">
     <div class="inner">
       <section class="poweredby">Craftsmanship:<a href="http://jekyllrb.com"> Jekyll</a> ... <a href="https://github.com/ageitgey/amplify">Amplify</a>'d with a splash of <a href="https://github.com/thoughtbot/bourbon">Bourbon</a>
-      </section>
-      <section class="copyright">All rights reserved <a href="mailto:DJakeMcClureMD+site@gmail.com">Jake McClure</a> &copy; 2016</section>
-    </div>
+        </section>
+      <section class="copyright">All rights reserved <a href="mailto:DJakeMcClureMD+site@gmail.com">Jake McClure</a> &copy; 2016
+        </section>
+      </div>
 </footer>
 
 <nav id="bottom-nav">
@@ -1301,11 +1355,15 @@ section.ad {
 
         
           
+          <a class="page-link" href="/CV/">Jake McClure • CV</a>
+          
+        
+          
           <a class="page-link" href="/about/">Jake McClure • About</a>
           
         
           
-          <a class="page-link" href="/blog/">bits 2 Bedside</a>
+          <a class="page-link" href="/blog/">Bits 2 Bedside • by Jake McClure</a>
           
         
           
@@ -1323,10 +1381,6 @@ section.ad {
           
         
           
-          <a class="page-link" href="/cv/">CV</a>
-          
-        
-          
         
           
           <a class="page-link" href="/infographics/">Infographics @ bits 2 Bedside</a>
@@ -1334,6 +1388,8 @@ section.ad {
         
           
           <a class="page-link" href="/pts/">Jake McClure • Patient Resources</a>
+          
+        
           
         
           

@@ -7,4 +7,4 @@ permalink: /about/
 
 For now, back to [home base]({{site.url}}).
 
-<amp-img width="683" height="485" layout="responsive" src="{{site.baseurl}}/assets/images/author-oval.png"></amp-img>
+<amp-img width="683" height="485" layout="responsive" src="{{site.github.url}}/assets/images/author-oval.png"></amp-img>
