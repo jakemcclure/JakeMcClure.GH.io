@@ -5,17 +5,13 @@
     <description>a physician commentary on healthcare UX in the Digital Age · Jake McClure .net</description>
     <link>http://localhost:8080/</link>
     <atom:link href="http://localhost:8080/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 07 Nov 2016 04:34:12 -0500</pubDate>
-    <lastBuildDate>Mon, 07 Nov 2016 04:34:12 -0500</lastBuildDate>
+    <pubDate>Wed, 16 Nov 2016 02:29:38 -0500</pubDate>
+    <lastBuildDate>Wed, 16 Nov 2016 02:29:38 -0500</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
         <title>Building Blocks</title>
-        <description>&lt;p&gt;As the rate of health tech integration grows by the day, I discuss the origins of “Bits To Bedside”––the rally call for this blog.&lt;/p&gt;
-
-&lt;!-- excerpt --&gt;
-
-&lt;p&gt;A decade ago, the concept of “translational research” provided an academic framework for facilitating medical innovation. There was an emerging focus on coordinating the approach between laboratory science and the clinical practicality of such research. The phrase &lt;em&gt;“Bench to Bedside”&lt;/em&gt; was a well-fitting label providing a centralized thought structure with regard to modern medical research.&lt;/p&gt;
+        <description>&lt;p&gt;A decade ago, the concept of “translational research” provided an academic framework for facilitating medical innovation. There was an emerging focus on coordinating the approach between laboratory science and the clinical practicality of such research. The phrase &lt;em&gt;“Bench to Bedside”&lt;/em&gt; was a well-fitting label providing a centralized thought structure with regard to modern medical research.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;practical: &lt;em&gt;adj.&lt;/em&gt;  of or concerned with the actual doing or use of something rather than with theory and ideas&lt;/p&gt;
@@ -27,12 +23,15 @@
 
 &lt;p&gt;In post-Affordable Care Act healthcare, we’ve seen over the past decade the extremely slow, laggard creep of technological capabilities trickling into both healthcare delivery and our patient’s management of acute and chronic illnesses.&lt;/p&gt;
 
-&lt;p&gt;Because the rate of technological integration is rather slow, we are afforded the strategic advantage of time. Time to choose wisely and strategize how best to leverage today’s tech to better healthcare for tomorrow.&lt;/p&gt;
+&lt;p&gt;We are afforded the strategic gift of extra time since, historically, the rate of technological integration into health care has been rather slow. That time should be allocated to wisely strategizing how best to leverage today’s tech to better healthcare for tomorrow.&lt;/p&gt;
 
-&lt;p&gt;Innovation in healthcare won’t be on the backs of one or two homerun hitters. In baseball, homerun hitters often lead the league in strikeouts. Similar findings out in the wild with healthcare - Exhibit A: see the win/loss stat column of Theranos.&lt;/p&gt;
+&lt;p&gt;Innovation in healthcare won’t be on the backs of one or two homerun hitters. In baseball, homerun hitters often lead the league in strikeouts. It’s no different out in the wild with healthcare - Exhibit A: see the win/loss stat column of Theranos.&lt;/p&gt;
 
-&lt;h2 id=&quot;bits-to-bedside&quot;&gt;BITS to BEDSIDE&lt;/h2&gt;
-&lt;p&gt;Because industries outside healthcare have already shown us the fundamental components of successful tech integration, we shouldn’t be swinging for the fences. Instead, we play “small ball”. We build upon the basics.&lt;/p&gt;
+&lt;p&gt;Because industries outside healthcare have already shown us the fundamental components of successful tech integration, we shouldn’t be swinging for the fences. Instead, we play “small ball”. We build upon the basics. It’s a mobile, messaging, voice-controlled world out there, and desktop is the doldrum of development.&lt;/p&gt;
+
+&lt;p&gt;The building blocks of computing are the arrangement of &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt;’s and &lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt;’s. How we bridge computing at the wearable, IoT level all the way up to that needed to scale for effective population health is the compass from which I write.&lt;/p&gt;
+
+&lt;p&gt;Buy the ticket. Take the ride. We’ve got some work to do.&lt;/p&gt;
 </description>
         <pubDate>Fri, 04 Nov 2016 00:44:01 -0400</pubDate>
         <link>http://localhost:8080/2016-11-04/Think-Differently/</link>

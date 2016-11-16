@@ -8,14 +8,11 @@ thumbnail-video:
 thumbnail-video-fallback:
 thumbnail-description:
 excerpt_separator: <!-- excerpt -->
-excerpt:  
+excerpt:  As the rate of health tech integration grows by the day, I discuss the origins of "Bits To Bedside"––the rally call for this blog.
 categories:
   - HITux
 author: jake_mcclure
 ---
-As the rate of health tech integration grows by the day, I discuss the origins of "Bits To Bedside"––the rally call for this blog.
-
-<!-- excerpt -->
 
 A decade ago, the concept of "translational research" provided an academic framework for facilitating medical innovation. There was an emerging focus on coordinating the approach between laboratory science and the clinical practicality of such research. The phrase *"Bench to Bedside"* was a well-fitting label providing a centralized thought structure with regard to modern medical research.
 
@@ -27,9 +24,12 @@ Pragmatic by nature, I'm often stumped why we approach research and problem-solv
 
  In post-Affordable Care Act healthcare, we've seen over the past decade the extremely slow, laggard creep of technological capabilities trickling into both healthcare delivery and our patient's management of acute and chronic illnesses.
 
-Because the rate of technological integration is rather slow, we are afforded the strategic advantage of time. Time to choose wisely and strategize how best to leverage today's tech to better healthcare for tomorrow.
+We are afforded the strategic gift of extra time since, historically, the rate of technological integration into health care has been rather slow. That time should be allocated to wisely strategizing how best to leverage today's tech to better healthcare for tomorrow.
 
-Innovation in healthcare won't be on the backs of one or two homerun hitters. In baseball, homerun hitters often lead the league in strikeouts. Similar findings out in the wild with healthcare - Exhibit A: see the win/loss stat column of Theranos.
+Innovation in healthcare won't be on the backs of one or two homerun hitters. In baseball, homerun hitters often lead the league in strikeouts. It's no different out in the wild with healthcare - Exhibit A: see the win/loss stat column of Theranos.
 
-## BITS to BEDSIDE
-Because industries outside healthcare have already shown us the fundamental components of successful tech integration, we shouldn't be swinging for the fences. Instead, we play "small ball". We build upon the basics.
+Because industries outside healthcare have already shown us the fundamental components of successful tech integration, we shouldn't be swinging for the fences. Instead, we play "small ball". We build upon the basics. It's a mobile, messaging, voice-controlled world out there, and desktop is the doldrum of development.
+
+The building blocks of computing are the arrangement of `0`'s and `1`'s. How we bridge computing at the wearable, IoT level all the way up to that needed to scale for effective population health is the compass from which I write.
+
+Buy the ticket. Take the ride. We've got some work to do.

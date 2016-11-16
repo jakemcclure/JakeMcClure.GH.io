@@ -1,0 +1,28 @@
+<script async custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"></script>
+<link rel="canonical" href="https://ampbyexample.com/components/amp-lightbox/">
+<style amp-custom>
+    .lightbox {
+      background: rgba(0,0,0,0.8);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+    }
+    .lightbox h1 {
+      color: white;
+    }
+  </style>
+
+  <button on="tap:my-lightbox"
+        role="button"
+        tabindex="0">
+      Open lightbox
+    </button>
+  <amp-lightbox id="my-lightbox"
+        layout="nodisplay">
+      <div class="lightbox"
+          on="tap:my-lightbox.close"
+          role="button"
+          tabindex="0">
+        <h1>Hello World!</h1>
+      </div>
+    </amp-lightbox>

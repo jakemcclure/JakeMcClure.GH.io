@@ -20,28 +20,24 @@ layout: amp-default
 
       {{content}}
 
-    </section>
+      </section>
 
     <footer class="post-footer">
       <section class="share">
-        <a class="icon" href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.id }}&text={{page.title | cgi_escape}}&via={{ site.twitter_username }}" target="">Share via
-          {% include icon-twitter.html %}
-        </a>
+        <a class="icon" href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.id }}&text={{page.title | cgi_escape}}&via={{ site.twitter_username }}" target="">Share via {% include icon-twitter.html %}</a>
         <a class="icon" href="mailto:{{ site.email_username }}" target="">
-          {% include icon-email.html %}
-        </a>
-      </section>
+          {% include icon-email.html %}</a>
+        </section>
 
       <!-- comments -->
       <div class="fb-comments" data-href="http://jakemcclure.net" data-width="320" data-numposts="2">
-        {% include _facebook-comments-JS.html %}
-        </div>
+        {% include _facebook-comments-JS.html %}</div>
+      </footer>
 
-    </footer>
     <div class="bottom-teaser cf">
       <div class="isLeft">
 
-        <h5 class="index-headline featured"><span>Written by</span></h5>
+        <h5 class="index-headline featured"><span>Author</span></h5>
 
         <section class="author">
           <div class="author-image"></div>
@@ -55,7 +51,7 @@ layout: amp-default
                 {% include icon-github.html username=site.github_username %}
               {% endif %}
             </span>
-          -->
+            -->
 
             <span>
               {% if site.twitter_username %}
@@ -64,31 +60,34 @@ layout: amp-default
             </span>
           </p>
 
-          <p class="published">Published <time datetime="{{ page.date | date: "%F %R" }}">{{ page.date | date_to_string }}</time></p>
+          <p class="published"><time datetime="{{ page.date | date: "%F %R" }}">{{ page.date | date_to_string }}</time></p>
           </section>
+
         </div>
 
       <div class="isRight">
 
         <h5 class="index-headline featured"><span>handcrafted using</span></h5>
 
+        <!--
         <footer class="site-footer">
           <section class="poweredby">
             <a href="http://jekyllrb.com"> Jekyll</a>  |  <a href="https://github.com/ageitgey/amplify">Amplify</a></section>
             <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i> subscribe</span></a>
           <div class="inner">
-            <section class="copyright">
-              <a href="mailto:{{ site.email}}">{{site.name}}</a> &copy; {{ site.time | date: '%Y' }}
-              <br>All rights reserved.
-              </section>
-            <a href="{{ site.baseurl }}/" class="logo">
-              <amp-img class="logo steth" src="{{ site.baseurl }}/assets/images/JM-steth.svg" width="48" height="48"></amp-img>
-              <amp-img class="logo bell" src="{{ site.baseurl }}/assets/images/menu-bell.svg" width="48" height="48"></amp-img>
-              </a>
-            </div>
-        </footer>
+          <section class="copyright">
+            <a href="mailto:{{ site.email}}">{{site.name}}</a> &copy; {{ site.time | date: '%Y' }}
+            <br>All rights reserved.
+            </section>
+          <a href="{{ site.baseurl }}/" class="logo">
+            <amp-img class="logo steth" src="{{ site.baseurl }}/assets/images/JM-steth.svg" width="48" height="48"></amp-img>
+            <amp-img class="logo bell" src="{{ site.baseurl }}/assets/images/menu-bell.svg" width="48" height="48"></amp-img>
+            </a>
+          </div>
+          </footer>
+        -->
 
+        </div>
       </div>
-    </div>
-  </article>
+    </article>
 </main>
