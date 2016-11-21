@@ -160,7 +160,7 @@ ul {
 #about {
   position: relative;
   text-align: center;
-  margin: 3em auto 2em;
+  margin: 3em auto;
   font-family: $font-sans;
   font-weight: 300;
   //background: None;
@@ -196,8 +196,8 @@ ul {
           }
         }
         .contact {color: #cc6633;
-          Border-radius: 0.4em;
-          Border: 1px solid $burnt-orange;}
+          border-radius: 0.4em;
+          border: 1px solid $burnt-orange;}
       }
     }
   }
@@ -205,7 +205,7 @@ ul {
   #featured-video {
     max-width: 40em;
     margin: 0 auto;
-    padding: 0 0 1em 0;
+    padding: 0 0 4em 0;
   }
 
   .site-description, .JM-tagline {
@@ -228,7 +228,7 @@ ul {
 }
 
 #blog-loop {
-  margin: 1em auto 2em;
+  margin: 3em auto;
   //background: -webkit-radial-gradient(rgba(255,255,255,1.0), rgba(250, 250, 255,1.0));
   //background: radial-gradient(rgba(255,255,255,1.0), rgba(250, 250, 255,1.0));
 
@@ -260,9 +260,12 @@ main {
   max-width: 64em;
 }
 
-.ad {
-  margin: 0 auto;
+.ad-amazon {
   text-align: center;
+  margin: 0 auto;
+  > img {
+    margin: 0 auto;
+  }
 }
 
 .blog-header {
